@@ -38,35 +38,43 @@ public class ApiResponseFactory {
 
 		try {
 			// Log.i ("kk", "data"+data);
+			//init()
 			if (webApi.equals(WebApi.ACTION_INIT)) {
 				// Log.i ("kk", "data"+data);
 				result = JSONParse.parseInitMsg(data);
+				//login()
 			} else if (webApi.equals(WebApi.ACTION_LOGON)) {
 				result = JSONParse.parseLogon(data);
 				 Log.i ("kk", "data"+data);
+				//phone_login()
 			} else if (webApi.equals(WebApi.ACTION_PH_LOGON)) {
 				result = JSONParse.parsePhLogon(data);
 				Log.i ("kk", "data"+data);
+				//tickenLogin()
 			}else if (webApi.equals(WebApi.ACTION_TICKLOGON)) {
 				result = JSONParse.parsePhLogon(data);
 				Log.i ("kk", "data"+data);
+				//这里的验证信息是找回密码里面的验证短信验证码是否正确的接口
 			} else if (webApi.equals(WebApi.ACTION_CHECKSMS)) {
 				result = JSONParse.parseResultAndMessage(data);
 				Log.i ("kk", "data"+data);
+				//get 这个就是找回密码的短信验证接口
 			}else if (webApi.equals(WebApi.ACTION_GETCODEFPWD)) {
 				result = JSONParse.parseResultAndMessage(data);
 				Log.i ("kk", "data"+data);
+				//register()
 			} else if (webApi.equals(WebApi.ACTION_REGISTER)) {
 				result = JSONParse.parseResultAndMessage(data);
-
+				//
 			}   else if (webApi.equals(WebApi.ACTION_SETEXTDATA)) {
 			   result = JSONParse.parseResultAndMessage(data);
 
 		     } else if (webApi.equals(WebApi.ACTION_PH_REGIST)) {
 				result = JSONParse.parseResultAndMessage(data);
-
+                //找回密码返回数据处理
 			} else if (webApi.equals(WebApi.ACTION_FINDPWDINFO)) {
 				result = JSONParse.parseAccountInfo(data);
+                //修改密码提交按钮
 			} else if (webApi.equals(WebApi.ACTION_CHANGEPASSWORD)) {
 				result = JSONParse.parseResultAndMessage(data);
 			} else if (webApi.equals(WebApi.ACTION_GETCODEBOUNDPHONE)) {

@@ -139,6 +139,7 @@ public class JSONParse
 		if (r) {
 			JSONObject accinfo = jsonObject.getJSONObject("account_info");
 			result.setData(accinfo.getString("phone_number"));
+            result.setName(accinfo.getString("name"));
 		}
 
 		if (AppConfig.isTest)

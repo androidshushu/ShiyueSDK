@@ -7,7 +7,8 @@ public class ResultAndMessage
 	private boolean result;
 	private String message;
 	private String data;
-	private String accountname;
+	private String name;
+    private String accountname;
 	private String accountid = "";
 	private List<String> datas;
 
@@ -37,6 +38,13 @@ public class ResultAndMessage
 	public void setData(String data) {
 		this.data = data;
 	}
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 
 	public String getAccountname()
 	{
@@ -56,11 +64,20 @@ public class ResultAndMessage
 		this.accountid = accountid;
 	}
 
-	public String toString() {
-		return "ResultAndMessage [result=" + this.result + ", message=" + this.message + ", data=" + this.data + "]";
-	}
+    @Override
+    public String toString() {
+        return "ResultAndMessage{" +
+                "result=" + result +
+                ", message='" + message + '\'' +
+                ", data='" + data + '\'' +
+                ", name='" + name + '\'' +
+                ", accountname='" + accountname + '\'' +
+                ", accountid='" + accountid + '\'' +
+                ", datas=" + datas +
+                '}';
+    }
 
-	public List<String> getDatas()
+    public List<String> getDatas()
 	{
 		return this.datas;
 	}

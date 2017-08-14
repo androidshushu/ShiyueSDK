@@ -79,6 +79,7 @@ public class Sy_pwdFragment_s extends Fragment implements View.OnClickListener {
 //        pwdEdit = (EditText) findViewById(AppConfig.resourceId(this, "register_edit_pwd", "id"));
         btn_findpwd_authcode.setOnClickListener(this);
         btn_findpwd_nexts.setOnClickListener(this);
+
       tv_findpwd_account_s.setText(account);
         tv_findpwd_phone_s.setText(phonenum);
     }
@@ -119,7 +120,7 @@ public class Sy_pwdFragment_s extends Fragment implements View.OnClickListener {
         String auth_code=edit_findpwd_authcode.getText().toString();
         authcode=auth_code;
         ideTask = SiJiuSDK.get().startCheck_sms(getActivity(), AppConfig.appId,AppConfig.appKey,
-                AppConfig.ver_id,"findpwd_auth" ,auth_code,phonenum, new ApiRequestListener() {
+                AppConfig.ver_id,"findpwd_auth",auth_code,phonenum, new ApiRequestListener() {
 
                     @Override
                     public void onSuccess(Object obj) {

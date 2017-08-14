@@ -407,7 +407,6 @@ public class SiJiuSDK {
 
 
 	/**
-
 	 * 找回密码信息接口 找回密码界面信息接口 通过账号获取手机号
 	 *
 	 * @param context
@@ -434,9 +433,6 @@ public class SiJiuSDK {
 		 try {
 			 jsonObject.put("type",type);
 			 jsonObject.put("type_data",type_date);
-
-
-
 		 } catch (JSONException e) {
 			 e.printStackTrace();
 		 }
@@ -444,7 +440,6 @@ public class SiJiuSDK {
 		 HashMap<String, Object> params = new HashMap<String, Object>();
 
 		 params.put("app_id", appId + "");
-
 		 params.put("channel_id", ver + "");
 		 params.put("ts", System.currentTimeMillis()/1000 + "");
 
@@ -632,14 +627,7 @@ public class SiJiuSDK {
 											   String appKey, String verId, String mobile,
 											   ApiRequestListener listener) {
 
-
-
 		HashMap<String, Object> params = new HashMap<String, Object>();
-
-
-
-
-
 		params.put("app_id", appId + "");
 		params.put("channel_id", verId);
 		params.put("ts", System.currentTimeMillis()/1000 + "");

@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 
+import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -28,9 +29,9 @@ import java.util.HashMap;
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link Sy_pwdFragment_f.OnFragmentInteractionListener} interface
+ * {@link Sy_pwdFragment_f} interface
  * to handle interaction events.
- * Use the {@link Sy_pwdFragment_f#newInstance} factory method to
+ * Use the {@link Sy_pwdFragment_f} factory method to
  * create an instance of this fragment.
  */
 public class Sy_pwdFragment_f extends Fragment implements View.OnClickListener {
@@ -38,7 +39,7 @@ public class Sy_pwdFragment_f extends Fragment implements View.OnClickListener {
     private TextView tv_findpwd_phone;
     private EditText edit_findpwd_frg;
     private ImageView iv_cancel;
-private Button btn_findpwd_nextf;
+    private Button btn_findpwd_nextf;
     private TipsDialog dialog;
     private View view;
     private Handler handler;
@@ -47,7 +48,10 @@ private Button btn_findpwd_nextf;
     private String usera="";
     private ApiAsyncTask getphonetask;
     private boolean isnext=false;
-private String phonenum="";
+    private String phonenum="";
+    private String username = "";
+
+    private String findType = "";
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -119,8 +123,16 @@ private String phonenum="";
 
     private void getphonebyuser(){
         usera= edit_findpwd_frg.getText().toString();
+        // TODO: 2017/8/14 这里写获取用户信息的入口，通过手机号或是账号查找可以在这里修改信息实现两种查找
+        //判断输入的是账号还是手机好，不同类型接入不同的接口
+        if (isMobileNO(usera)){
+            findType="phone_number";
+
+        }else {
+            findType = "name";
+        }
         getphonetask = SiJiuSDK.get().startFindPwdInfo(getActivity(), AppConfig.appId,
-                AppConfig.appKey, "name", usera, AppConfig.ver_id,
+                AppConfig.appKey, findType, usera, AppConfig.ver_id,
                 new ApiRequestListener() {
 
                     @Override
@@ -139,6 +151,7 @@ private String phonenum="";
                             if (result) {
 
                                 phonenum= msg.getData();
+                                username= msg.getName();
 
                                 sendData(AppConfig.FLAG_SUCCESS, message, myHandler);
 
@@ -148,7 +161,13 @@ private String phonenum="";
                                         ms.what = AppConfig.FINDPWD_F;
                                         HashMap hashMap=new HashMap();
                                         hashMap.put("phone",phonenum);
-                                        hashMap.put("account",usera);
+                                        //按照输入的类型来判断，输入的是手机号那么显示对应手机号的账号，如果为账号则从返回数据拿到对应的手机号
+                                        if (findType.equals("phone_number"))
+                                        {
+                                            hashMap.put("account",username);
+                                        }else {
+                                            hashMap.put("account", usera);//输入的
+                                        }
                                         ms.obj = hashMap;
                                         handler.sendMessage(ms);
                                         isnext=false;
@@ -177,7 +196,18 @@ private String phonenum="";
     }
 
 
-
+    /**
+     * 验证手机号格式
+     *
+     * @param mobiles
+     */
+    public static boolean isMobileNO(String mobiles) {
+        String telRegex = "13\\d{9}|14[57]\\d{8}|15[012356789]\\d{8}|18[01256789]\\d{8}|17[0678]\\d{8}";
+        if (TextUtils.isEmpty(mobiles))
+            return false;
+        else
+            return mobiles.matches(telRegex);
+    }
 
 
 
