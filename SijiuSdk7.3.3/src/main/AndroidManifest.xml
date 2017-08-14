@@ -86,6 +86,13 @@
             android:screenOrientation="landscape"
             android:theme="@style/Sj_Transparent" />
         <activity
+            android:name=".user.Sy_BindPhoneActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="landscape"
+            android:theme="@style/Sj_Transparent"
+
+            />
+        <activity
             android:name=".wxapi.WXEntryActivity"
             android:exported="true"
             android:label="梦幻仙语手游"
@@ -108,9 +115,7 @@
             android:name="com.tencent.connect.common.AssistActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-        <activity
-            android:name=".user.Sy_BindPhoneActivity"
-            android:label="@string/title_activity_sy__bind_phone"></activity>
+
     </application>
 
 </manifest>

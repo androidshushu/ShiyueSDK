@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Aug 14 09:22:55 CST 2017
+#Mon Aug 14 11:09:11 CST 2017
 76.base=D\:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\resources-debug.ap_
 5.base=D\:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\resources-debug.ap_
 42.base=D\:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\resources-debug.ap_
