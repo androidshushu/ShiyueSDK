@@ -221,7 +221,7 @@ ADDED from D:\Gits\android\SijiuSdk7.3.3\SijiuSdk7.3.3\src\main\AndroidManifest.
 		ADDED from D:\Gits\android\SijiuSdk7.3.3\SijiuSdk7.3.3\src\main\AndroidManifest.xml:92:13-50
 	android:name
 		ADDED from D:\Gits\android\SijiuSdk7.3.3\SijiuSdk7.3.3\src\main\AndroidManifest.xml:89:13-69
-activity#com.shiyue.zszh.sy.wxapi.WXEntryActivity
+activity#com.shiyue.mhxy.wxapi.WXEntryActivity
 ADDED from D:\Gits\android\SijiuSdk7.3.3\SijiuSdk7.3.3\src\main\AndroidManifest.xml:94:9-99:75
 	android:label
 		ADDED from D:\Gits\android\SijiuSdk7.3.3\SijiuSdk7.3.3\src\main\AndroidManifest.xml:97:13-35
@@ -232,7 +232,7 @@ ADDED from D:\Gits\android\SijiuSdk7.3.3\SijiuSdk7.3.3\src\main\AndroidManifest.
 	android:theme
 		ADDED from D:\Gits\android\SijiuSdk7.3.3\SijiuSdk7.3.3\src\main\AndroidManifest.xml:99:13-72
 	android:name
-		ADDED from D:\Gits\android\SijiuSdk7.3.3\SijiuSdk7.3.3\src\main\AndroidManifest.xml:95:13-68
+		ADDED from D:\Gits\android\SijiuSdk7.3.3\SijiuSdk7.3.3\src\main\AndroidManifest.xml:95:13-65
 activity#com.tencent.tauth.AuthActivity
 ADDED from D:\Gits\android\SijiuSdk7.3.3\SijiuSdk7.3.3\src\main\AndroidManifest.xml:100:9-112:20
 	android:launchMode
