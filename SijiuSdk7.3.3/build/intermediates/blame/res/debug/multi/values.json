@@ -3748,9 +3748,28 @@
                     "startLine": 246,
                     "startColumn": 4,
                     "startOffset": 17935,
-                    "endLine": 252,
+                    "endColumn": 76,
+                    "endOffset": 18007
+                },
+                "from": {
+                    "file": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 142,
+                        "startColumn": 4,
+                        "startOffset": 6465,
+                        "endColumn": 76,
+                        "endOffset": 6537
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 247,
+                    "startColumn": 4,
+                    "startOffset": 18012,
+                    "endLine": 253,
                     "endColumn": 12,
-                    "endOffset": 18221
+                    "endOffset": 18298
                 },
                 "from": {
                     "file": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\values\\styles.xml",
@@ -3766,12 +3785,12 @@
             },
             {
                 "to": {
-                    "startLine": 253,
+                    "startLine": 254,
                     "startColumn": 4,
-                    "startOffset": 18226,
-                    "endLine": 255,
+                    "startOffset": 18303,
+                    "endLine": 256,
                     "endColumn": 12,
-                    "endOffset": 18381
+                    "endOffset": 18458
                 },
                 "from": {
                     "file": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\values\\styles.xml",
@@ -3787,12 +3806,12 @@
             },
             {
                 "to": {
-                    "startLine": 256,
+                    "startLine": 257,
                     "startColumn": 4,
-                    "startOffset": 18386,
-                    "endLine": 259,
+                    "startOffset": 18463,
+                    "endLine": 260,
                     "endColumn": 12,
-                    "endOffset": 18536
+                    "endOffset": 18613
                 },
                 "from": {
                     "file": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\values\\styles.xml",
@@ -3808,12 +3827,12 @@
             },
             {
                 "to": {
-                    "startLine": 260,
+                    "startLine": 261,
                     "startColumn": 4,
-                    "startOffset": 18541,
-                    "endLine": 267,
+                    "startOffset": 18618,
+                    "endLine": 268,
                     "endColumn": 10,
-                    "endOffset": 18884
+                    "endOffset": 18961
                 },
                 "from": {
                     "file": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\values\\styles.xml",
@@ -3829,12 +3848,12 @@
             },
             {
                 "to": {
-                    "startLine": 268,
+                    "startLine": 269,
                     "startColumn": 4,
-                    "startOffset": 18889,
-                    "endLine": 270,
+                    "startOffset": 18966,
+                    "endLine": 271,
                     "endColumn": 12,
-                    "endOffset": 18983
+                    "endOffset": 19060
                 },
                 "from": {
                     "file": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\values\\styles.xml",
@@ -3850,12 +3869,12 @@
             },
             {
                 "to": {
-                    "startLine": 271,
+                    "startLine": 272,
                     "startColumn": 4,
-                    "startOffset": 18988,
-                    "endLine": 276,
+                    "startOffset": 19065,
+                    "endLine": 277,
                     "endColumn": 12,
-                    "endOffset": 19283
+                    "endOffset": 19360
                 },
                 "from": {
                     "file": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\values\\styles.xml",
@@ -3871,12 +3890,12 @@
             },
             {
                 "to": {
-                    "startLine": 277,
+                    "startLine": 278,
                     "startColumn": 4,
-                    "startOffset": 19288,
-                    "endLine": 282,
+                    "startOffset": 19365,
+                    "endLine": 283,
                     "endColumn": 12,
-                    "endOffset": 19618
+                    "endOffset": 19695
                 },
                 "from": {
                     "file": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\values\\styles.xml",
@@ -3892,12 +3911,12 @@
             },
             {
                 "to": {
-                    "startLine": 283,
+                    "startLine": 284,
                     "startColumn": 4,
-                    "startOffset": 19623,
-                    "endLine": 288,
+                    "startOffset": 19700,
+                    "endLine": 289,
                     "endColumn": 12,
-                    "endOffset": 19876
+                    "endOffset": 19953
                 },
                 "from": {
                     "file": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\values\\styles.xml",
@@ -3913,12 +3932,12 @@
             },
             {
                 "to": {
-                    "startLine": 289,
+                    "startLine": 290,
                     "startColumn": 4,
-                    "startOffset": 19881,
-                    "endLine": 292,
+                    "startOffset": 19958,
+                    "endLine": 293,
                     "endColumn": 12,
-                    "endOffset": 20073
+                    "endOffset": 20150
                 },
                 "from": {
                     "file": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\values\\styles.xml",
