@@ -91,8 +91,6 @@
             android:screenOrientation="landscape"
             android:theme="@style/Sj_Transparent"/>
 
-
-
         <activity
             android:name="com.shiyue.mhxy.wxapi.WXEntryActivity"
             android:exported="true"
