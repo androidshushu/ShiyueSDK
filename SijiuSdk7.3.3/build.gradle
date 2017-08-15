@@ -6,7 +6,7 @@ android {
     buildToolsVersion "25.0.2"
 
     defaultConfig {
-        applicationId "com.shiyue.mhxy"
+        applicationId "com.shiyue.zszh.sy"
         minSdkVersion 17
         targetSdkVersion 19
     }
@@ -60,6 +60,7 @@ task makeJar(type: Copy) {
     include('classes.jar')
     //重命名
     rename ('classes.jar', 'SYSDK_V1.0.1.jar')
+    //打包命令>gradlew makeJar
 }
 
 makeJar.dependsOn(build)

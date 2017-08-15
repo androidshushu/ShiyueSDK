@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.shiyue.syyx.support.PercentLinearLayout
+<com.shiyue.mhxy.support.PercentLinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/ly_bindphone_linear"
@@ -8,7 +8,7 @@
     android:gravity="center"
     android:orientation="vertical" >
 
-    <com.shiyue.syyx.support.PercentLinearLayout
+    <com.shiyue.mhxy.support.PercentLinearLayout
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:background="@drawable/corner_bg_white"
@@ -17,7 +17,7 @@
         app:layout_heightPercent="80%"
         app:layout_widthPercent="60%">
 
-        <com.shiyue.syyx.support.PercentRelativeLayout
+        <com.shiyue.mhxy.support.PercentRelativeLayout
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@drawable/corner_bg_top"
@@ -48,12 +48,12 @@
                 app:layout_widthPercent="80%h"
                 android:layout_alignParentRight="true"
                 android:layout_centerVertical="true"
-                android:background="@drawable/sy_delect_gray" />
+                android:background="@drawable/close_while" />
 
 
-        </com.shiyue.syyx.support.PercentRelativeLayout>
+        </com.shiyue.mhxy.support.PercentRelativeLayout>
 
-        <com.shiyue.syyx.support.PercentFrameLayout
+        <com.shiyue.mhxy.support.PercentFrameLayout
             android:id="@+id/bind_fragment"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -61,7 +61,7 @@
             app:layout_widthPercent="90%w">
 
 
-        </com.shiyue.syyx.support.PercentFrameLayout>
-    </com.shiyue.syyx.support.PercentLinearLayout>
+        </com.shiyue.mhxy.support.PercentFrameLayout>
+    </com.shiyue.mhxy.support.PercentLinearLayout>
 
-</com.shiyue.syyx.support.PercentLinearLayout>
+</com.shiyue.mhxy.support.PercentLinearLayout>

@@ -12,7 +12,7 @@
 		android:layout_width="fill_parent"
 		android:layout_height="45dp"
 		android:orientation="vertical" >
-		<com.shiyue.syyx.support.PercentRelativeLayout
+		<com.shiyue.mhxy.support.PercentRelativeLayout
 
 			android:layout_width="match_parent"
 			android:layout_height="match_parent"
@@ -59,6 +59,6 @@
 
 	android:background="@drawable/sy_delect_gray"
 	android:clickable="true" />
-		</com.shiyue.syyx.support.PercentRelativeLayout>
+		</com.shiyue.mhxy.support.PercentRelativeLayout>
 </RelativeLayout>
 </RelativeLayout>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.shiyue.mhxy"
+    package="com.shiyue.zszh.sy"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -88,7 +88,7 @@
             android:screenOrientation="landscape"
             android:theme="@style/Sj_Transparent" />
         <activity
-            android:name="com.shiyue.mhxy.wxapi.WXEntryActivity"
+            android:name="com.shiyue.zszh.sy.wxapi.WXEntryActivity"
             android:exported="true"
             android:label="梦幻仙语手游"
             android:launchMode="singleTop"

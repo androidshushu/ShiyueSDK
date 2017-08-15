@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.shiyue.zszh.sy"
+    package="com.shiyue.mhxy"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -27,14 +27,14 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
-        android:name="com.shiyue.syyx.common.SijiuApplication"
+        android:name="com.shiyue.mhxy.common.SijiuApplication"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/sjapp_name"
         android:taskAffinity="com.junnet.heepay"
         tools:replace="android:label" >
         <activity
-            android:name="com.shiyue.syyx.demo.MainActivity"
+            android:name="com.shiyue.mhxy.demo.MainActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/sjapp_name"
             android:screenOrientation="landscape"
@@ -46,47 +46,47 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.shiyue.syyx.pay.Sy_PaymentActivity"
+            android:name="com.shiyue.mhxy.pay.Sy_PaymentActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="portrait"
             android:theme="@style/Sj_Transparent" />
         <activity
-            android:name="com.shiyue.syyx.user.AgreeActivity"
+            android:name="com.shiyue.mhxy.user.AgreeActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="landscape"
             android:theme="@style/Sj_Transparent" />
         <activity
-            android:name="com.shiyue.syyx.user.Sy_PhloginActivity"
+            android:name="com.shiyue.mhxy.user.Sy_PhloginActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="landscape"
             android:theme="@style/Sj_Transparent" />
         <activity
-            android:name="com.shiyue.syyx.user.Sy_RegisterActivity"
+            android:name="com.shiyue.mhxy.user.Sy_RegisterActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="landscape"
             android:theme="@style/Sj_Transparent" />
         <activity
-            android:name="com.shiyue.syyx.user.LoginActivity"
+            android:name="com.shiyue.mhxy.user.LoginActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="landscape"
             android:theme="@style/Sj_Transparent" />
         <activity
-            android:name="com.shiyue.syyx.user.NoticeActivity"
+            android:name="com.shiyue.mhxy.user.NoticeActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="landscape"
             android:theme="@style/Sj_Transparent" />
         <activity
-            android:name="com.shiyue.syyx.user.Sy_FindpwdActivity"
+            android:name="com.shiyue.mhxy.user.Sy_FindpwdActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="landscape"
             android:theme="@style/Sj_Transparent" />
         <activity
-            android:name="com.shiyue.syyx.user.SetpwdActivity"
+            android:name="com.shiyue.mhxy.user.SetpwdActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="landscape"
             android:theme="@style/Sj_Transparent" />
         <activity
-            android:name="com.shiyue.syyx.user.Sy_BindPhoneActivity"
+            android:name="com.shiyue.mhxy.user.Sy_BindPhoneActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="landscape"
             android:theme="@style/Sj_Transparent" />

@@ -12,8 +12,8 @@ public class WebApi {
 	private static final String LOGTAG = "WebApi";
 	
 //	public static final String HOST = "https://api.shiyuegame.com/sdk";//正式
-//	public static final String HOST = "http://sandbox.shiyuegame.com/sdk";//测试用/
-	public static final String HOST= "http://e15s106987.iok.la/sdk";//杰
+	public static final String HOST = "http://sandbox.shiyuegame.com/sdk";//测试用/
+//	public static final String HOST= "http://e15s106987.iok.la/sdk";//杰
 //	public static final String HOST7 = "http://e15s106987.iok.la/sdk";
 //
 	public static Map<String,String> HttpTypeMap=new HashMap<String,String>();

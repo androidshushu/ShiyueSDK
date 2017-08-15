@@ -92,7 +92,7 @@
             android:theme="@style/Sj_Transparent"/>
 
         <activity
-            android:name="com.shiyue.mhxy.wxapi.WXEntryActivity"
+            android:name="com.shiyue.zszh.sy.wxapi.WXEntryActivity"
             android:exported="true"
             android:label="梦幻仙语手游"
             android:launchMode="singleTop"
