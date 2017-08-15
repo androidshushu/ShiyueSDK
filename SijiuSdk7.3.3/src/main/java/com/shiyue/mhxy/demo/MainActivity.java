@@ -32,14 +32,14 @@ public class MainActivity extends Activity {
 	private Button button5;
 
 ////	杰测试模式参数
-//	public static int syAppId = 101;
-//	public static String syAppKey = "idhw19c71bc05m1";
-//	public static String syVer_id="101";
-//	//	测试服参数
-	public static int syAppId = 104;
-	public static String syAppKey = "TLWohrXiC8gW3hAFRB5bUxmf";
+	public static int syAppId = 101;
+	public static String syAppKey = "idhw19c71bc05m1";
 	public static String syVer_id="101";
-//	正式模式参数
+//	//	测试服参数
+//	public static int syAppId = 104;
+//	public static String syAppKey = "TLWohrXiC8gW3hAFRB5bUxmf";
+//	public static String syVer_id="101";
+////	正式模式参数
 //	private int syAppId =110;
 //	private String syAppKey = "OSrno5iiEx2qopCw3FluSnSR";
 //	private String syVer_id = "1001";

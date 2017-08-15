@@ -1,4 +1,4 @@
-package com.shiyue.zszh.sy.wxapi;
+package com.shiyue.mhxy.wxapi;
 
 import android.app.Activity;
 import android.content.Intent;
