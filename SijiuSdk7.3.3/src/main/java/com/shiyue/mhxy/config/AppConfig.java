@@ -1,7 +1,7 @@
 package com.shiyue.mhxy.config;
 
 import android.content.Context;
-import android.content.res.Resources;
+
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.shiyue.mhxy.support.PercentLinearLayout
+<com.shiyue.syyx.support.PercentLinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/frg_linear"
@@ -8,7 +8,7 @@
     android:gravity="center"
     android:orientation="vertical" >
 
-    <com.shiyue.mhxy.support.PercentLinearLayout
+    <com.shiyue.syyx.support.PercentLinearLayout
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:background="@drawable/corner_bg_white"
@@ -19,7 +19,7 @@
         app:layout_widthPercent="100%w">
 
 
-        <com.shiyue.mhxy.support.PercentLinearLayout
+        <com.shiyue.syyx.support.PercentLinearLayout
             android:id="@+id/frg_input"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -31,7 +31,7 @@
 
             >
 
-            <com.shiyue.mhxy.support.PercentRelativeLayout
+            <com.shiyue.syyx.support.PercentRelativeLayout
                 android:id="@+id/pop"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
@@ -90,10 +90,10 @@
                     app:layout_widthPercent="80%h" />
 
 
-            </com.shiyue.mhxy.support.PercentRelativeLayout>
+            </com.shiyue.syyx.support.PercentRelativeLayout>
 
 
-            <com.shiyue.mhxy.support.PercentRelativeLayout
+            <com.shiyue.syyx.support.PercentRelativeLayout
                 android:id="@+id/rl2"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
@@ -165,13 +165,13 @@
                     app:layout_marginRightPercent="1%w"
                     app:layout_widthPercent="80%h" />
 
-            </com.shiyue.mhxy.support.PercentRelativeLayout>
-        </com.shiyue.mhxy.support.PercentLinearLayout>
+            </com.shiyue.syyx.support.PercentRelativeLayout>
+        </com.shiyue.syyx.support.PercentLinearLayout>
 
 
         <!-- 按钮 -->
 
-        <com.shiyue.mhxy.support.PercentLinearLayout
+        <com.shiyue.syyx.support.PercentLinearLayout
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:gravity="center_vertical"
@@ -199,7 +199,7 @@
                 app:layout_marginLeftPercent="2%w"
                 app:layout_textSizePercent="60%h" />
 
-        </com.shiyue.mhxy.support.PercentLinearLayout>
+        </com.shiyue.syyx.support.PercentLinearLayout>
 
         <Button
             android:id="@+id/btn_regist"
@@ -214,6 +214,6 @@
             app:layout_marginTopPercent="15%h"
             app:layout_textSizePercent="7%h"
             app:layout_widthPercent="80%w" />
-    </com.shiyue.mhxy.support.PercentLinearLayout>
+    </com.shiyue.syyx.support.PercentLinearLayout>
 
-</com.shiyue.mhxy.support.PercentLinearLayout>
+</com.shiyue.syyx.support.PercentLinearLayout>

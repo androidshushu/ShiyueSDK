@@ -24,6 +24,7 @@
     <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:name="com.shiyue.syyx.common.SijiuApplication"
@@ -81,6 +82,11 @@
             android:theme="@style/Sj_Transparent" />
         <activity
             android:name="com.shiyue.syyx.user.SetpwdActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="landscape"
+            android:theme="@style/Sj_Transparent" />
+        <activity
+            android:name="com.shiyue.syyx.user.Sy_BindPhoneActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="landscape"
             android:theme="@style/Sj_Transparent" />

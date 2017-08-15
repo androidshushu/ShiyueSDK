@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.shiyue.mhxy.support.PercentLinearLayout
+<com.shiyue.syyx.support.PercentLinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/frg_ph_linear"
@@ -8,7 +8,7 @@
     android:gravity="center"
     android:orientation="vertical" >
 
-    <com.shiyue.mhxy.support.PercentLinearLayout
+    <com.shiyue.syyx.support.PercentLinearLayout
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:background="@drawable/corner_bg_white"
@@ -24,12 +24,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:layout_marginTopPercent="10%h"
-            android:text="当前账号:"
+            android:text="查询账号绑定情况:"
             app:layout_marginLeftPercent="6.5%w"
             android:textColor="@color/sjblack"
             app:layout_textSizePercent="6%h" />
 
-        <com.shiyue.mhxy.support.PercentRelativeLayout
+        <com.shiyue.syyx.support.PercentRelativeLayout
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:orientation="vertical"
@@ -37,7 +37,7 @@
             app:layout_marginTopPercent="3%h"
             app:layout_widthPercent="100%w">
 
-            <com.shiyue.mhxy.support.PercentRelativeLayout
+            <com.shiyue.syyx.support.PercentRelativeLayout
 
                 android:id="@+id/relativeLayout"
                 android:layout_width="0dp"
@@ -80,9 +80,9 @@
                     android:clickable="true"
                     app:layout_heightPercent="80%h"
                     app:layout_widthPercent="80%h" />
-            </com.shiyue.mhxy.support.PercentRelativeLayout>
+            </com.shiyue.syyx.support.PercentRelativeLayout>
 
-            <com.shiyue.mhxy.support.PercentLinearLayout
+            <com.shiyue.syyx.support.PercentLinearLayout
 
                 android:id="@+id/linearLayout"
                 android:layout_width="0dp"
@@ -111,7 +111,7 @@
                     android:text="- - - - - - - - - - -"
                     android:textColor="@color/sjblack"
                     app:layout_textSizePercent="70%h" />
-            </com.shiyue.mhxy.support.PercentLinearLayout>
+            </com.shiyue.syyx.support.PercentLinearLayout>
 
             <Button
                 android:id="@+id/btn_findpwd_nextf"
@@ -133,7 +133,7 @@
             <!-- 按钮 -->
 
 
-        </com.shiyue.mhxy.support.PercentRelativeLayout>
+        </com.shiyue.syyx.support.PercentRelativeLayout>
 
-    </com.shiyue.mhxy.support.PercentLinearLayout>
-</com.shiyue.mhxy.support.PercentLinearLayout>
+    </com.shiyue.syyx.support.PercentLinearLayout>
+</com.shiyue.syyx.support.PercentLinearLayout>

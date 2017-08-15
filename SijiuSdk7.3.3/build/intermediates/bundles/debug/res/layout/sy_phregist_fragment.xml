@@ -47,9 +47,9 @@
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:background="@drawable/sjlogin_m_edit_bg"
+                android:imeOptions="actionDone"
                 android:textColor="@color/sjblack"
                 app:layout_heightPercent="35%h"
-                android:imeOptions="actionDone"
                 app:layout_marginTopPercent="5%h"
                 app:layout_widthPercent="100%w" />
 
@@ -129,7 +129,7 @@
         </com.shiyue.syyx.support.PercentLinearLayout>
             <!-- 按钮 -->
 
-            <!--<com.shiyue.mhxy.support.PercentLinearLayout-->
+            <!--<com.shiyue.syyx.support.PercentLinearLayout-->
                 <!--android:layout_width="0dp"-->
                 <!--android:layout_height="0dp"-->
                 <!--android:gravity="center_vertical"-->
@@ -159,7 +159,7 @@
                     <!--app:layout_marginLeftPercent="2%w"-->
                     <!--app:layout_textSizePercent="50%h" />-->
 
-            <!--</com.shiyue.mhxy.support.PercentLinearLayout>-->
+            <!--</com.shiyue.syyx.support.PercentLinearLayout>-->
 
 
         <Button

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.shiyue.mhxy"
+    package="com.shiyue.zszh.sy"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -26,13 +26,13 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
-        android:name="com.shiyue.mhxy.common.SijiuApplication"
+        android:name="com.shiyue.zszh.sy.common.SijiuApplication"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/sjapp_name"
         android:taskAffinity="com.junnet.heepay" >
         <activity
-            android:name="com.shiyue.mhxy.demo.MainActivity"
+            android:name="com.shiyue.zszh.sy.demo.MainActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/sjapp_name"
             android:screenOrientation="landscape" >
@@ -43,47 +43,52 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.shiyue.mhxy.pay.Sy_PaymentActivity"
+            android:name="com.shiyue.zszh.sy.pay.Sy_PaymentActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="portrait"
             android:theme="@style/Sj_Transparent" />
         <activity
-            android:name="com.shiyue.mhxy.user.AgreeActivity"
+            android:name="com.shiyue.zszh.sy.user.AgreeActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="landscape"
             android:theme="@style/Sj_Transparent" />
         <activity
-            android:name="com.shiyue.mhxy.user.Sy_PhloginActivity"
+            android:name="com.shiyue.zszh.sy.user.Sy_PhloginActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="landscape"
             android:theme="@style/Sj_Transparent" />
         <activity
-            android:name="com.shiyue.mhxy.user.Sy_RegisterActivity"
+            android:name="com.shiyue.zszh.sy.user.Sy_RegisterActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="landscape"
             android:theme="@style/Sj_Transparent" />
         <activity
-            android:name="com.shiyue.mhxy.user.LoginActivity"
+            android:name="com.shiyue.zszh.sy.user.LoginActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="landscape"
             android:theme="@style/Sj_Transparent" />
         <activity
-            android:name="com.shiyue.mhxy.user.NoticeActivity"
+            android:name="com.shiyue.zszh.sy.user.NoticeActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="landscape"
             android:theme="@style/Sj_Transparent" />
         <activity
-            android:name="com.shiyue.mhxy.user.Sy_FindpwdActivity"
+            android:name="com.shiyue.zszh.sy.user.Sy_FindpwdActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="landscape"
             android:theme="@style/Sj_Transparent" />
         <activity
-            android:name="com.shiyue.mhxy.user.SetpwdActivity"
+            android:name="com.shiyue.zszh.sy.user.SetpwdActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="landscape"
             android:theme="@style/Sj_Transparent" />
         <activity
-            android:name="com.shiyue.mhxy.wxapi.WXEntryActivity"
+            android:name="com.shiyue.zszh.sy.user.Sy_BindPhoneActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="landscape"
+            android:theme="@style/Sj_Transparent" />
+        <activity
+            android:name="com.shiyue.zszh.sy.wxapi.WXEntryActivity"
             android:exported="true"
             android:label="梦幻仙语手游"
             android:launchMode="singleTop"
@@ -105,9 +110,6 @@
             android:name="com.tencent.connect.common.AssistActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-        <activity
-            android:name="com.shiyue.mhxy.user.Sy_BindPhoneActivity"
-            android:label="@string/title_activity_sy__bind_phone" />
     </application>
 
 </manifest>
