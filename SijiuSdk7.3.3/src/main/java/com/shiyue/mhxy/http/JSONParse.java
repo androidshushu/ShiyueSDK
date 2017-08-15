@@ -6,13 +6,9 @@ import com.shiyue.mhxy.user.BindMessage;
 import com.shiyue.mhxy.user.InitMessage;
 import com.shiyue.mhxy.user.LoginMessage;
 import com.shiyue.mhxy.user.Noticed;
-import com.shiyue.mhxy.user.Order;
-import com.shiyue.mhxy.user.Order.OrderItem;
 import com.shiyue.mhxy.user.ResultAndMessage;
 import com.shiyue.mhxy.user.Vip;
-import java.util.ArrayList;
-import java.util.List;
-import org.json.JSONArray;
+
 import org.json.JSONException;
 import org.json.JSONObject;
 

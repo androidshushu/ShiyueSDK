@@ -2,7 +2,6 @@ package com.shiyue.mhxy.utils.rsa;
 
 import android.content.Context;
 import android.content.SharedPreferences;
-import android.content.SharedPreferences.Editor;
 import android.util.Log;
 
 import com.shiyue.mhxy.utils.Base64;
