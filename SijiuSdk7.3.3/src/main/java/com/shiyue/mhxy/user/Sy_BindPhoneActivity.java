@@ -62,9 +62,11 @@ public class Sy_BindPhoneActivity extends BaseActivity implements View.OnClickLi
 
     private void init() {
         bind_fragement = (FrameLayout) findViewById(AppConfig.resourceId(this,"bind_fragment","id"));
+
         back = (ImageView) findViewById(AppConfig.resourceId(this,"bind_back","id"));
         Intent intent = getIntent();
         account = intent.getStringExtra("account");
+
         back.setOnClickListener(this);
         setDefaultFragement();
 

@@ -88,6 +88,11 @@ public class ApiResponseFactory {
 			}else if (webApi.equals(WebApi.ACTION_BIND_PHONE)){
 				result = JSONParse.parseBindPhoneMessage(data);
 				Log.d("shushushu12","data="+result);
+				//实名认证返回的参数在这里处理
+			}else if (webApi.equals(WebApi.ACTION_REALNAMEID_PHONE)){
+				result = JSONParse.parseResultFromRealNameIDConfig(data);
+				Log.d("personalRealName:",result+"");
+				//// TODO: 2017/8/16 处理返回实名认证返回来的参数
 			}
 		} catch (Exception e) {
 			e.printStackTrace();

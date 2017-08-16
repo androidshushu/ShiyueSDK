@@ -64,6 +64,11 @@ public class AppConfig
     public static final int FLAG_BIND_SUCCESS = 400;
 	public static final int FLAG_BIND_REQUEST_ERROR= 402;
 	public static final int FLAG_BIND_SMS = 403;
+	public static final int FLAG_REALNAME_SUCCESS =511;
+	public static final int FLAG_REALNAME_FAIL =512;
+	public static final int FLAG_REALNAME_FAILS =513;
+	public static final int FLAG_REALNAME_ERROR =514;
+    public static final int FLAG_REALNAME_OK =555;
 //	public static final int BANGDING_SUCCESS = 38;
 //	public static final int FLAG_PAYDATE_SUCCESS = 39;
 //	public static final int FLAG_VIPDATE_SUCCESS = 40;

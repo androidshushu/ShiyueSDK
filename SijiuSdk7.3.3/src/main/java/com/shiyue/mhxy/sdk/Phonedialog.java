@@ -31,6 +31,10 @@ public class Phonedialog extends Dialog implements OnClickListener {
 		this.from = from;
 	}
 
+	public void setText(String text) {
+		this.text = text;
+	}
+
 	public interface Phonelistener {
 		public void onClick(View view, String text, String from);
 	}

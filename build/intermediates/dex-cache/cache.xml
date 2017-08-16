@@ -3,15 +3,6 @@
 
     <item
         is-multidex="false"
-        jar="D:\Gits\android\SijiuSdk7.3.3\SijiuSdk7.3.3\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
-        <dex dex="D:\Gits\android\SijiuSdk7.3.3\SijiuSdk7.3.3\build\intermediates\pre-dexed\debug\com.android.support-support-v4-20.0.0_dd78258526990e0ad33b7e6577c384083da92d69.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="D:\SDK\SijiuSdk7.3.3\SijiuSdk7.3.3\libs\android-support-v4.jar"
         jumboMode="false"
         optimize="true"
@@ -63,15 +54,6 @@
         revision="25.0.2"
         sha1="2881756e1678b5f8a866601be4eec5a6956fff5f">
         <dex dex="D:\Git\android\SijiuSdk7.3.3\SijiuSdk7.3.3\build\intermediates\pre-dexed\debug\open_sdk_r5793_lite_e9faeb61550a552aceaf22212f91b91bb41b910b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Gits\android\SijiuSdk7.3.3\SijiuSdk7.3.3\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\jars\libs\internal_impl-20.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
-        <dex dex="D:\Gits\android\SijiuSdk7.3.3\SijiuSdk7.3.3\build\intermediates\pre-dexed\debug\internal_impl-20.0.0_efc580dd96eacc6e6a6dabf2c7c5dcdb8cffbebe.jar" />
     </item>
     <item
         is-multidex="false"
@@ -129,6 +111,24 @@
     </item>
     <item
         is-multidex="false"
+        jar="D:\Gits\android\SijiuSdk7.3.3\SijiuSdk7.3.3\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="D:\Gits\android\SijiuSdk7.3.3\SijiuSdk7.3.3\build\intermediates\pre-dexed\debug\internal_impl-22.2.1_2f80eb2d59a1aea2386a244e81cc84d56d58af1e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Gits\android\SijiuSdk7.3.3\SijiuSdk7.3.3\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="D:\Gits\android\SijiuSdk7.3.3\SijiuSdk7.3.3\build\intermediates\pre-dexed\debug\com.android.support-support-v4-22.2.1_90364249aba2c707b8e8e6cf6c0e731ad9a1423e.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="D:\Git\android\SijiuSdk7.3.3\SijiuSdk7.3.3\libs\wechat-sdk-android-without-mta-1.3.4.jar"
         jumboMode="false"
         optimize="true"
@@ -156,12 +156,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Administrator\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
+        jar="C:\Users\Administrator\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
-        <dex dex="D:\Gits\android\SijiuSdk7.3.3\SijiuSdk7.3.3\build\intermediates\pre-dexed\debug\support-annotations-20.0.0_f05a2a8c85b5425e197bfaee256dc9d8bace8802.jar" />
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="D:\Gits\android\SijiuSdk7.3.3\SijiuSdk7.3.3\build\intermediates\pre-dexed\debug\support-annotations-22.2.1_d62cf70edf926c767c0639e5784c5090f9da27e1.jar" />
     </item>
     <item
         is-multidex="false"

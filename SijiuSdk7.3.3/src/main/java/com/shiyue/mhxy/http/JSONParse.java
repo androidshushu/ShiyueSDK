@@ -6,6 +6,7 @@ import com.shiyue.mhxy.user.BindMessage;
 import com.shiyue.mhxy.user.InitMessage;
 import com.shiyue.mhxy.user.LoginMessage;
 import com.shiyue.mhxy.user.Noticed;
+import com.shiyue.mhxy.user.RealNameConfimMessage;
 import com.shiyue.mhxy.user.ResultAndMessage;
 import com.shiyue.mhxy.user.Vip;
 
@@ -119,6 +120,21 @@ public class JSONParse
 			Log.d("shiyue_Msg=", data);
 		}
 
+		return result;
+	}
+	//实名认证返回的参数在这里处理，写一个类来解析对应的参数
+	public static  Object parseResultFromRealNameIDConfig(String data)
+			throws JSONException
+
+	{
+        RealNameConfimMessage result = new RealNameConfimMessage();
+
+        JSONObject jsonObject = new JSONObject(data);
+        result.setMessage(jsonObject.getString("message"));
+        boolean r = jsonObject.getBoolean("success");
+        result.setResult(r);
+        result.setCode(jsonObject.getInt("code"));
+        Log.d("resultFromServer:",result+"");
 		return result;
 	}
 

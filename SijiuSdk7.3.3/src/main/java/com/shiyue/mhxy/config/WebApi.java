@@ -41,6 +41,7 @@ public class WebApi {
 	public static final String ACTION_THIRDREGIST = HOST +"/account/oauth_reg";
 	public static final String ACTION_THIRDQUERY =HOST + "/oauth/get_account_info";
 	public static final String ACTION_BIND_PHONE = HOST +"/account/bind/phone";
+	public static final String ACTION_REALNAMEID_PHONE = HOST+"/extra_info";
 
 
 	
@@ -64,6 +65,7 @@ public class WebApi {
 		HttpTypeMap.put(ACTION_THIRDREGIST, "post");
 		HttpTypeMap.put(ACTION_THIRDQUERY, "post");
 		HttpTypeMap.put(ACTION_BIND_PHONE,"post");
+		HttpTypeMap.put(ACTION_REALNAMEID_PHONE,"post");
 		
     }
 	

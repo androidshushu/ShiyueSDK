@@ -317,10 +317,43 @@ public class SiJiuSDK {
         params.put("phone_number",phoneNum+"");
         params.put("bind_type","bind");
         params.put("auth_code",authCode + "");
+
 		Log.d("shiyue_bind_phone",params.toString());
 		return WebApi.startThreadRequest(WebApi.ACTION_BIND_PHONE, listener, params,
 				appKey);
 	}
+	/**
+	 * 处理实名制登记的线程
+	 */
+	public  ApiAsyncTask startrealname(Context context,int appId,String appKey,
+									   String ver,String realname,String realid,
+									   ApiRequestListener listener){
+		HashMap<String, Object> param = new HashMap<String, Object>();
+		param.put("app_id",appId+"");
+		param.put("channel_id",ver+"");
+		param.put("ts",System.currentTimeMillis()/1000+"");
+        String data =stringconnect(realname,realid);
+        param.put("data",data+"");
+
+        Log.d("realname&id:",param.toString());
+
+        return WebApi.startThreadRequest(WebApi.ACTION_REALNAMEID_PHONE,listener,param,appKey
+        );
+
+	}
+
+    /**
+     * 拼接用户名跟身份证号码的方法
+     * @param name
+     * @param id
+     * @return
+     */
+	public  String stringconnect(String name,String id){
+        StringBuffer sb = new StringBuffer();
+            sb.append("card_name:"+name+"card_id:"+id);
+        String data =sb.toString();
+        return data;
+    }
 
 	/**********************************************************************/
 

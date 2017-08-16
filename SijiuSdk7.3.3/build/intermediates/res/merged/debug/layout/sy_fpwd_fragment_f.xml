@@ -24,7 +24,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:layout_marginTopPercent="10%h"
-            android:text="查询账号绑定情况:"
+            android:text="当前账号/已绑定的手机号"
             app:layout_marginLeftPercent="6.5%w"
             android:textColor="@color/sjblack"
             app:layout_textSizePercent="6%h" />

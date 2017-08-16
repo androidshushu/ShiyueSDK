@@ -82,6 +82,8 @@ public class LoginActivity extends BaseActivity implements OnClickListener {
 	private boolean ispopshow = false;
 	private boolean eye_ischeck = false;
 	private int j = 1;
+
+
     private int newLoginTimes;
 	private int q = 1;
 	private final int FLAG_AUTO_LOGIN = 51;
@@ -104,6 +106,12 @@ public class LoginActivity extends BaseActivity implements OnClickListener {
 	private String thpassword;
 	private Tencent mTencent;
 	private BaseUiListener qqlistener;
+
+
+    public void setNewLoginTimes(int newLoginTimes) {
+        this.newLoginTimes = newLoginTimes;
+    }
+
 
 //    private Sy_Seference sy_seference;
 
@@ -771,6 +779,7 @@ public class LoginActivity extends BaseActivity implements OnClickListener {
 					String username = loginmsg.getUserName();
 					String message = loginmsg.getMessage();
 					String msg = loginmsg.getMessage();
+                    String phonenumber  = loginmsg.getPhoneNumber();
 					LoginActivity.this.loginTick = loginmsg.getLoginTick();
 					String phone = loginmsg.getPhoneNumber();
 
@@ -779,9 +788,9 @@ public class LoginActivity extends BaseActivity implements OnClickListener {
 						result = "success";
 						AppConfig.clear();
 
+						//计算绑定手机号的次数
 						LoginActivity.this.wrapaLoginInfo(result, msg, username, uid, timeStamp, LoginActivity.this.loginTick);
 						String showname="";
-
 
                         try {
                             j = Integer.parseInt(LoginActivity.this.sy_seference.getUserInfo(uid).get("loginTimes") + "");
@@ -795,7 +804,23 @@ public class LoginActivity extends BaseActivity implements OnClickListener {
                         }
 
                          newLoginTimes = j + 1;
+                        //保存登录成功后的数据
+                        //跳转到绑定手机号页面
+                        // TODO: 2017/8/12 把账号传递过去给绑定界面，绑定过了就不要再弹出来了
 
+                        Log.d("LoginA_times=",newLoginTimes+"");
+
+                        if (phonenumber.equals("")){
+                        if ((newLoginTimes%5)==0) {
+
+                            Intent intents = new Intent();
+                            Bundle myAccount = new Bundle();
+                            myAccount.putString("key_account", showname);
+                            intents.putExtras(myAccount);
+                            intents.setClass(LoginActivity.this, Sy_BindPhoneActivity.class);
+                            startActivity(intents);
+                        }
+                        }
 
 
                         if (logintype.equals("1")) {
@@ -824,20 +849,7 @@ public class LoginActivity extends BaseActivity implements OnClickListener {
 //                        String str = (String) hs.get("loginTimes");
 //                        a = Integer.parseInt(str);
 
-                        //保存登录成功后的数据
-                        //跳转到绑定手机号页面
-                        // TODO: 2017/8/12 把账号传递过去给绑定界面
-                        Log.d("LoginA_uid=",showname);
-                        if ((newLoginTimes%5)==0) {
 
-                            Intent intents = new Intent();
-                            Bundle myAccount = new Bundle();
-                            myAccount.putString("key_account",showname);
-                            intents.putExtras(myAccount);
-                            intents.setClass(LoginActivity.this, Sy_BindPhoneActivity.class);
-                            startActivity(intents);
-
-                        }
 
 						LoginActivity.this.sendData(AppConfig.FLAG_SUCCESS, showname, LoginActivity.this.mHandler);
 
@@ -1093,4 +1105,5 @@ public class LoginActivity extends BaseActivity implements OnClickListener {
 			LoginActivity.this.mHandler.sendMessage(message);
 		}
 	}
+
 }

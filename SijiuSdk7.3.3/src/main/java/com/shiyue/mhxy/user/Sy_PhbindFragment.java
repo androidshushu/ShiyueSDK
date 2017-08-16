@@ -1,6 +1,7 @@
 package com.shiyue.mhxy.user;
 
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.os.Handler;
 import android.app.Fragment;
@@ -42,6 +43,7 @@ public class Sy_PhbindFragment extends Fragment implements View.OnClickListener 
     private ApiAsyncTask codeTask;
     private ApiAsyncTask bindTask;
     private boolean flag = false;
+    private boolean flagss = false;
     private int j = 0;
 
 
@@ -51,7 +53,6 @@ public class Sy_PhbindFragment extends Fragment implements View.OnClickListener 
         Bundle bundle = this.getArguments();
         account = bundle.getString("account_data");
     }
-
     @Override
     public View onCreateView(LayoutInflater inflater,ViewGroup container,
 
@@ -186,7 +187,7 @@ public class Sy_PhbindFragment extends Fragment implements View.OnClickListener 
     /**
      * http请求，发送json，发送请求账号绑定手机号
      */
-    private void bindPhonenumber() {
+    private void   bindPhonenumber() {
         authcode  = bind_identify.getText().toString();
         phonenum =  bind_phonenumber.getText().toString();
 
@@ -203,7 +204,9 @@ public class Sy_PhbindFragment extends Fragment implements View.OnClickListener 
                             boolean result = bindMessage.getResult();
                             String message = bindMessage.getMessage();
                             if (result){
+
                                sendData(AppConfig.FLAG_BIND_SUCCESS,message,smshandler);
+
                             } else {
                                 sendData(AppConfig.FLAG_BIND_FAILS,"绑定失败",smshandler);
                             }
