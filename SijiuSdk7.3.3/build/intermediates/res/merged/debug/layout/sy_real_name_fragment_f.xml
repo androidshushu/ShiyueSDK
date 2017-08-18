@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.shiyue.game.support.PercentLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/frg_ph_linear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <com.shiyue.game.support.PercentLinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/corner_bg_white"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_heightPercent="100%h"
+        app:layout_marginTopPercent="5%h"
+        app:layout_widthPercent="100%w">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="left"
+            android:text="亲爱的用户："
+            android:textColor="#000000"
+            app:layout_heightPercent="10%h"
+            app:layout_marginLeftPercent="5%h"
+            app:layout_marginTopPercent="5%h"
+            app:layout_textSizePercent="8%h"
+            app:layout_widthPercent="80%w"
+
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center_vertical"
+            android:text="根据国家相关法规的要求，请尽快完善游戏实名制信息。"
+            app:layout_heightPercent="8%h"
+            app:layout_marginLeftPercent="5%h"
+            app:layout_marginTopPercent="3%h"
+            app:layout_textSizePercent="5%h"
+            app:layout_widthPercent="90%w" />
+
+        <com.shiyue.game.support.PercentLinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/corner_bg_white"
+            android:orientation="horizontal"
+            app:layout_heightPercent="11%h"
+            app:layout_marginLeftPercent="5%h"
+            app:layout_marginTopPercent="2%h"
+            app:layout_widthPercent="100%w">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:text="姓名："
+                android:textColor="#616161"
+                app:layout_heightPercent="90%h"
+                app:layout_marginTopPercent="2%h"
+                app:layout_textSizePercent="70%h"
+                app:layout_widthPercent="35%w" />
+
+
+            <EditText
+                android:id="@+id/edit_real_name"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/sjlogin_m_edit_bg"
+                android:imeOptions="actionDone"
+                android:textColor="@color/sjblack"
+                app:layout_heightPercent="90%h"
+                app:layout_marginLeftPercent="5%h"
+                app:layout_marginTopPercent="2%h"
+                app:layout_widthPercent="60%w" />
+
+        </com.shiyue.game.support.PercentLinearLayout>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center_vertical"
+            android:text="真实姓名，例如：张三"
+            app:layout_heightPercent="6%h"
+            app:layout_marginLeftPercent="5%h"
+            app:layout_marginTopPercent="3%h"
+            app:layout_textSizePercent="5%h"
+            app:layout_widthPercent="80%w" />
+
+        <com.shiyue.game.support.PercentLinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/corner_bg_white"
+            android:orientation="horizontal"
+            app:layout_heightPercent="11%h"
+            app:layout_marginLeftPercent="5%h"
+            app:layout_marginTopPercent="3%h"
+            app:layout_widthPercent="100%w">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:text="身份证号码："
+                android:textColor="#616161"
+                app:layout_heightPercent="90%h"
+                app:layout_marginTopPercent="2%h"
+                app:layout_textSizePercent="70%h"
+                app:layout_widthPercent="35%w" />
+
+
+            <EditText
+                android:id="@+id/real_person_number"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/sjlogin_m_edit_bg"
+                android:imeOptions="actionDone"
+                android:textColor="@color/sjblack"
+                app:layout_heightPercent="90%h"
+                app:layout_marginLeftPercent="5%h"
+                app:layout_marginTopPercent="2%h"
+                app:layout_widthPercent="60%w" />
+
+        </com.shiyue.game.support.PercentLinearLayout>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center_vertical"
+            android:text="身份证号码，例如:444382198411022182"
+            app:layout_heightPercent="8%h"
+            app:layout_marginLeftPercent="5%h"
+            app:layout_marginTopPercent="3%h"
+            app:layout_textSizePercent="5%h"
+            app:layout_widthPercent="80%w" />
+
+
+        <com.shiyue.game.support.PercentLinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/corner_bg_white"
+            android:orientation="horizontal"
+            app:layout_heightPercent="15%h"
+            app:layout_marginTopPercent="3%h"
+            app:layout_widthPercent="100%w">
+
+            <Button
+                android:id="@+id/realname_confirm"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/sjblue_btn_style"
+                android:padding="5px"
+                android:paddingLeft="8px"
+                android:text="保存"
+                android:textColor="@color/sy_white"
+                app:layout_heightPercent="100%h"
+                app:layout_marginLeftPercent="86%h"
+                app:layout_textSizePercent="50%h"
+                app:layout_widthPercent="81%w" />
+        </com.shiyue.game.support.PercentLinearLayout>
+
+    </com.shiyue.game.support.PercentLinearLayout>
+
+</com.shiyue.game.support.PercentLinearLayout>

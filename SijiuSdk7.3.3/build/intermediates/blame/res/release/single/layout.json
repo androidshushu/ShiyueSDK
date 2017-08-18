@@ -1,0 +1,114 @@
+[
+    {
+        "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\release\\layout\\sjpopwindow_land.xml",
+        "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\layout\\sjpopwindow_land.xml"
+    },
+    {
+        "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\release\\layout\\syexit_dialog.xml",
+        "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\layout\\syexit_dialog.xml"
+    },
+    {
+        "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\release\\layout\\syphlogin_land.xml",
+        "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\layout\\syphlogin_land.xml"
+    },
+    {
+        "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\release\\layout\\activity_main.xml",
+        "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\release\\layout\\sy_real_name_fragment_s.xml",
+        "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\layout\\sy_real_name_fragment_s.xml"
+    },
+    {
+        "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\release\\layout\\sy_regist_fragment.xml",
+        "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\layout\\sy_regist_fragment.xml"
+    },
+    {
+        "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\release\\layout\\global_screenshot.xml",
+        "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\layout\\global_screenshot.xml"
+    },
+    {
+        "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\release\\layout\\sy_fpwd_fragment_f.xml",
+        "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\layout\\sy_fpwd_fragment_f.xml"
+    },
+    {
+        "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\release\\layout\\sy_item_count_list.xml",
+        "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\layout\\sy_item_count_list.xml"
+    },
+    {
+        "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\release\\layout\\wxlayout.xml",
+        "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\layout\\wxlayout.xml"
+    },
+    {
+        "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\release\\layout\\sy__bind_phone_activity.xml",
+        "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\layout\\sy__bind_phone_activity.xml"
+    },
+    {
+        "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\release\\layout\\sy_logindialog.xml",
+        "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\layout\\sy_logindialog.xml"
+    },
+    {
+        "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\release\\layout\\sy_normaldialog.xml",
+        "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\layout\\sy_normaldialog.xml"
+    },
+    {
+        "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\release\\layout\\syphloginpwd_land.xml",
+        "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\layout\\syphloginpwd_land.xml"
+    },
+    {
+        "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\release\\layout\\sy_pay.xml",
+        "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\layout\\sy_pay.xml"
+    },
+    {
+        "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\release\\layout\\sy_fpwd_fragment_s.xml",
+        "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\layout\\sy_fpwd_fragment_s.xml"
+    },
+    {
+        "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\release\\layout\\sjmyprogressbar.xml",
+        "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\layout\\sjmyprogressbar.xml"
+    },
+    {
+        "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\release\\layout\\sy_real_name_fragment_f.xml",
+        "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\layout\\sy_real_name_fragment_f.xml"
+    },
+    {
+        "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\release\\layout\\syregister_land.xml",
+        "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\layout\\syregister_land.xml"
+    },
+    {
+        "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\release\\layout\\sylogin_main_land.xml",
+        "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\layout\\sylogin_main_land.xml"
+    },
+    {
+        "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\release\\layout\\sjshar_item.xml",
+        "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\layout\\sjshar_item.xml"
+    },
+    {
+        "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\release\\layout\\sy_real_name_activity.xml",
+        "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\layout\\sy_real_name_activity.xml"
+    },
+    {
+        "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\release\\layout\\sjmytoast.xml",
+        "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\layout\\sjmytoast.xml"
+    },
+    {
+        "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\release\\layout\\sy_findpwd_land.xml",
+        "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\layout\\sy_findpwd_land.xml"
+    },
+    {
+        "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\release\\layout\\sy_agree_activity.xml",
+        "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\layout\\sy_agree_activity.xml"
+    },
+    {
+        "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\release\\layout\\sy__phbind_fragment.xml",
+        "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\layout\\sy__phbind_fragment.xml"
+    },
+    {
+        "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\release\\layout\\sy_phregist_fragment.xml",
+        "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\layout\\sy_phregist_fragment.xml"
+    },
+    {
+        "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\release\\layout\\sy_fpwd_fragment_t.xml",
+        "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\layout\\sy_fpwd_fragment_t.xml"
+    }
+]
