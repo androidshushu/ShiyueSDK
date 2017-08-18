@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.shiyue.mhxy"
+    package="com.shiyue.game"
     android:versionCode="1"
     android:versionName="1.0">
 
@@ -27,14 +27,14 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
-        android:name=".common.SijiuApplication"
+        android:name="com.shiyue.game.common.SijiuApplication"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/sjapp_name"
         android:taskAffinity="com.junnet.heepay"
         tools:replace="android:label">
         <activity
-            android:name=".demo.MainActivity"
+            android:name="com.shiyue.game.demo.MainActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/sjapp_name"
             android:screenOrientation="landscape"
@@ -46,59 +46,60 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".pay.Sy_PaymentActivity"
+            android:name="com.shiyue.game.pay.Sy_PaymentActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="portrait"
             android:theme="@style/Sj_Transparent" />
         <activity
-            android:name=".user.AgreeActivity"
+            android:name="com.shiyue.game.user.AgreeActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="landscape"
             android:theme="@style/Sj_Transparent" />
         <activity
-            android:name=".user.Sy_PhloginActivity"
+            android:name="com.shiyue.game.user.Sy_PhloginActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="landscape"
             android:theme="@style/Sj_Transparent" />
         <activity
-            android:name=".user.Sy_RegisterActivity"
+            android:name="com.shiyue.game.user.Sy_RegisterActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="landscape"
             android:theme="@style/Sj_Transparent" />
         <activity
-            android:name=".user.LoginActivity"
+            android:name="com.shiyue.game.user.LoginActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="landscape"
             android:theme="@style/Sj_Transparent" />
         <activity
-            android:name=".user.NoticeActivity"
+            android:name="com.shiyue.game.user.NoticeActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="landscape"
             android:theme="@style/Sj_Transparent" />
         <activity
-            android:name=".user.Sy_FindpwdActivity"
+            android:name="com.shiyue.game.user.Sy_FindpwdActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="landscape"
             android:theme="@style/Sj_Transparent" />
         <activity
-            android:name=".user.SetpwdActivity"
+            android:name="com.shiyue.game.user.SetpwdActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="landscape"
             android:theme="@style/Sj_Transparent" />
         <!--绑定手机号-->
         <activity
-            android:name=".user.Sy_BindPhoneActivity"
+            android:name="com.shiyue.game.user.Sy_BindPhoneActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="landscape"
             android:theme="@style/Sj_Transparent" />
         <!--实名制认证-->
         <activity
-            android:name=".user.Sy_RealNameActivity"
+            android:name="com.shiyue.game.user.Sy_RealNameActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="landscape"
             android:theme="@style/Sj_Transparent"/>
+
         <activity
-            android:name=".wxapi.WXEntryActivity"
+            android:name="com.shiyue.zszh.sy.wxapi.WXEntryActivity"
             android:exported="true"
             android:label="梦幻仙语手游"
             android:launchMode="singleTop"

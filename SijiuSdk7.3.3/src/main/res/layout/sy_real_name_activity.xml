@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.shiyue.mhxy.support.PercentLinearLayout
+<com.shiyue.game.support.PercentLinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/ly_bindphone_linear"
@@ -8,7 +8,7 @@
     android:gravity="center"
     android:orientation="vertical" >
 
-    <com.shiyue.mhxy.support.PercentLinearLayout
+    <com.shiyue.game.support.PercentLinearLayout
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:background="@drawable/corner_bg_white"
@@ -17,7 +17,7 @@
         app:layout_heightPercent="80%"
         app:layout_widthPercent="60%">
 
-        <com.shiyue.mhxy.support.PercentRelativeLayout
+        <com.shiyue.game.support.PercentRelativeLayout
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@drawable/corner_bg_top"
@@ -59,9 +59,9 @@
                 android:background="@drawable/close_while" />
 
 
-        </com.shiyue.mhxy.support.PercentRelativeLayout>
+        </com.shiyue.game.support.PercentRelativeLayout>
 
-        <com.shiyue.mhxy.support.PercentFrameLayout
+        <com.shiyue.game.support.PercentFrameLayout
             android:id="@+id/realname_fragment"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -69,7 +69,7 @@
             app:layout_widthPercent="90%w">
 
 
-        </com.shiyue.mhxy.support.PercentFrameLayout>
-    </com.shiyue.mhxy.support.PercentLinearLayout>
+        </com.shiyue.game.support.PercentFrameLayout>
+    </com.shiyue.game.support.PercentLinearLayout>
 
-</com.shiyue.mhxy.support.PercentLinearLayout>
+</com.shiyue.game.support.PercentLinearLayout>

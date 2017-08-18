@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.shiyue.mhxy.support.PercentLinearLayout
+<com.shiyue.game.support.PercentLinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/frg_ph_linear"
@@ -8,7 +8,7 @@
     android:gravity="center"
     android:orientation="vertical" >
 
-    <com.shiyue.mhxy.support.PercentLinearLayout
+    <com.shiyue.game.support.PercentLinearLayout
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:background="@drawable/corner_bg_white"
@@ -18,7 +18,7 @@
         app:layout_marginTopPercent="5%h"
         app:layout_widthPercent="100%w">
 
-        <com.shiyue.mhxy.support.PercentLinearLayout
+        <com.shiyue.game.support.PercentLinearLayout
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@drawable/corner_bg_white"
@@ -63,9 +63,9 @@
                 app:layout_heightPercent="50%h"
                 app:layout_marginRightPercent="68%h" />
             <!--android:textSize="45px"-->
-        </com.shiyue.mhxy.support.PercentLinearLayout>
+        </com.shiyue.game.support.PercentLinearLayout>
 
-        <com.shiyue.mhxy.support.PercentLinearLayout
+        <com.shiyue.game.support.PercentLinearLayout
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@drawable/corner_bg_white"
@@ -116,9 +116,9 @@
             <!--android:textSize="45px"-->
 
 
-        </com.shiyue.mhxy.support.PercentLinearLayout>
+        </com.shiyue.game.support.PercentLinearLayout>
 
-        <com.shiyue.mhxy.support.PercentLinearLayout
+        <com.shiyue.game.support.PercentLinearLayout
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@drawable/corner_bg_white"
@@ -151,9 +151,9 @@
                 app:layout_marginLeftPercent="10%h"
                 app:layout_widthPercent="29%w"
                 app:layout_textSizePercent="32%h"/>
-        </com.shiyue.mhxy.support.PercentLinearLayout>
+        </com.shiyue.game.support.PercentLinearLayout>
 
-        <com.shiyue.mhxy.support.PercentLinearLayout
+        <com.shiyue.game.support.PercentLinearLayout
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@drawable/corner_bg_white"
@@ -175,9 +175,9 @@
                 app:layout_marginLeftPercent="86%h"
                 app:layout_widthPercent="81%w"
                 app:layout_textSizePercent="50%h"/>
-        </com.shiyue.mhxy.support.PercentLinearLayout>
+        </com.shiyue.game.support.PercentLinearLayout>
 
 
-    </com.shiyue.mhxy.support.PercentLinearLayout>
+    </com.shiyue.game.support.PercentLinearLayout>
 
-</com.shiyue.mhxy.support.PercentLinearLayout>
+</com.shiyue.game.support.PercentLinearLayout>

@@ -18,7 +18,7 @@
 
         app:layout_widthPercent="45%">
         <TextView
-            android:id="@+id/tv_dilog_qq"
+            android:id="@+id/tv_showtext"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
@@ -40,7 +40,7 @@
 
 
             <Button
-                android:id="@+id/dialog_cancel"
+                android:id="@+id/dialog_cancel_btn"
 
                 android:layout_width="0dp"
                 android:layout_height="0dp"
@@ -53,7 +53,7 @@
                 app:layout_widthPercent="35%w" />
 
             <Button
-                android:id="@+id/dialog_phone"
+                android:id="@+id/dialog_confim_btn"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:background="@drawable/sjblue_btn_style"
