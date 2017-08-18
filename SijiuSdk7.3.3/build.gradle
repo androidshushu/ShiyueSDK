@@ -47,6 +47,7 @@ dependencies {
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     compile 'com.android.support:support-v4:22.2.1'
 }
+//打包jar的一般方式
 task makeJar(type: Copy) {
     //删除存在的
     delete 'build/libs/mysdk.jar'
