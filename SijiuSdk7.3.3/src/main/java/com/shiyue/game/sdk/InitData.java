@@ -3,6 +3,7 @@ package com.shiyue.game.sdk;
 import java.util.Calendar;
 import java.util.List;
 
+import com.shiyue.game.common.DevListener;
 import com.shiyue.game.common.InitListener;
 import com.shiyue.game.common.Syyx;
 import com.shiyue.game.common.TipsDialog;
@@ -115,6 +116,7 @@ public class InitData {
 	 * http请求，初始化接口
 	 */
 	public void initHttp() {
+		Log.d("innitHttp","chushihua");
 		iniTask = SiJiuSDK.get().startInit(context, AppConfig.appId,
 				AppConfig.appKey, ver_id, new ApiRequestListener() {
 					@Override
@@ -132,11 +134,27 @@ public class InitData {
 								AppConfig.AUTH_NAME_STATUS = result.getAuth_name_status();
                                 AppConfig.initResult=true;
 
+								Log.d("initHttpgg",result+"");
+                                //// TODO: 2017/8/21 在这里回调一些激活设备的方法
+				                Syyx.devactinterface(context, AppConfig.appId, AppConfig.appKey, ver_id, true, new DevListener() {
+					            @Override
+					            public void Success(String msg) {
+						            Log.d("devactinterfacesuccess",msg.toString()+"");
+					                }
+
+					            @Override
+					                public void fail(String msg) {
+						            Log.d("devactinterfaceFail",msg.toString()+"");
+
+                                        }
+                                    });
+
 								sendData(INIT_SUCCESS, obj, handler);
 
 							} else {
 								sendData(AppConfig.FLAG_FAIL,
 										result.getMessage(), handler);
+
 							}
 						}
 						else {
@@ -271,13 +289,16 @@ public class InitData {
 					break;
 
 				case INIT_SUCCESS:
+				    Log.d("init_success","jjjjj");
 					InitMessage init = (InitMessage) msg.obj;
 					setInit(init);
                     if(type.equals("reinit")){
                         Message message = new Message();
                         message.what = 4;
+                        Log.d("init_resuccess",msg.what+"");
                         Syyx.handler.sendMessage(message);
                     }
+//                    listener.Success("");
 					break;
 				case AppConfig.FLAG_FAIL:
 					disDialog();

@@ -391,9 +391,6 @@ public class SiJiuSDK {
 
 
 		HashMap<String, Object> params = new HashMap<String, Object>();
-
-
-
 		params.put("app_id", appId + "");
 		params.put("channel_id", ver + "");
 		params.put("ts", System.currentTimeMillis()/1000 + "");
@@ -401,6 +398,51 @@ public class SiJiuSDK {
 		return WebApi.startThreadRequest(WebApi.ACTION_INIT, listener, params,
 				appKey);
 	}
+
+
+	/**
+	 * 设备激活的网络发送方法
+	 * @param context
+	 * @param appid
+	 * @param appKey
+	 * @param ver_id
+	 * @param ad_id
+	 * @param dev_str
+	 * @param dev_type
+	 * @param listener
+	 * @return
+	 */
+	public ApiAsyncTask devAction(Context context,int appid,String appKey,
+								  String ver_id,String ad_id,String dev_str,String dev_type,ApiRequestListener listener){
+		HashMap<String, Object> params = new HashMap<String, Object>();
+		params.put("app_id", appid + "");
+		params.put("channel_id", ver_id + "");
+		params.put("ts", System.currentTimeMillis()/1000 + "");
+		params.put("ad_id",ad_id+"");
+
+		params.put("data",stringaction(dev_str,dev_type));
+
+		Log.d("showDevactionData",params.toString());
+
+		return WebApi.startThreadRequest(WebApi.ACTION_DEVACTION,listener,params,appKey);
+
+	}
+
+    /**
+     * 拼接激活设备的字符串。
+     * @param dev_str
+     * @param dev_type
+     * @return
+     */
+    public  String stringaction(String dev_str,String dev_type){
+        StringBuffer sb = new StringBuffer();
+
+        sb.append("{\"dev_str\":\""+dev_str+"\",\"dev_type\":\""+dev_type+"\"}");
+        String data =sb.toString();
+        return data;
+    }
+
+
 
 	public ApiAsyncTask setRoleinfo(Context context, int appId, String appKey,
 								  String ver,HashMap hs,int type, ApiRequestListener listener) {

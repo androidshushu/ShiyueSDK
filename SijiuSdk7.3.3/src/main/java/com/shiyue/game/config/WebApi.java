@@ -2,17 +2,20 @@ package com.shiyue.game.config;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Properties;
 
 import com.shiyue.game.http.ApiAsyncTask;
 import com.shiyue.game.http.ApiRequestListener;
 import com.shiyue.game.http.SiJiuApiTask;
+import com.shiyue.game.user.LoginInfo;
 
 public class WebApi {
-	
 	private static final String LOGTAG = "WebApi";
-	
+
+
+
 //	public static final String HOST = "https://api.shiyuegame.com/sdk";//正式
-	public static final String HOST = "http://sandbox.shiyuegame.com/sdk";//测试用/
+  public static final String HOST = "http://sandbox.shiyuegame.com/sdk";//测试用/
 //	public static final String HOST= "http://e15s106987.iok.la/sdk";//杰
 //	public static final String HOST7 = "http://e15s106987.iok.la/sdk";
 //
@@ -25,6 +28,7 @@ public class WebApi {
 	//初始化接口
 
 	public static final String ACTION_INIT=HOST+"/auth";
+	public static final String ACTION_DEVACTION=HOST+"/dev/act";
 	public static final String ACTION_LOGON=HOST+"/account/login";
 	public static final String ACTION_LOGOUT=HOST+"/account/logout";
 	public static final String ACTION_TICKLOGON=HOST+"/account/login_by_token";
@@ -50,6 +54,7 @@ public class WebApi {
 	 */
     static{
 		HttpTypeMap.put(ACTION_INIT, "post");
+		HttpTypeMap.put(ACTION_DEVACTION, "post");
 		HttpTypeMap.put(ACTION_LOGON, "post");
 		HttpTypeMap.put(ACTION_LOGOUT, "get");
 		HttpTypeMap.put(ACTION_PH_LOGON, "post");

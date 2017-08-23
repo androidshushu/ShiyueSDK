@@ -163,10 +163,10 @@ public class LoginActivity extends BaseActivity implements OnClickListener {
 
 				case FLAG_AUTO_LOGIN:
 
-					LoginActivity.this.pdialog.setText(LoginActivity.this.user.getText().toString() + "正在登陆中...");
+					LoginActivity.this.pdialog.setText(LoginActivity.this.user.getText().toString() + "正在登录中...");
 					findViewById(AppConfig.resourceId(
 							LoginActivity.this, "linear", "id")).setVisibility(View.GONE);
-					pdialog.setText(user.getText().toString()+"正在登陆中...");
+					pdialog.setText(user.getText().toString()+"正在登录中...");
 					if (q <0) {
 
 						pdialog.setEnable(false);
@@ -416,7 +416,7 @@ public class LoginActivity extends BaseActivity implements OnClickListener {
 		pdialog.show();
 		//下面这个文字不是最终控制显示的，以线程里面的为准
 
-		pdialog.setText("自动登陆游戏中....");
+		pdialog.setText("自动登录游戏中....");
 		// 自动登录线程
 		new Thread(new Runnable() {
 
@@ -430,6 +430,7 @@ public class LoginActivity extends BaseActivity implements OnClickListener {
 					} catch (InterruptedException e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
+
 					}
 				}
 			}
@@ -581,7 +582,7 @@ public class LoginActivity extends BaseActivity implements OnClickListener {
 					animator.start();
 				}
 			} else {
-				showMsg("亲,快点登陆吧!");
+				showMsg("亲,快点登录吧!");
 			}
 		}
 		else if(v.getId() == AppConfig.resourceId(this, "password_show", "id")){
@@ -793,50 +794,57 @@ public class LoginActivity extends BaseActivity implements OnClickListener {
 
 						//// TODO: 2017/8/17 测试实名认证
                         /**
-//                         * 这里现在是默认发送的是gentle，必须登录的时候就会发hard，可登陆可不登录就发medium
+//                         * 这里现在是默认发送的是gentle，必须登录的时候就会发hard，可登录可不登录就发medium
 //                         * 这里要改回来的
 //                         */
-//                        Log.d("AUTH_NAME_STATUS=",AppConfig.AUTH_NAME_STATUS);
-//                        if (AppConfig.EXTRA_INFO.equals("")){
-//						if (AppConfig.AUTH_NAME_STATUS.equals("hard")||AppConfig.AUTH_NAME_STATUS.equals("medium")){
-//							Intent intent = new Intent();
-//							intent.setClass(LoginActivity.this, Sy_RealNameActivity.class);
-//							startActivity(intent);
-//						}
-//                        }
+                        Log.d("AUTH_AME_STATUS=",AppConfig.AUTH_NAME_STATUS);
+                        if (AppConfig.EXTRA_INFO.equals("")){
+						if (AppConfig.AUTH_NAME_STATUS.equals("hard")||AppConfig.AUTH_NAME_STATUS.equals("medium")){
+							Intent intent = new Intent();
+							intent.setClass(LoginActivity.this, Sy_RealNameActivity.class);
+							startActivity(intent);
+						}
+                        }
 
-						//计算绑定手机号的次数
+
 						LoginActivity.this.wrapaLoginInfo(result, msg, username, uid, timeStamp, LoginActivity.this.loginTick);
 						String showname="";
 
-                        try {
-                            j = Integer.parseInt(LoginActivity.this.sy_seference.getUserInfo(uid).get("loginTimes") + "");
-                            Log.d("login3=",j+"");
+                        //计算登录的次数
 
+                        // TODO: 2017/8/22  java.lang.NumberFormatException: Invalid int: ""
+                        try {
+                            Log.d("ssssjjjj",LoginActivity.this.sy_seference.getUserInfo(uid).get("loginTimes")+"");
+                            if (LoginActivity.this.sy_seference.getUserInfo(uid).get("loginTimes")==""){
+                                j= 0;
+                            }else {
+                                j = Integer.parseInt(LoginActivity.this.sy_seference.getUserInfo(uid).get("loginTimes")+"");
+                                Log.d("loginTimes",j+"");
+                            }
 
                         }catch (Exception e){
                             e.printStackTrace();
+                            Log.d("sssssssssssss",e+"");
                             j=0;
-
                         }
 
                          newLoginTimes = j + 1;
                         //保存登录成功后的数据
                         //跳转到绑定手机号页面
+                        //
                         // TODO: 2017/8/12 把账号传递过去给绑定界面，绑定过了就不要再弹出来了
-
                         Log.d("LoginA_times=",newLoginTimes+"");
 
                         if (phonenumber.equals("")){
-                        if ((newLoginTimes%5)==0) {
+                            if ((newLoginTimes%5)==0) {
 
-                            Intent intents = new Intent();
-                            Bundle myAccount = new Bundle();
-                            myAccount.putString("key_account", showname);
-                            intents.putExtras(myAccount);
-                            intents.setClass(LoginActivity.this, Sy_BindPhoneActivity.class);
-                            startActivity(intents);
-                        }
+                                Intent intents = new Intent();
+                                Bundle myAccount = new Bundle();
+                                myAccount.putString("key_account", showname);
+                                intents.putExtras(myAccount);
+                                intents.setClass(LoginActivity.this, Sy_BindPhoneActivity.class);
+                                startActivity(intents);
+                            }
                         }
 
 
@@ -859,6 +867,8 @@ public class LoginActivity extends BaseActivity implements OnClickListener {
 
 							}
 						}
+
+
 
 						AppConfig.saveMap(LoginActivity.this.userName, LoginActivity.this.passWord, uid);
 

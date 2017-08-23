@@ -549,7 +549,7 @@ Therefore, you should either use the form of the SimpleDateFormat constructor wh
         quickfix="studio,adt">
         <location
             file="D:\Gits\android\SijiuSdk7.3.3\SijiuSdk7.3.3\src\main\res\layout\sy_real_name_fragment_f.xml"
-            line="157"
+            line="162"
             column="17"/>
     </issue>
 
@@ -568,7 +568,7 @@ Therefore, you should either use the form of the SimpleDateFormat constructor wh
         quickfix="studio,adt">
         <location
             file="D:\Gits\android\SijiuSdk7.3.3\SijiuSdk7.3.3\src\main\res\layout\sy_real_name_fragment_f.xml"
-            line="158"
+            line="163"
             column="17"/>
     </issue>
 
@@ -758,11 +758,29 @@ This lint rule is mostly informational; it does not accurately detect whether cr
         explanation="Using device identifiers is not recommended other than for high value fraud prevention and advanced telephony use-cases. For advertising use-cases, use `AdvertisingIdClient$Info#getId` and for analytics, use `InstanceId#getId`."
         url="https://developer.android.com/training/articles/user-data-ids.html"
         urls="https://developer.android.com/training/articles/user-data-ids.html"
+        errorLine1="  AppConfig.imei = ((TelephonyManager) context.getSystemService(TELEPHONY_SERVICE)).getDeviceId();"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\Gits\android\SijiuSdk7.3.3\SijiuSdk7.3.3\src\main\java\com\shiyue\game\common\Syyx.java"
+            line="166"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="HardwareIds"
+        severity="Warning"
+        message="Using `getDeviceId` to get device identifiers is not recommended."
+        category="Security"
+        priority="6"
+        summary="Hardware Id Usage"
+        explanation="Using device identifiers is not recommended other than for high value fraud prevention and advanced telephony use-cases. For advertising use-cases, use `AdvertisingIdClient$Info#getId` and for analytics, use `InstanceId#getId`."
+        url="https://developer.android.com/training/articles/user-data-ids.html"
+        urls="https://developer.android.com/training/articles/user-data-ids.html"
         errorLine1="   AppConfig.imei =((TelephonyManager) context.getSystemService(TELEPHONY_SERVICE)).getDeviceId();"
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="D:\Gits\android\SijiuSdk7.3.3\SijiuSdk7.3.3\src\main\java\com\shiyue\game\common\Syyx.java"
-            line="167"
+            line="209"
             column="20"/>
     </issue>
 
@@ -868,7 +886,7 @@ Some methods allocate memory on your behalf (such as `Bitmap.create`), and these
         errorLine2=" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="D:\Gits\android\SijiuSdk7.3.3\SijiuSdk7.3.3\src\main\java\com\shiyue\game\sdk\InitData.java"
-            line="52"
+            line="53"
             column="2"/>
     </issue>
 
@@ -916,7 +934,23 @@ Some methods allocate memory on your behalf (such as `Bitmap.create`), and these
         errorLine2=" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="D:\Gits\android\SijiuSdk7.3.3\SijiuSdk7.3.3\src\main\java\com\shiyue\game\common\Syyx.java"
-            line="67"
+            line="68"
+            column="2"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        severity="Warning"
+        message="Do not place Android context classes in static fields; this is a memory leak (and also breaks Instant Run)"
+        category="Performance"
+        priority="6"
+        summary="Static Field Leaks"
+        explanation="A static field will leak contexts."
+        errorLine1=" private static Context devactcontext;"
+        errorLine2=" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\Gits\android\SijiuSdk7.3.3\SijiuSdk7.3.3\src\main\java\com\shiyue\game\common\Syyx.java"
+            line="69"
             column="2"/>
     </issue>
 
@@ -932,7 +966,7 @@ Some methods allocate memory on your behalf (such as `Bitmap.create`), and these
         errorLine2=" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="D:\Gits\android\SijiuSdk7.3.3\SijiuSdk7.3.3\src\main\java\com\shiyue\game\common\Syyx.java"
-            line="68"
+            line="70"
             column="2"/>
     </issue>
 
@@ -948,7 +982,7 @@ Some methods allocate memory on your behalf (such as `Bitmap.create`), and these
         errorLine2=" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="D:\Gits\android\SijiuSdk7.3.3\SijiuSdk7.3.3\src\main\java\com\shiyue\game\common\Syyx.java"
-            line="77"
+            line="80"
             column="2"/>
     </issue>
 
@@ -980,7 +1014,7 @@ Some methods allocate memory on your behalf (such as `Bitmap.create`), and these
         errorLine2="                               ~~~~~~~">
         <location
             file="D:\Gits\android\SijiuSdk7.3.3\SijiuSdk7.3.3\src\main\java\com\shiyue\game\sdk\InitData.java"
-            line="248"
+            line="266"
             column="32"/>
     </issue>
 
@@ -1236,7 +1270,7 @@ Some methods allocate memory on your behalf (such as `Bitmap.create`), and these
         errorLine2="                                     ~~~~~~~">
         <location
             file="D:\Gits\android\SijiuSdk7.3.3\SijiuSdk7.3.3\src\main\java\com\shiyue\game\common\Syyx.java"
-            line="79"
+            line="82"
             column="38"/>
     </issue>
 
@@ -5200,7 +5234,7 @@ If you really want to keep the text field generic, you can suppress this warning
         quickfix="studio,adt">
         <location
             file="D:\Gits\android\SijiuSdk7.3.3\SijiuSdk7.3.3\src\main\res\layout\sy_real_name_fragment_f.xml"
-            line="68"
+            line="69"
             column="13"/>
     </issue>
 
@@ -5221,7 +5255,7 @@ If you really want to keep the text field generic, you can suppress this warning
         quickfix="studio,adt">
         <location
             file="D:\Gits\android\SijiuSdk7.3.3\SijiuSdk7.3.3\src\main\res\layout\sy_real_name_fragment_f.xml"
-            line="115"
+            line="119"
             column="13"/>
     </issue>
 
@@ -6140,7 +6174,7 @@ If your view is labeled but by a label in a different layout which includes this
         errorLine2="            ^">
         <location
             file="D:\Gits\android\SijiuSdk7.3.3\SijiuSdk7.3.3\src\main\res\layout\sy_real_name_fragment_f.xml"
-            line="68"
+            line="69"
             column="13"/>
     </issue>
 
@@ -6158,7 +6192,7 @@ If your view is labeled but by a label in a different layout which includes this
         errorLine2="            ^">
         <location
             file="D:\Gits\android\SijiuSdk7.3.3\SijiuSdk7.3.3\src\main\res\layout\sy_real_name_fragment_f.xml"
-            line="115"
+            line="119"
             column="13"/>
     </issue>
 
@@ -7566,7 +7600,7 @@ There are quickfixes to automatically extract this hardcoded string into a resou
         quickfix="adt">
         <location
             file="D:\Gits\android\SijiuSdk7.3.3\SijiuSdk7.3.3\src\main\res\layout\sy_real_name_fragment_f.xml"
-            line="86"
+            line="88"
             column="13"/>
     </issue>
 
@@ -7589,7 +7623,7 @@ There are quickfixes to automatically extract this hardcoded string into a resou
         quickfix="adt">
         <location
             file="D:\Gits\android\SijiuSdk7.3.3\SijiuSdk7.3.3\src\main\res\layout\sy_real_name_fragment_f.xml"
-            line="107"
+            line="110"
             column="17"/>
     </issue>
 
@@ -7612,7 +7646,7 @@ There are quickfixes to automatically extract this hardcoded string into a resou
         quickfix="adt">
         <location
             file="D:\Gits\android\SijiuSdk7.3.3\SijiuSdk7.3.3\src\main\res\layout\sy_real_name_fragment_f.xml"
-            line="134"
+            line="139"
             column="13"/>
     </issue>
 
@@ -7635,7 +7669,7 @@ There are quickfixes to automatically extract this hardcoded string into a resou
         quickfix="adt">
         <location
             file="D:\Gits\android\SijiuSdk7.3.3\SijiuSdk7.3.3\src\main\res\layout\sy_real_name_fragment_f.xml"
-            line="159"
+            line="164"
             column="17"/>
     </issue>
 
@@ -8258,7 +8292,7 @@ There are quickfixes to automatically extract this hardcoded string into a resou
         errorLine2="                ~~~~~~~~~~~~~~~~~~~">
         <location
             file="D:\Gits\android\SijiuSdk7.3.3\SijiuSdk7.3.3\src\main\res\layout\sy_real_name_fragment_f.xml"
-            line="158"
+            line="163"
             column="17"/>
     </issue>
 
@@ -8878,7 +8912,7 @@ For XML attributes such as paddingLeft and `layout_marginLeft`, use `paddingStar
         errorLine2="                ~~~~~~~~~~~~~~~~~~~">
         <location
             file="D:\Gits\android\SijiuSdk7.3.3\SijiuSdk7.3.3\src\main\res\layout\sy_real_name_fragment_f.xml"
-            line="158"
+            line="163"
             column="17"/>
     </issue>
 

@@ -3,6 +3,7 @@ package com.shiyue.game.http;
 import android.util.Log;
 import com.shiyue.game.config.AppConfig;
 import com.shiyue.game.user.BindMessage;
+import com.shiyue.game.user.DevActionMessage;
 import com.shiyue.game.user.InitMessage;
 import com.shiyue.game.user.LoginMessage;
 import com.shiyue.game.user.Noticed;
@@ -51,6 +52,23 @@ public class JSONParse
 		}
 
 		return result;
+	}
+
+
+    /**
+     * 设备激活的
+     * @param data
+     * @return
+     * @throws JSONException
+     */
+	public static Object parseDevAction(String data)throws JSONException{
+        DevActionMessage DevAMsg = new DevActionMessage();
+        JSONObject jsonObject = new JSONObject(data);
+        boolean r = jsonObject.getBoolean("success");
+        DevAMsg.setResult(r);
+        DevAMsg.setMessage(jsonObject.getString("message"));
+        Log.d("DevAMsg",DevAMsg.toString());
+		return DevAMsg;
 	}
 
 	public static Object parseLogon(String data)

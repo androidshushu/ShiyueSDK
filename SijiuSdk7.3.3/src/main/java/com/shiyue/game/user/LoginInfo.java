@@ -10,8 +10,14 @@ public class LoginInfo implements Parcelable{
 	private String agent = "";
 	private String server_id = "";
 	private String oritation = "";
+	private String flags = "";
 
-	
+	public String getFlags() {
+		return flags;
+	}
+	public void setFlags(String flags) {
+		this.flags = flags;
+	}
 	public int getAppid() {
 		return appid;
 	}

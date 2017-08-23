@@ -43,7 +43,13 @@ public class ApiResponseFactory {
 				// Log.i ("kk", "data"+data);
 				result = JSONParse.parseInitMsg(data);
 				//login()
-			} else if (webApi.equals(WebApi.ACTION_LOGON)) {
+
+			}else if (webApi.equals(WebApi.ACTION_DEVACTION)){
+				result = JSONParse.parseDevAction(data);
+				Log.d("devaceeetion",result+"");
+			}
+
+			else if (webApi.equals(WebApi.ACTION_LOGON)) {
 				result = JSONParse.parseLogon(data);
 				 Log.i ("kk", "data"+data);
 				//phone_login()

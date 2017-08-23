@@ -86,6 +86,7 @@ public class AppConfig
 	public static String ver_id = "";
 	public static String ad_id = "";
 	public static String imei = "";
+	public static String model = "";
 	public static String token = "";
 	public static String timeStamp = "";
 	public static String isAgreement = "0";
@@ -104,6 +105,7 @@ public class AppConfig
 	public static boolean LoginStatus = false;
 	public static boolean isApkCacheExit = false;
 	public static boolean isTest = false;
+	public static boolean isactSuccess = false;
 	public static boolean isLogin = false;
 	public static boolean isFirst = true;
 	public static boolean isDownload = true;

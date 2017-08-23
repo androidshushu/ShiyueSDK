@@ -34,6 +34,7 @@ import com.shiyue.game.config.WebApi;
 import com.shiyue.game.http.ApiAsyncTask;
 import com.shiyue.game.pay.SjyxPaymentInfo;
 import com.shiyue.game.pay.Sy_PaymentActivity;
+import com.shiyue.game.sdk.DevAction;
 import com.shiyue.game.sdk.InitData;
 import com.shiyue.game.user.LoginActivity;
 import com.shiyue.game.user.LoginInfo;
@@ -65,8 +66,10 @@ public class Syyx {
 	public static Timer timer;
 	public int initcount=1;
 	private static Context initcontext;
+	private static Context devactcontext;
 	private static Activity logincontext;
 	private static InitListener initListener;
+	private static DevListener devListener;
 	private static ApiListenerInfo mlistenerInfo;
 	private  static LoginInfo mloginInfo;
 	public boolean relogin=false;
@@ -134,13 +137,51 @@ public class Syyx {
 	};
 
 	/**
+	 * 激活设备接口
+	 */
+	public static void devactinterface(Context context,int appid,String appkey,
+									   String ver_id,boolean issuccess,DevListener listener){
+		try{
+		AppConfig.isactSuccess = issuccess;
+		devactcontext = context;
+		devListener = listener;
+
+		AppConfig.appId = appid;
+		AppConfig.appKey = appkey;
+
+		ver_id = "";
+		if ("".equals(ver_id)) {
+			// 如果传递过来的为空字符串，就需要自己读配置文件
+			Properties properties = new Properties();
+			properties.load(context.getAssets().open("sijiu.properties"));
+			ver_id = properties.getProperty("agent");
+			AppConfig.ver_id=ver_id;
+			AppConfig.ad_id=properties.getProperty("ad_id");
+            AppConfig.model = android.os.Build.BRAND;
+			AppConfig.WXAPP_ID=properties.getProperty("wx_appid")+"";
+			AppConfig.WXAPP_SECRET=properties.getProperty("wx_secret")+"";
+			AppConfig.QQAPP_ID=properties.getProperty("qq_appid")+"";
+			// flag = true;
+		}
+		AppConfig.imei = ((TelephonyManager) context.getSystemService(TELEPHONY_SERVICE)).getDeviceId();
+            Log.d("isactSucess",AppConfig.model);
+
+          new DevAction(context,ver_id,AppConfig.ad_id,AppConfig.imei,AppConfig.model,listener);
+
+		}catch (Exception e){
+			e.printStackTrace();
+		}
+
+	}
+
+	/**
 	 * 初始化接口
 	 * 
 	 * @param appid
 	 * @param appkey
 	 * @param ver_id
 	 *            渠道id
-	 * @param 初始化浮点
+	 * @param
 	 */
 	public static void initInterface(Context context, int appid, String appkey,
 			String ver_id,boolean istest, InitListener listener) {
@@ -164,7 +205,9 @@ public class Syyx {
 				AppConfig.QQAPP_ID=properties.getProperty("qq_appid")+"";
 				// flag = true;
 			}
+			Log.d("initInterface:",AppConfig.ad_id);
 			AppConfig.imei =((TelephonyManager) context.getSystemService(TELEPHONY_SERVICE)).getDeviceId();
+            AppConfig.model= android.os.Build.MODEL;
 			new InitData(context, ver_id, listener);// point浮点的显示
 
 		} catch (Exception e) {

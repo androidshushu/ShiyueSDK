@@ -63,6 +63,7 @@ public class Sy_registFragment extends Fragment implements View.OnClickListener 
 //    private Handler handler;
     private ApiAsyncTask registerTask;
     //记录一键注册事件
+    private String renewuser;
     public static long thisTime;
     public static long lastTime;
 
@@ -144,9 +145,13 @@ public class Sy_registFragment extends Fragment implements View.OnClickListener 
             }
         } else if (v.getId() == AppConfig.resourceId(getActivity(), "btn_regist", "id")) {
             if(isagree) {
+
                 //两分钟内不许重复注册。
+
                 thisTime = System.currentTimeMillis();
-                if ((thisTime-lastTime)>120000){
+                if (!renewuser.equals(ed_username.getText().toString())){
+                    verfyInfo();
+                }else if ((thisTime-lastTime)>120000){
                     Log.i("shiyue","lastTime="+stampToDate(lastTime));
                     Log.i("shiyue","thistime="+stampToDate(thisTime));
                     verfyInfo();
@@ -405,6 +410,8 @@ public class Sy_registFragment extends Fragment implements View.OnClickListener 
             userName += oneChar;
             passWord += sedChar;
         }
+        //随机生成了账号密码，存起来。
+        renewuser = userName;
         ed_username.setText(userName);
         ed_pwd.setText(passWord);
     }

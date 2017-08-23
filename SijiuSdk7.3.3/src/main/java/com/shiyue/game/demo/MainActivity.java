@@ -14,6 +14,7 @@ import android.widget.Toast;
 
 import com.shiyue.game.R;
 import com.shiyue.game.common.ApiListenerInfo;
+import com.shiyue.game.common.DevListener;
 import com.shiyue.game.common.ExitListener;
 import com.shiyue.game.common.InitListener;
 import com.shiyue.game.common.LoginMessageInfo;
@@ -23,6 +24,7 @@ import com.shiyue.game.pay.SjyxPaymentInfo;
 import com.shiyue.game.user.LoginInfo;
 
 import java.util.HashMap;
+import java.util.Properties;
 
 public class MainActivity extends Activity {
 	private Button button1, button4;
@@ -31,18 +33,18 @@ public class MainActivity extends Activity {
 	private Button button2;
 	private Button button5;
 
-////	杰测试模式参数
+//	杰测试模式参数
 //	public static int syAppId = 101;
 //	public static String syAppKey = "idhw19c71bc05m1";
 //	public static String syVer_id="101";
-//	//	测试服参数
+//	测试服参数
 	public static int syAppId = 104;
 	public static String syAppKey = "TLWohrXiC8gW3hAFRB5bUxmf";
 	public static String syVer_id="101";
-////	正式模式参数
-//	private int syAppId =110;
-//	private String syAppKey = "OSrno5iiEx2qopCw3FluSnSR";
-//	private String syVer_id = "1001";
+//	正式模式参数
+	private int syAppId1 =110;
+	private String syAppKey1 = "OSrno5iiEx2qopCw3FluSnSR";
+	private String syVer_id1 = "1001";
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -63,9 +65,24 @@ public class MainActivity extends Activity {
 				super.onLogout(obj);
 
 				LoginInfo loginInfo = new LoginInfo();
-				loginInfo.setAppid(syAppId);
-				loginInfo.setAppkey(syAppKey);
-				loginInfo.setAgent( syVer_id);
+				try{
+					Properties properties = new Properties();
+					properties.load(getBaseContext().getAssets().open("sijiu.properties"));
+					loginInfo.setFlags((properties.getProperty("flags")));
+				}catch (Exception e){
+					e.printStackTrace();
+				}
+
+				if (loginInfo.getFlags().equals("test")){
+                    loginInfo.setAppid(syAppId);
+                    loginInfo.setAppkey(syAppKey);
+                    loginInfo.setAgent( syVer_id);
+                }else {
+                    loginInfo.setAppid(syAppId1);
+                    loginInfo.setAppkey(syAppKey1);
+                    loginInfo.setAgent( syVer_id1);
+                }
+
 //				loginInfo.setServer_id("");
 				loginInfo.setOritation("landscape");// landscape
 				Syyx.login(MainActivity.this, loginInfo, new ApiListenerInfo() {
@@ -80,6 +97,7 @@ public class MainActivity extends Activity {
 							String timeStamp = data.getTimestamp();
 //							String sign = data.getSign();
 							String token = data.getToken();
+
 							Log.i("shiyues", "登录结果" + "result:" + result + "|msg:"
 									+ msg + "|username:" + userName + "|uid:"
 									+ uid + "|timeStamp:" + timeStamp
@@ -117,22 +135,40 @@ public class MainActivity extends Activity {
 		public void onClick(View v) {
 			if (v.equals(button1)) {
 
-				// TODO Auto-generated method stub
-				Syyx.initInterface(MainActivity.this, syAppId, syAppKey, syVer_id,true,
-						new InitListener() {
-							@Override
-							public void Success(String msg) {
-								Toast.makeText(MainActivity.this, "初始化成功！",
-										Toast.LENGTH_SHORT).show();
-							}
 
-							@Override
-							public void fail(String msg) {
-								Toast.makeText(MainActivity.this, "初始化失败！",
-										Toast.LENGTH_SHORT).show();
-							}
+//
+//				//// TODO: 2017/8/21 在这里回调一些激活设备的方法
+//				Syyx.devactinterface(MainActivity.this, syAppId, syAppKey, syVer_id, true, new DevListener() {
+//					@Override
+//					public void Success(String msg) {
+//						Log.d("devactinterfacesuccess",msg.toString()+"");
+//					}
+//
+//					@Override
+//					public void fail(String msg) {
+//						Log.d("devactinterfaceFail",msg.toString()+"");
+//
+//					}
+//				});
 
-						});
+                // TODO Auto-generated method stub 1
+				Syyx.initInterface(MainActivity.this, syAppId, syAppKey, syVer_id, true, new InitListener() {
+					@Override
+					public void Success(String msg) {
+
+						Toast.makeText(MainActivity.this, "初始化成功！",
+						Toast.LENGTH_SHORT).show();
+						Log.d("initSuccess",msg.toString());
+					}
+
+					@Override
+					public void fail(String msg) {
+						Toast.makeText(MainActivity.this, "初始化失败！",
+								Toast.LENGTH_SHORT).show();
+						Log.d("initFail",msg.toString());
+
+					}
+				});
 
 
 			} else if (v.equals(button3)) {

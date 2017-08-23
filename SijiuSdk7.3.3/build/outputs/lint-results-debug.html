@@ -194,8 +194,8 @@ document.getElementById(id+'Link').style.display = 'none';
 <body>
 <h1>Lint Report</h1>
 <div class="titleSeparator"></div>
-Check performed at Fri Aug 18 11:53:42 CST 2017.<br/>
-2 errors and 518 warnings found:<br/><br/>
+Check performed at Tue Aug 22 10:32:09 CST 2017.<br/>
+2 errors and 520 warnings found:<br/><br/>
 <table class="overview">
 <tr><td></td><td class="categoryColumn"><a href="#Correctness">Correctness</a>
 </td></tr>
@@ -258,7 +258,7 @@ Check performed at Fri Aug 18 11:53:42 CST 2017.<br/>
 <a href="#TrulyRandom">TrulyRandom: Weak RNG</a>
 </td></tr>
 <tr>
-<td class="countColumn">6</td><td class="issueColumn"><img border="0" align="top" width="16" height="15" alt="Warning" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAPCAQAAABHeoekAAAA3klEQVR42nWPsWoCQRCGVyJiF9tAsNImbcDKR/ABBEurYCsBsfQRQiAPYGPyAAnYWQULS9MErNU2Vsr/ObMX7g6O+xd2/5n5dmY3hFQEBVVpuCsVT/yoUl6u4XotBz4E4qR2YYyH6ugEWY8comR/t+tvPPJtSLPYvhvvTswtbdCmCOwjMHXAzjP9kB/ByB7nejbgy43WVPF3WNG+p9+kzkozdhGAQdZh7BlHdGTL3z98pp6Um7okKdvHNuIzWk+9xN+yINOcHps0OnAfuOOoHJH3pmHghhYP2VJcaXx7BaKz9YB2HVrDAAAAAElFTkSuQmCC"/>
+<td class="countColumn">7</td><td class="issueColumn"><img border="0" align="top" width="16" height="15" alt="Warning" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAPCAQAAABHeoekAAAA3klEQVR42nWPsWoCQRCGVyJiF9tAsNImbcDKR/ABBEurYCsBsfQRQiAPYGPyAAnYWQULS9MErNU2Vsr/ObMX7g6O+xd2/5n5dmY3hFQEBVVpuCsVT/yoUl6u4XotBz4E4qR2YYyH6ugEWY8comR/t+tvPPJtSLPYvhvvTswtbdCmCOwjMHXAzjP9kB/ByB7nejbgy43WVPF3WNG+p9+kzkozdhGAQdZh7BlHdGTL3z98pp6Um7okKdvHNuIzWk+9xN+yINOcHps0OnAfuOOoHJH3pmHghhYP2VJcaXx7BaKz9YB2HVrDAAAAAElFTkSuQmCC"/>
 <a href="#HardwareIds">HardwareIds: Hardware Id Usage</a>
 </td></tr>
 <tr>
@@ -272,7 +272,7 @@ Check performed at Fri Aug 18 11:53:42 CST 2017.<br/>
 <a href="#DrawAllocation">DrawAllocation: Memory allocations within drawing code</a>
 </td></tr>
 <tr>
-<td class="countColumn">7</td><td class="issueColumn"><img border="0" align="top" width="16" height="15" alt="Warning" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAPCAQAAABHeoekAAAA3klEQVR42nWPsWoCQRCGVyJiF9tAsNImbcDKR/ABBEurYCsBsfQRQiAPYGPyAAnYWQULS9MErNU2Vsr/ObMX7g6O+xd2/5n5dmY3hFQEBVVpuCsVT/yoUl6u4XotBz4E4qR2YYyH6ugEWY8comR/t+tvPPJtSLPYvhvvTswtbdCmCOwjMHXAzjP9kB/ByB7nejbgy43WVPF3WNG+p9+kzkozdhGAQdZh7BlHdGTL3z98pp6Um7okKdvHNuIzWk+9xN+yINOcHps0OnAfuOOoHJH3pmHghhYP2VJcaXx7BaKz9YB2HVrDAAAAAElFTkSuQmCC"/>
+<td class="countColumn">8</td><td class="issueColumn"><img border="0" align="top" width="16" height="15" alt="Warning" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAPCAQAAABHeoekAAAA3klEQVR42nWPsWoCQRCGVyJiF9tAsNImbcDKR/ABBEurYCsBsfQRQiAPYGPyAAnYWQULS9MErNU2Vsr/ObMX7g6O+xd2/5n5dmY3hFQEBVVpuCsVT/yoUl6u4XotBz4E4qR2YYyH6ugEWY8comR/t+tvPPJtSLPYvhvvTswtbdCmCOwjMHXAzjP9kB/ByB7nejbgy43WVPF3WNG+p9+kzkozdhGAQdZh7BlHdGTL3z98pp6Um7okKdvHNuIzWk+9xN+yINOcHps0OnAfuOOoHJH3pmHghhYP2VJcaXx7BaKz9YB2HVrDAAAAAElFTkSuQmCC"/>
 <a href="#StaticFieldLeak">StaticFieldLeak: Static Field Leaks</a>
 </td></tr>
 <tr>
@@ -631,7 +631,7 @@ Therefore, you should either use the form of the SimpleDateFormat constructor wh
 <span class="lineno">  47</span>     compile 'com.android.support.constraint:constraint-layout:1.0.2'
 <span class="lineno">  48</span>     <span class="errorspan">compile 'com.android.support:support-v4:22.2.1'</span>
 <span class="lineno">  49</span> }
-<span class="lineno">  50</span> task makeJar(type: Copy) {
+<span class="lineno">  50</span> //&#25171;&#21253;jar&#30340;&#19968;&#33324;&#26041;&#24335;
 </pre>
 </div>
 <div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ<br>
@@ -791,21 +791,21 @@ Deprecated views, attributes and so on are deprecated because there is a better 
 <span class="lineno"> 172</span>                 android:text="&#30830;&#35748;&#32465;&#23450;"
 <span class="lineno"> 173</span>                 android:textColor="@color/sy_white"
 </pre>
-<span class="location"><a href="../../src/main/res/layout/sy_real_name_fragment_f.xml">../../src/main/res/layout/sy_real_name_fragment_f.xml</a>:157</span>: <span class="message">Avoid using "<code>px</code>" as units; use "<code>dp</code>" instead</span><br /><pre class="errorlines">
-<span class="lineno"> 154</span>                 android:layout_width="0dp"
-<span class="lineno"> 155</span>                 android:layout_height="0dp"
-<span class="lineno"> 156</span>                 android:background="@drawable/sjblue_btn_style"
-<span class="lineno"> 157</span>                 <span class="errorspan">android:padding="5px"</span>
-<span class="lineno"> 158</span>                 android:paddingLeft="8px"
-<span class="lineno"> 159</span>                 android:text="&#20445;&#23384;"
+<span class="location"><a href="../../src/main/res/layout/sy_real_name_fragment_f.xml">../../src/main/res/layout/sy_real_name_fragment_f.xml</a>:162</span>: <span class="message">Avoid using "<code>px</code>" as units; use "<code>dp</code>" instead</span><br /><pre class="errorlines">
+<span class="lineno"> 159</span>                 android:layout_width="0dp"
+<span class="lineno"> 160</span>                 android:layout_height="0dp"
+<span class="lineno"> 161</span>                 android:background="@drawable/sjblue_btn_style"
+<span class="lineno"> 162</span>                 <span class="errorspan">android:padding="5px"</span>
+<span class="lineno"> 163</span>                 android:paddingLeft="8px"
+<span class="lineno"> 164</span>                 android:text="&#20445;&#23384;"
 </pre>
-<span class="location"><a href="../../src/main/res/layout/sy_real_name_fragment_f.xml">../../src/main/res/layout/sy_real_name_fragment_f.xml</a>:158</span>: <span class="message">Avoid using "<code>px</code>" as units; use "<code>dp</code>" instead</span><br /><pre class="errorlines">
-<span class="lineno"> 155</span>                 android:layout_height="0dp"
-<span class="lineno"> 156</span>                 android:background="@drawable/sjblue_btn_style"
-<span class="lineno"> 157</span>                 android:padding="5px"
-<span class="lineno"> 158</span>                 <span class="errorspan">android:paddingLeft="8px"</span>
-<span class="lineno"> 159</span>                 android:text="&#20445;&#23384;"
-<span class="lineno"> 160</span>                 android:textColor="@color/sy_white"
+<span class="location"><a href="../../src/main/res/layout/sy_real_name_fragment_f.xml">../../src/main/res/layout/sy_real_name_fragment_f.xml</a>:163</span>: <span class="message">Avoid using "<code>px</code>" as units; use "<code>dp</code>" instead</span><br /><pre class="errorlines">
+<span class="lineno"> 160</span>                 android:layout_height="0dp"
+<span class="lineno"> 161</span>                 android:background="@drawable/sjblue_btn_style"
+<span class="lineno"> 162</span>                 android:padding="5px"
+<span class="lineno"> 163</span>                 <span class="errorspan">android:paddingLeft="8px"</span>
+<span class="lineno"> 164</span>                 android:text="&#20445;&#23384;"
+<span class="lineno"> 165</span>                 android:textColor="@color/sy_white"
 </pre>
 </div>
 <div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ & Eclipse/ADT<br>
@@ -943,13 +943,21 @@ This lint rule is mostly informational; it does not accurately detect whether cr
 <span class="lineno">  98</span> 				Secure.ANDROID_ID);
 <span class="lineno">  99</span> 
 </pre>
-<span class="location"><a href="../../src/main/java/com/shiyue/game/common/Syyx.java">../../src/main/java/com/shiyue/game/common/Syyx.java</a>:167</span>: <span class="message">Using <code>getDeviceId</code> to get device identifiers is not recommended.</span><br /><pre class="errorlines">
-<span class="lineno"> 164</span> 				AppConfig.QQAPP_ID=properties.getProperty("qq_appid")+"";
-<span class="lineno"> 165</span> 				// flag = true;
-<span class="lineno"> 166</span> 			}
-<span class="lineno"> 167</span> 			AppConfig.imei =<span class="errorspan">((TelephonyManager) context.getSystemService(TELEPHONY_SERVICE)).getDeviceId();</span>
-<span class="lineno"> 168</span> 			new InitData(context, ver_id, listener);// point&#28014;&#28857;&#30340;&#26174;&#31034;
-<span class="lineno"> 169</span> 
+<span class="location"><a href="../../src/main/java/com/shiyue/game/common/Syyx.java">../../src/main/java/com/shiyue/game/common/Syyx.java</a>:166</span>: <span class="message">Using <code>getDeviceId</code> to get device identifiers is not recommended.</span><br /><pre class="errorlines">
+<span class="lineno"> 163</span> 			AppConfig.QQAPP_ID=properties.getProperty("qq_appid")+"";
+<span class="lineno"> 164</span> 			// flag = true;
+<span class="lineno"> 165</span> 		}
+<span class="lineno"> 166</span> 		AppConfig.imei = <span class="errorspan">((TelephonyManager) context.getSystemService(TELEPHONY_SERVICE)).getDeviceId();</span>
+<span class="lineno"> 167</span>             Log.d("isactSucess",AppConfig.model);
+<span class="lineno"> 168</span> 
+</pre>
+<span class="location"><a href="../../src/main/java/com/shiyue/game/common/Syyx.java">../../src/main/java/com/shiyue/game/common/Syyx.java</a>:209</span>: <span class="message">Using <code>getDeviceId</code> to get device identifiers is not recommended.</span><br /><pre class="errorlines">
+<span class="lineno"> 206</span> 				// flag = true;
+<span class="lineno"> 207</span> 			}
+<span class="lineno"> 208</span> 			Log.d("initInterface:",AppConfig.ad_id);
+<span class="lineno"> 209</span> 			AppConfig.imei =<span class="errorspan">((TelephonyManager) context.getSystemService(TELEPHONY_SERVICE)).getDeviceId();</span>
+<span class="lineno"> 210</span>             AppConfig.model= android.os.Build.MODEL;
+<span class="lineno"> 211</span> 			new InitData(context, ver_id, listener);// point&#28014;&#28857;&#30340;&#26174;&#31034;
 </pre>
 </div>
 <div class="metadata">Priority: 6 / 10<br/>
@@ -1046,13 +1054,13 @@ Some methods allocate memory on your behalf (such as <code>Bitmap.create</code>)
 <span class="lineno">  36</span> 	private Context mcontext;
 <span class="lineno">  37</span> 	/* &#20351;&#29992;Properties &#26469;&#20445;&#23384;&#35774;&#22791;&#30340;&#20449;&#24687;&#21644;&#38169;&#35823;&#22534;&#26632;&#20449;&#24687; */
 </pre>
-<span class="location"><a href="../../src/main/java/com/shiyue/game/sdk/InitData.java">../../src/main/java/com/shiyue/game/sdk/InitData.java</a>:52</span>: <span class="message">Do not place Android context classes in static fields (static reference to <code>Exitdialog</code> which has field <code>mContext</code> pointing to <code>Context</code>); this is a memory leak (and also breaks Instant Run)</span><br /><pre class="errorlines">
-<span class="lineno">  49</span> 	public static boolean clientIsTimeDisplay = false; // &#26102;&#38388;&#24433;&#21709;&#31471;&#30340;&#26174;&#31034;,&#40664;&#35748;&#19981;&#26174;&#31034;
-<span class="lineno">  50</span> 	private Calendar calendar = Calendar.getInstance();
-<span class="lineno">  51</span> 
-<span class="lineno">  52</span> 	<span class="errorspan">private static Exitdialog exitdialog;</span>
-<span class="lineno">  53</span> 	public InitData(Context context, String ver_id,
-<span class="lineno">  54</span> 					 InitListener listener) {
+<span class="location"><a href="../../src/main/java/com/shiyue/game/sdk/InitData.java">../../src/main/java/com/shiyue/game/sdk/InitData.java</a>:53</span>: <span class="message">Do not place Android context classes in static fields (static reference to <code>Exitdialog</code> which has field <code>mContext</code> pointing to <code>Context</code>); this is a memory leak (and also breaks Instant Run)</span><br /><pre class="errorlines">
+<span class="lineno">  50</span> 	public static boolean clientIsTimeDisplay = false; // &#26102;&#38388;&#24433;&#21709;&#31471;&#30340;&#26174;&#31034;,&#40664;&#35748;&#19981;&#26174;&#31034;
+<span class="lineno">  51</span> 	private Calendar calendar = Calendar.getInstance();
+<span class="lineno">  52</span> 
+<span class="lineno">  53</span> 	<span class="errorspan">private static Exitdialog exitdialog;</span>
+<span class="lineno">  54</span> 	public InitData(Context context, String ver_id,
+<span class="lineno">  55</span> 					 InitListener listener) {
 </pre>
 <span class="location"><a href="../../src/main/java/com/shiyue/game/user/LoginActivity.java">../../src/main/java/com/shiyue/game/user/LoginActivity.java</a>:95</span>: <span class="message">Do not place Android context classes in static fields (static reference to <code>LoginActivity</code> which has field <code>upBtn</code> pointing to <code>ImageView</code>); this is a memory leak (and also breaks Instant Run)</span><br /><pre class="errorlines">
 <span class="lineno">  92</span> 	private String loginTick = "";
@@ -1070,29 +1078,37 @@ Some methods allocate memory on your behalf (such as <code>Bitmap.create</code>)
 <span class="lineno">  93</span> 
 <span class="lineno">  94</span>     public PercentLayoutHelper(ViewGroup host)
 </pre>
-<span class="location"><a href="../../src/main/java/com/shiyue/game/common/Syyx.java">../../src/main/java/com/shiyue/game/common/Syyx.java</a>:67</span>: <span class="message">Do not place Android context classes in static fields; this is a memory leak (and also breaks Instant Run)</span><br /><pre class="errorlines">
-<span class="lineno">  64</span> 	public static boolean iswelcom = true;
-<span class="lineno">  65</span> 	public static Timer timer;
-<span class="lineno">  66</span> 	public int initcount=1;
-<span class="lineno">  67</span> 	<span class="errorspan">private static Context initcontext;</span>
-<span class="lineno">  68</span> 	private static Activity logincontext;
-<span class="lineno">  69</span> 	private static InitListener initListener;
-</pre>
 <span class="location"><a href="../../src/main/java/com/shiyue/game/common/Syyx.java">../../src/main/java/com/shiyue/game/common/Syyx.java</a>:68</span>: <span class="message">Do not place Android context classes in static fields; this is a memory leak (and also breaks Instant Run)</span><br /><pre class="errorlines">
-<span class="lineno">  65</span> 	public static Timer timer;
-<span class="lineno">  66</span> 	public int initcount=1;
-<span class="lineno">  67</span> 	private static Context initcontext;
-<span class="lineno">  68</span> 	<span class="errorspan">private static Activity logincontext;</span>
-<span class="lineno">  69</span> 	private static InitListener initListener;
-<span class="lineno">  70</span> 	private static ApiListenerInfo mlistenerInfo;
+<span class="lineno">  65</span> 	public static boolean iswelcom = true;
+<span class="lineno">  66</span> 	public static Timer timer;
+<span class="lineno">  67</span> 	public int initcount=1;
+<span class="lineno">  68</span> 	<span class="errorspan">private static Context initcontext;</span>
+<span class="lineno">  69</span> 	private static Context devactcontext;
+<span class="lineno">  70</span> 	private static Activity logincontext;
 </pre>
-<span class="location"><a href="../../src/main/java/com/shiyue/game/common/Syyx.java">../../src/main/java/com/shiyue/game/common/Syyx.java</a>:77</span>: <span class="message">Do not place Android context classes in static fields (static reference to <code>Exitdialog</code> which has field <code>mCancelbt</code> pointing to <code>Button</code>); this is a memory leak (and also breaks Instant Run)</span><br /><pre class="errorlines">
-<span class="lineno">  74</span> 	public static UserApiListenerInfo userlistenerinfo;
-<span class="lineno">  75</span> 	private static ApiAsyncTask Datatask;
-<span class="lineno">  76</span> 	private static ApiAsyncTask logoutTask;
-<span class="lineno">  77</span> 	<span class="errorspan">private static Exitdialog exitdialog;</span>
-<span class="lineno">  78</span> 	
-<span class="lineno">  79</span> 	public static Handler handler = new Handler() {
+<span class="location"><a href="../../src/main/java/com/shiyue/game/common/Syyx.java">../../src/main/java/com/shiyue/game/common/Syyx.java</a>:69</span>: <span class="message">Do not place Android context classes in static fields; this is a memory leak (and also breaks Instant Run)</span><br /><pre class="errorlines">
+<span class="lineno">  66</span> 	public static Timer timer;
+<span class="lineno">  67</span> 	public int initcount=1;
+<span class="lineno">  68</span> 	private static Context initcontext;
+<span class="lineno">  69</span> 	<span class="errorspan">private static Context devactcontext;</span>
+<span class="lineno">  70</span> 	private static Activity logincontext;
+<span class="lineno">  71</span> 	private static InitListener initListener;
+</pre>
+<span class="location"><a href="../../src/main/java/com/shiyue/game/common/Syyx.java">../../src/main/java/com/shiyue/game/common/Syyx.java</a>:70</span>: <span class="message">Do not place Android context classes in static fields; this is a memory leak (and also breaks Instant Run)</span><br /><pre class="errorlines">
+<span class="lineno">  67</span> 	public int initcount=1;
+<span class="lineno">  68</span> 	private static Context initcontext;
+<span class="lineno">  69</span> 	private static Context devactcontext;
+<span class="lineno">  70</span> 	<span class="errorspan">private static Activity logincontext;</span>
+<span class="lineno">  71</span> 	private static InitListener initListener;
+<span class="lineno">  72</span> 	private static DevListener devListener;
+</pre>
+<span class="location"><a href="../../src/main/java/com/shiyue/game/common/Syyx.java">../../src/main/java/com/shiyue/game/common/Syyx.java</a>:80</span>: <span class="message">Do not place Android context classes in static fields (static reference to <code>Exitdialog</code> which has field <code>mCancelbt</code> pointing to <code>Button</code>); this is a memory leak (and also breaks Instant Run)</span><br /><pre class="errorlines">
+<span class="lineno">  77</span> 	public static UserApiListenerInfo userlistenerinfo;
+<span class="lineno">  78</span> 	private static ApiAsyncTask Datatask;
+<span class="lineno">  79</span> 	private static ApiAsyncTask logoutTask;
+<span class="lineno">  80</span> 	<span class="errorspan">private static Exitdialog exitdialog;</span>
+<span class="lineno">  81</span> 	
+<span class="lineno">  82</span> 	public static Handler handler = new Handler() {
 </pre>
 </div>
 <div class="metadata">Priority: 6 / 10<br/>
@@ -1117,13 +1133,13 @@ A static field will leak contexts.
 <span class="lineno"> 158</span>             public void handleMessage(Message msg) {  
 <span class="lineno"> 159</span>                 String tag = imageViews.get(imageView);  
 </pre>
-<span class="location"><a href="../../src/main/java/com/shiyue/game/sdk/InitData.java">../../src/main/java/com/shiyue/game/sdk/InitData.java</a>:248</span>: <span class="message">This Handler class should be static or leaks might occur (anonymous android.os.Handler)</span><br /><pre class="errorlines">
-<span class="lineno"> 245</span> //		handler.sendEmptyMessage(WAIT);
-<span class="lineno"> 246</span> //	}
-<span class="lineno"> 247</span> 
-<span class="lineno"> 248</span> 	private Handler handler = new <span class="errorspan">Handler() {</span>
-<span class="lineno"> 249</span> 
-<span class="lineno"> 250</span> 		@Override
+<span class="location"><a href="../../src/main/java/com/shiyue/game/sdk/InitData.java">../../src/main/java/com/shiyue/game/sdk/InitData.java</a>:266</span>: <span class="message">This Handler class should be static or leaks might occur (anonymous android.os.Handler)</span><br /><pre class="errorlines">
+<span class="lineno"> 263</span> //		handler.sendEmptyMessage(WAIT);
+<span class="lineno"> 264</span> //	}
+<span class="lineno"> 265</span> 
+<span class="lineno"> 266</span> 	private Handler handler = new <span class="errorspan">Handler() {</span>
+<span class="lineno"> 267</span> 
+<span class="lineno"> 268</span> 		@Override
 </pre>
 <span class="location"><a href="../../src/main/java/com/shiyue/game/user/LoginActivity.java">../../src/main/java/com/shiyue/game/user/LoginActivity.java</a>:120</span>: <span class="message">This Handler class should be static or leaks might occur (anonymous android.os.Handler)</span><br /><pre class="errorlines">
 <span class="lineno"> 117</span> 
@@ -1247,13 +1263,13 @@ A static field will leak contexts.
 <span class="lineno"> 434</span> 
 <span class="lineno"> 435</span>         @Override
 </pre>
-<span class="location"><a href="../../src/main/java/com/shiyue/game/common/Syyx.java">../../src/main/java/com/shiyue/game/common/Syyx.java</a>:79</span>: <span class="message">This Handler class should be static or leaks might occur (anonymous android.os.Handler)</span><br /><pre class="errorlines">
-<span class="lineno">  76</span> 	private static ApiAsyncTask logoutTask;
-<span class="lineno">  77</span> 	private static Exitdialog exitdialog;
-<span class="lineno">  78</span> 	
-<span class="lineno">  79</span> 	public static Handler handler = new <span class="errorspan">Handler() {</span>
-<span class="lineno">  80</span> 
-<span class="lineno">  81</span> 		@Override
+<span class="location"><a href="../../src/main/java/com/shiyue/game/common/Syyx.java">../../src/main/java/com/shiyue/game/common/Syyx.java</a>:82</span>: <span class="message">This Handler class should be static or leaks might occur (anonymous android.os.Handler)</span><br /><pre class="errorlines">
+<span class="lineno">  79</span> 	private static ApiAsyncTask logoutTask;
+<span class="lineno">  80</span> 	private static Exitdialog exitdialog;
+<span class="lineno">  81</span> 	
+<span class="lineno">  82</span> 	public static Handler handler = new <span class="errorspan">Handler() {</span>
+<span class="lineno">  83</span> 
+<span class="lineno">  84</span> 		@Override
 </pre>
 </div>
 </div>
@@ -3055,21 +3071,21 @@ Low density is not really used much anymore, so this check ignores the ldpi dens
 <span class="lineno">  77</span>                 android:id="@+id/edit_idfcode"
 <span class="lineno">  78</span>                 android:layout_width="0dp"
 </pre>
-<span class="location"><a href="../../src/main/res/layout/sy_real_name_fragment_f.xml">../../src/main/res/layout/sy_real_name_fragment_f.xml</a>:68</span>: <span class="message">This text field does not specify an <code>inputType</code> or a <code>hint</code></span><br /><pre class="errorlines">
-<span class="lineno">  65</span>                 app:layout_widthPercent="35%w" />
-<span class="lineno">  66</span> 
+<span class="location"><a href="../../src/main/res/layout/sy_real_name_fragment_f.xml">../../src/main/res/layout/sy_real_name_fragment_f.xml</a>:69</span>: <span class="message">This text field does not specify an <code>inputType</code> or a <code>hint</code></span><br /><pre class="errorlines">
+<span class="lineno">  66</span>                 app:layout_widthPercent="31%w" />
 <span class="lineno">  67</span> 
-<span class="lineno">  68</span>             <span class="errorspan">&lt;EditText</span>
-<span class="lineno">  69</span>                 android:id="@+id/edit_real_name"
-<span class="lineno">  70</span>                 android:layout_width="0dp"
+<span class="lineno">  68</span> 
+<span class="lineno">  69</span>             <span class="errorspan">&lt;EditText</span>
+<span class="lineno">  70</span>                 android:id="@+id/edit_real_name"
+<span class="lineno">  71</span>                 android:layout_width="0dp"
 </pre>
-<span class="location"><a href="../../src/main/res/layout/sy_real_name_fragment_f.xml">../../src/main/res/layout/sy_real_name_fragment_f.xml</a>:115</span>: <span class="message">This text field does not specify an <code>inputType</code> or a <code>hint</code></span><br /><pre class="errorlines">
-<span class="lineno"> 112</span>                 app:layout_widthPercent="35%w" />
-<span class="lineno"> 113</span> 
-<span class="lineno"> 114</span> 
-<span class="lineno"> 115</span>             <span class="errorspan">&lt;EditText</span>
-<span class="lineno"> 116</span>                 android:id="@+id/real_person_number"
-<span class="lineno"> 117</span>                 android:layout_width="0dp"
+<span class="location"><a href="../../src/main/res/layout/sy_real_name_fragment_f.xml">../../src/main/res/layout/sy_real_name_fragment_f.xml</a>:119</span>: <span class="message">This text field does not specify an <code>inputType</code> or a <code>hint</code></span><br /><pre class="errorlines">
+<span class="lineno"> 116</span>                 app:layout_widthPercent="31%w" />
+<span class="lineno"> 117</span> 
+<span class="lineno"> 118</span> 
+<span class="lineno"> 119</span>             <span class="errorspan">&lt;EditText</span>
+<span class="lineno"> 120</span>                 android:id="@+id/real_person_number"
+<span class="lineno"> 121</span>                 android:layout_width="0dp"
 </pre>
 <span class="location"><a href="../../src/main/res/layout/syphloginpwd_land.xml">../../src/main/res/layout/syphloginpwd_land.xml</a>:85</span>: <span class="message">This text field does not specify an <code>inputType</code> or a <code>hint</code></span><br /><pre class="errorlines">
 <span class="lineno">  82</span>                 android:text="&#35831;&#35774;&#32622;&#23494;&#30721;&#65306;"
@@ -3511,21 +3527,21 @@ Note that for text fields, you should not set both the <code>hint</code> and the
 <span class="lineno">  77</span>                 android:id="@+id/edit_idfcode"
 <span class="lineno">  78</span>                 android:layout_width="0dp"
 </pre>
-<span class="location"><a href="../../src/main/res/layout/sy_real_name_fragment_f.xml">../../src/main/res/layout/sy_real_name_fragment_f.xml</a>:68</span>: <span class="message">No label views point to this text field with an <code>android:labelFor="@+id/@+id/edit_real_name"</code> attribute</span><br /><pre class="errorlines">
-<span class="lineno">  65</span>                 app:layout_widthPercent="35%w" />
-<span class="lineno">  66</span> 
+<span class="location"><a href="../../src/main/res/layout/sy_real_name_fragment_f.xml">../../src/main/res/layout/sy_real_name_fragment_f.xml</a>:69</span>: <span class="message">No label views point to this text field with an <code>android:labelFor="@+id/@+id/edit_real_name"</code> attribute</span><br /><pre class="errorlines">
+<span class="lineno">  66</span>                 app:layout_widthPercent="31%w" />
 <span class="lineno">  67</span> 
-<span class="lineno">  68</span>             <span class="errorspan">&lt;EditText</span>
-<span class="lineno">  69</span>                 android:id="@+id/edit_real_name"
-<span class="lineno">  70</span>                 android:layout_width="0dp"
+<span class="lineno">  68</span> 
+<span class="lineno">  69</span>             <span class="errorspan">&lt;EditText</span>
+<span class="lineno">  70</span>                 android:id="@+id/edit_real_name"
+<span class="lineno">  71</span>                 android:layout_width="0dp"
 </pre>
-<span class="location"><a href="../../src/main/res/layout/sy_real_name_fragment_f.xml">../../src/main/res/layout/sy_real_name_fragment_f.xml</a>:115</span>: <span class="message">No label views point to this text field with an <code>android:labelFor="@+id/@+id/real_person_number"</code> attribute</span><br /><pre class="errorlines">
-<span class="lineno"> 112</span>                 app:layout_widthPercent="35%w" />
-<span class="lineno"> 113</span> 
-<span class="lineno"> 114</span> 
-<span class="lineno"> 115</span>             <span class="errorspan">&lt;EditText</span>
-<span class="lineno"> 116</span>                 android:id="@+id/real_person_number"
-<span class="lineno"> 117</span>                 android:layout_width="0dp"
+<span class="location"><a href="../../src/main/res/layout/sy_real_name_fragment_f.xml">../../src/main/res/layout/sy_real_name_fragment_f.xml</a>:119</span>: <span class="message">No label views point to this text field with an <code>android:labelFor="@+id/@+id/real_person_number"</code> attribute</span><br /><pre class="errorlines">
+<span class="lineno"> 116</span>                 app:layout_widthPercent="31%w" />
+<span class="lineno"> 117</span> 
+<span class="lineno"> 118</span> 
+<span class="lineno"> 119</span>             <span class="errorspan">&lt;EditText</span>
+<span class="lineno"> 120</span>                 android:id="@+id/real_person_number"
+<span class="lineno"> 121</span>                 android:layout_width="0dp"
 </pre>
 <span class="location"><a href="../../src/main/res/layout/syphloginpwd_land.xml">../../src/main/res/layout/syphloginpwd_land.xml</a>:85</span>: <span class="message">No label views point to this text field with an <code>android:labelFor="@+id/@+id/edit_setpwd"</code> attribute</span><br /><pre class="errorlines">
 <span class="lineno">  82</span>                 android:text="&#35831;&#35774;&#32622;&#23494;&#30721;&#65306;"
@@ -4050,7 +4066,7 @@ When calling <code>TextView#setText</code><br/>
 <span class="lineno">  23</span>             android:layout_height="0dp"
 <span class="lineno">  24</span>             android:layout_gravity="left"
 <span class="lineno">  25</span>             <span class="errorspan">android:text="&#20146;&#29233;&#30340;&#29992;&#25143;&#65306;"</span>
-<span class="lineno">  26</span>             android:textColor="#000000"
+<span class="lineno">  26</span>             android:textColor="@color/sjblack"
 <span class="lineno">  27</span>             app:layout_heightPercent="10%h"
 </pre>
 <span class="location"><a href="../../src/main/res/layout/sy_real_name_fragment_f.xml">../../src/main/res/layout/sy_real_name_fragment_f.xml</a>:39</span>: <span class="message">[I18N] Hardcoded string "&#26681;&#25454;&#22269;&#23478;&#30456;&#20851;&#27861;&#35268;&#30340;&#35201;&#27714;&#65292;&#35831;&#23613;&#24555;&#23436;&#21892;&#28216;&#25103;&#23454;&#21517;&#21046;&#20449;&#24687;&#12290;", should use <code>@string</code> resource</span><br /><pre class="errorlines">
@@ -4067,39 +4083,39 @@ When calling <code>TextView#setText</code><br/>
 <span class="lineno">  59</span>                 android:layout_height="0dp"
 <span class="lineno">  60</span>                 <span class="errorspan">android:text="&#22995;&#21517;&#65306;"</span>
 <span class="lineno">  61</span>                 android:textColor="#616161"
-<span class="lineno">  62</span>                 app:layout_heightPercent="90%h"
+<span class="lineno">  62</span>                 android:gravity="center_vertical"
 </pre>
-<span class="location"><a href="../../src/main/res/layout/sy_real_name_fragment_f.xml">../../src/main/res/layout/sy_real_name_fragment_f.xml</a>:86</span>: <span class="message">[I18N] Hardcoded string "&#30495;&#23454;&#22995;&#21517;&#65292;&#20363;&#22914;&#65306;&#24352;&#19977;", should use <code>@string</code> resource</span><br /><pre class="errorlines">
-<span class="lineno">  83</span>             android:layout_width="0dp"
-<span class="lineno">  84</span>             android:layout_height="0dp"
-<span class="lineno">  85</span>             android:layout_gravity="center_vertical"
-<span class="lineno">  86</span>             <span class="errorspan">android:text="&#30495;&#23454;&#22995;&#21517;&#65292;&#20363;&#22914;&#65306;&#24352;&#19977;"</span>
-<span class="lineno">  87</span>             app:layout_heightPercent="6%h"
-<span class="lineno">  88</span>             app:layout_marginLeftPercent="5%h"
+<span class="location"><a href="../../src/main/res/layout/sy_real_name_fragment_f.xml">../../src/main/res/layout/sy_real_name_fragment_f.xml</a>:88</span>: <span class="message">[I18N] Hardcoded string "&#30495;&#23454;&#22995;&#21517;&#65292;&#20363;&#22914;&#65306;&#24352;&#19977;", should use <code>@string</code> resource</span><br /><pre class="errorlines">
+<span class="lineno">  85</span>             android:layout_width="0dp"
+<span class="lineno">  86</span>             android:layout_height="0dp"
+<span class="lineno">  87</span>             android:layout_gravity="center_vertical"
+<span class="lineno">  88</span>             <span class="errorspan">android:text="&#30495;&#23454;&#22995;&#21517;&#65292;&#20363;&#22914;&#65306;&#24352;&#19977;"</span>
+<span class="lineno">  89</span>             app:layout_heightPercent="6%h"
+<span class="lineno">  90</span>             app:layout_marginLeftPercent="5%h"
 </pre>
-<span class="location"><a href="../../src/main/res/layout/sy_real_name_fragment_f.xml">../../src/main/res/layout/sy_real_name_fragment_f.xml</a>:107</span>: <span class="message">[I18N] Hardcoded string "&#36523;&#20221;&#35777;&#21495;&#30721;&#65306;", should use <code>@string</code> resource</span><br /><pre class="errorlines">
-<span class="lineno"> 104</span>                 android:id="@+id/textView10"
-<span class="lineno"> 105</span>                 android:layout_width="0dp"
-<span class="lineno"> 106</span>                 android:layout_height="0dp"
-<span class="lineno"> 107</span>                 <span class="errorspan">android:text="&#36523;&#20221;&#35777;&#21495;&#30721;&#65306;"</span>
-<span class="lineno"> 108</span>                 android:textColor="#616161"
-<span class="lineno"> 109</span>                 app:layout_heightPercent="90%h"
+<span class="location"><a href="../../src/main/res/layout/sy_real_name_fragment_f.xml">../../src/main/res/layout/sy_real_name_fragment_f.xml</a>:110</span>: <span class="message">[I18N] Hardcoded string "&#36523;&#20221;&#35777;&#21495;&#30721;&#65306;", should use <code>@string</code> resource</span><br /><pre class="errorlines">
+<span class="lineno"> 107</span>                 android:id="@+id/textView10"
+<span class="lineno"> 108</span>                 android:layout_width="0dp"
+<span class="lineno"> 109</span>                 android:layout_height="match_parent"
+<span class="lineno"> 110</span>                 <span class="errorspan">android:text="&#36523;&#20221;&#35777;&#21495;&#30721;&#65306;"</span>
+<span class="lineno"> 111</span>                 android:gravity="center_vertical"
+<span class="lineno"> 112</span>                 android:textColor="#616161"
 </pre>
-<span class="location"><a href="../../src/main/res/layout/sy_real_name_fragment_f.xml">../../src/main/res/layout/sy_real_name_fragment_f.xml</a>:134</span>: <span class="message">[I18N] Hardcoded string "&#36523;&#20221;&#35777;&#21495;&#30721;&#65292;&#20363;&#22914;:444382198411022182", should use <code>@string</code> resource</span><br /><pre class="errorlines">
-<span class="lineno"> 131</span>             android:layout_width="0dp"
-<span class="lineno"> 132</span>             android:layout_height="0dp"
-<span class="lineno"> 133</span>             android:layout_gravity="center_vertical"
-<span class="lineno"> 134</span>             <span class="errorspan">android:text="&#36523;&#20221;&#35777;&#21495;&#30721;&#65292;&#20363;&#22914;:444382198411022182"</span>
-<span class="lineno"> 135</span>             app:layout_heightPercent="8%h"
-<span class="lineno"> 136</span>             app:layout_marginLeftPercent="5%h"
+<span class="location"><a href="../../src/main/res/layout/sy_real_name_fragment_f.xml">../../src/main/res/layout/sy_real_name_fragment_f.xml</a>:139</span>: <span class="message">[I18N] Hardcoded string "&#36523;&#20221;&#35777;&#21495;&#30721;&#65292;&#20363;&#22914;:444382198411022182", should use <code>@string</code> resource</span><br /><pre class="errorlines">
+<span class="lineno"> 136</span>             android:layout_width="0dp"
+<span class="lineno"> 137</span>             android:layout_height="0dp"
+<span class="lineno"> 138</span>             android:layout_gravity="center_vertical"
+<span class="lineno"> 139</span>             <span class="errorspan">android:text="&#36523;&#20221;&#35777;&#21495;&#30721;&#65292;&#20363;&#22914;:444382198411022182"</span>
+<span class="lineno"> 140</span>             app:layout_heightPercent="8%h"
+<span class="lineno"> 141</span>             app:layout_marginLeftPercent="5%h"
 </pre>
-<span class="location"><a href="../../src/main/res/layout/sy_real_name_fragment_f.xml">../../src/main/res/layout/sy_real_name_fragment_f.xml</a>:159</span>: <span class="message">[I18N] Hardcoded string "&#20445;&#23384;", should use <code>@string</code> resource</span><br /><pre class="errorlines">
-<span class="lineno"> 156</span>                 android:background="@drawable/sjblue_btn_style"
-<span class="lineno"> 157</span>                 android:padding="5px"
-<span class="lineno"> 158</span>                 android:paddingLeft="8px"
-<span class="lineno"> 159</span>                 <span class="errorspan">android:text="&#20445;&#23384;"</span>
-<span class="lineno"> 160</span>                 android:textColor="@color/sy_white"
-<span class="lineno"> 161</span>                 app:layout_heightPercent="100%h"
+<span class="location"><a href="../../src/main/res/layout/sy_real_name_fragment_f.xml">../../src/main/res/layout/sy_real_name_fragment_f.xml</a>:164</span>: <span class="message">[I18N] Hardcoded string "&#20445;&#23384;", should use <code>@string</code> resource</span><br /><pre class="errorlines">
+<span class="lineno"> 161</span>                 android:background="@drawable/sjblue_btn_style"
+<span class="lineno"> 162</span>                 android:padding="5px"
+<span class="lineno"> 163</span>                 android:paddingLeft="8px"
+<span class="lineno"> 164</span>                 <span class="errorspan">android:text="&#20445;&#23384;"</span>
+<span class="lineno"> 165</span>                 android:textColor="@color/sy_white"
+<span class="lineno"> 166</span>                 app:layout_heightPercent="100%h"
 </pre>
 <span class="location"><a href="../../src/main/res/layout/sy_real_name_fragment_s.xml">../../src/main/res/layout/sy_real_name_fragment_s.xml</a>:25</span>: <span class="message">[I18N] Hardcoded string "&#24050;&#22635;&#20889;&#23454;&#21517;&#35748;&#35777;&#20449;&#24687;&#65306;", should use <code>@string</code> resource</span><br /><pre class="errorlines">
 <span class="lineno">  22</span>             android:layout_width="0dp"
@@ -4344,13 +4360,13 @@ There are quickfixes to automatically extract this hardcoded string into a resou
 <span class="lineno"> 172</span>                 android:text="&#30830;&#35748;&#32465;&#23450;"
 <span class="lineno"> 173</span>                 android:textColor="@color/sy_white"
 </pre>
-<span class="location"><a href="../../src/main/res/layout/sy_real_name_fragment_f.xml">../../src/main/res/layout/sy_real_name_fragment_f.xml</a>:158</span>: <span class="message">When you define <code>paddingLeft</code> you should probably also define <code>paddingRight</code> for right-to-left symmetry</span><br /><pre class="errorlines">
-<span class="lineno"> 155</span>                 android:layout_height="0dp"
-<span class="lineno"> 156</span>                 android:background="@drawable/sjblue_btn_style"
-<span class="lineno"> 157</span>                 android:padding="5px"
-<span class="lineno"> 158</span>                 <span class="errorspan">android:paddingLeft="8px"</span>
-<span class="lineno"> 159</span>                 android:text="&#20445;&#23384;"
-<span class="lineno"> 160</span>                 android:textColor="@color/sy_white"
+<span class="location"><a href="../../src/main/res/layout/sy_real_name_fragment_f.xml">../../src/main/res/layout/sy_real_name_fragment_f.xml</a>:163</span>: <span class="message">When you define <code>paddingLeft</code> you should probably also define <code>paddingRight</code> for right-to-left symmetry</span><br /><pre class="errorlines">
+<span class="lineno"> 160</span>                 android:layout_height="0dp"
+<span class="lineno"> 161</span>                 android:background="@drawable/sjblue_btn_style"
+<span class="lineno"> 162</span>                 android:padding="5px"
+<span class="lineno"> 163</span>                 <span class="errorspan">android:paddingLeft="8px"</span>
+<span class="lineno"> 164</span>                 android:text="&#20445;&#23384;"
+<span class="lineno"> 165</span>                 android:textColor="@color/sy_white"
 </pre>
 </div>
 <div class="metadata">Priority: 6 / 10<br/>
@@ -4607,15 +4623,15 @@ If you specify padding or margin on the left side of a layout, you should probab
 <span class="lineno">  23</span>             android:layout_height="0dp"
 <span class="lineno">  24</span>             android:layout_gravity="<span class="errorspan">left"</span>
 <span class="lineno">  25</span>             android:text="&#20146;&#29233;&#30340;&#29992;&#25143;&#65306;"
-<span class="lineno">  26</span>             android:textColor="#000000"
+<span class="lineno">  26</span>             android:textColor="@color/sjblack"
 </pre>
-<span class="location"><a href="../../src/main/res/layout/sy_real_name_fragment_f.xml">../../src/main/res/layout/sy_real_name_fragment_f.xml</a>:158</span>: <span class="message">Consider replacing <code>android:paddingLeft</code> with <code>android:paddingStart="8px"</code> to better support right-to-left layouts</span><br /><pre class="errorlines">
-<span class="lineno"> 155</span>                 android:layout_height="0dp"
-<span class="lineno"> 156</span>                 android:background="@drawable/sjblue_btn_style"
-<span class="lineno"> 157</span>                 android:padding="5px"
-<span class="lineno"> 158</span>                 <span class="errorspan">android:paddingLeft="8px"</span>
-<span class="lineno"> 159</span>                 android:text="&#20445;&#23384;"
-<span class="lineno"> 160</span>                 android:textColor="@color/sy_white"
+<span class="location"><a href="../../src/main/res/layout/sy_real_name_fragment_f.xml">../../src/main/res/layout/sy_real_name_fragment_f.xml</a>:163</span>: <span class="message">Consider replacing <code>android:paddingLeft</code> with <code>android:paddingStart="8px"</code> to better support right-to-left layouts</span><br /><pre class="errorlines">
+<span class="lineno"> 160</span>                 android:layout_height="0dp"
+<span class="lineno"> 161</span>                 android:background="@drawable/sjblue_btn_style"
+<span class="lineno"> 162</span>                 android:padding="5px"
+<span class="lineno"> 163</span>                 <span class="errorspan">android:paddingLeft="8px"</span>
+<span class="lineno"> 164</span>                 android:text="&#20445;&#23384;"
+<span class="lineno"> 165</span>                 android:textColor="@color/sy_white"
 </pre>
 <span class="location"><a href="../../src/main/res/layout/sy_real_name_fragment_s.xml">../../src/main/res/layout/sy_real_name_fragment_s.xml</a>:24</span>: <span class="message">Use "<code>start</code>" instead of "<code>left</code>" to ensure correct behavior in right-to-left locales</span><br /><pre class="errorlines">
 <span class="lineno">  21</span>         &lt;TextView
