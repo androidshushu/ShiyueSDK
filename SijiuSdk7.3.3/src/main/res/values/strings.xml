@@ -141,6 +141,7 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_sy__bind_phone">Sy_BindPhoneActivity</string>
     <string name="title_activity_sy__real_name">Sy_RealNameActivity</string>
+    <string name="title_activity_little_helper">LittleHelper</string>
     <!--sy_bindphone_activity
     <String name = "bindphone">绑定手机号</String>-->
 </resources>

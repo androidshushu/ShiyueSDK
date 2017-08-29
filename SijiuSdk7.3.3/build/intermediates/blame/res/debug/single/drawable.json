@@ -4,20 +4,24 @@
         "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\drawable\\sjblue_btn_style.xml"
     },
     {
+        "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\debug\\drawable\\tapselect.xml",
+        "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\drawable\\tapselect.xml"
+    },
+    {
         "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\debug\\drawable\\screenshot_panel.9.png",
         "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\drawable\\screenshot_panel.9.png"
     },
     {
-        "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\debug\\drawable\\sjrecharge_result_style.xml",
-        "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\drawable\\sjrecharge_result_style.xml"
+        "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\debug\\drawable\\sjspinner.xml",
+        "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\drawable\\sjspinner.xml"
     },
     {
         "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\debug\\drawable\\sjgraybtn_style.xml",
         "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\drawable\\sjgraybtn_style.xml"
     },
     {
-        "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\debug\\drawable\\sjspinner.xml",
-        "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\drawable\\sjspinner.xml"
+        "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\debug\\drawable\\sjrecharge_result_style.xml",
+        "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\drawable\\sjrecharge_result_style.xml"
     },
     {
         "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\debug\\drawable\\sy_delect_gray.png",
@@ -68,6 +72,10 @@
         "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\drawable\\sjwhite_bg_buttom_more_count.xml"
     },
     {
+        "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\debug\\drawable\\realnam.png",
+        "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\drawable\\realnam.png"
+    },
+    {
         "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\debug\\drawable\\sy_phone_round.png",
         "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\drawable\\sy_phone_round.png"
     },
@@ -82,6 +90,10 @@
     {
         "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\debug\\drawable\\sy_select.png",
         "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\drawable\\sy_select.png"
+    },
+    {
+        "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\debug\\drawable\\repwd.png",
+        "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\drawable\\repwd.png"
     },
     {
         "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\debug\\drawable\\qq_red.png",
@@ -146,6 +158,10 @@
     {
         "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\debug\\drawable\\sy_eye.png",
         "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\drawable\\sy_eye.png"
+    },
+    {
+        "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\debug\\drawable\\phone.png",
+        "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\drawable\\phone.png"
     },
     {
         "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\debug\\drawable\\shiyuelogo.png",

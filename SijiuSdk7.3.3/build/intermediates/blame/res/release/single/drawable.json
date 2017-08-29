@@ -20,6 +20,10 @@
         "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\drawable\\close_while.png"
     },
     {
+        "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\release\\drawable\\repwd.png",
+        "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\drawable\\repwd.png"
+    },
+    {
         "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\release\\drawable\\sy_eye.png",
         "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\drawable\\sy_eye.png"
     },
@@ -70,6 +74,10 @@
     {
         "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\release\\drawable\\corner_bg_btn_blue.xml",
         "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\drawable\\corner_bg_btn_blue.xml"
+    },
+    {
+        "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\release\\drawable\\realnam.png",
+        "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\drawable\\realnam.png"
     },
     {
         "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\release\\drawable\\corner_bg_white.xml",
@@ -134,6 +142,10 @@
     {
         "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\release\\drawable\\sjline.xml",
         "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\drawable\\sjline.xml"
+    },
+    {
+        "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\release\\drawable\\phone.png",
+        "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\drawable\\phone.png"
     },
     {
         "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\release\\drawable\\sylogo.png",

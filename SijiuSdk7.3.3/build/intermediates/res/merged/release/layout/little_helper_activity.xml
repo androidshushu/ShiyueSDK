@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.shiyue.game.support.PercentLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ly_bindphone_linear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <com.shiyue.game.support.PercentLinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/corner_bg_white"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_heightPercent="80%"
+        app:layout_widthPercent="60%">
+
+        <com.shiyue.game.support.PercentRelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/corner_bg_top"
+            android:orientation="horizontal"
+            app:layout_heightPercent="15%"
+            app:layout_widthPercent="100%">
+
+
+            <TextView
+                android:id="@+id/tv_bindphone"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+
+                android:layout_alignParentTop="true"
+
+                android:layout_centerHorizontal="true"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="账号中心"
+                android:textColor="@color/sjwhite"
+                app:layout_textSizePercent="40%h" />
+
+            <ImageView
+                android:id="@+id/little_helper_close"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/close_while"
+                app:layout_heightPercent="80%h"
+                app:layout_widthPercent="80%h" />
+
+
+        </com.shiyue.game.support.PercentRelativeLayout>
+
+        <com.shiyue.game.support.PercentLinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            app:layout_heightPercent="12%"
+            app:layout_widthPercent="100%">
+
+
+            <TextView
+                android:id="@+id/helper_account"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="账号"
+                android:textColor="#000000"
+                app:layout_textSizePercent="33%h" />
+
+            <TextView
+                android:id="@+id/helper_service"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_weight="1.03"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="客服"
+                android:textColor="#000000"
+                app:layout_textSizePercent="33%h" />
+
+            <TextView
+                android:id="@+id/helper_raiders"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="攻略"
+                android:textColor="#000000"
+                app:layout_textSizePercent="33%h" />
+
+            <TextView
+                android:id="@+id/helper_package"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="礼包"
+                android:textColor="#000000"
+                app:layout_textSizePercent="33%h" />
+
+
+        </com.shiyue.game.support.PercentLinearLayout>
+
+
+        <com.shiyue.game.support.PercentFrameLayout
+            android:id="@+id/little_helper_fragment"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_heightPercent="72%h"
+            app:layout_widthPercent="95%w">
+
+
+        </com.shiyue.game.support.PercentFrameLayout>
+    </com.shiyue.game.support.PercentLinearLayout>
+
+</com.shiyue.game.support.PercentLinearLayout>

@@ -30,11 +30,11 @@
                 android:id="@+id/shiyue_icon"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
+                android:layout_gravity="center_vertical"
                 android:background="@drawable/sy_user_round"
                 android:clickable="true"
                 app:layout_heightPercent="55%h"
                 app:layout_marginLeftPercent="82%h"
-                android:layout_gravity="center_vertical"
                 app:layout_widthPercent="55%h" />
 
             <TextView
@@ -44,9 +44,8 @@
                 android:layout_gravity="center_vertical"
                 android:paddingLeft="10px"
                 android:text="诗悦账号:"
-                app:layout_textSizePercent="43%h"
                 android:textColor="#000000"
-                 />
+                app:layout_textSizePercent="43%h" />
             <!--android:textSize="54px"-->
 
             <TextView
@@ -55,13 +54,13 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:layout_weight="1"
-                android:textColor="#000000"
                 android:gravity="center_vertical"
                 android:text="账号"
-                app:layout_textSizePercent="40%h"
-
+                android:textColor="#000000"
                 app:layout_heightPercent="50%h"
-                app:layout_marginRightPercent="68%h" />
+
+                app:layout_marginRightPercent="68%h"
+                app:layout_textSizePercent="40%h" />
             <!--android:textSize="45px"-->
         </com.shiyue.game.support.PercentLinearLayout>
 
@@ -82,8 +81,8 @@
                 app:layout_heightPercent="30%h"
                 app:layout_marginLeftPercent="38%h"
                 app:layout_marginTopPercent="3%h"
-                app:layout_widthPercent="80%w"
-                app:layout_textSizePercent="20%h"/>
+                app:layout_textSizePercent="20%h"
+                app:layout_widthPercent="80%w" />
             <!-- android:textSize="45px"
             android:background="@drawable/edit_bg"
             -->
@@ -93,8 +92,8 @@
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:background="@drawable/sjlogin_m_edit_bg"
-                android:textColor="@color/sjblack"
                 android:imeOptions="actionDone"
+                android:textColor="@color/sjblack"
 
                 app:layout_heightPercent="32%h"
                 app:layout_marginLeftPercent="38%h"
@@ -111,8 +110,8 @@
                 app:layout_heightPercent="33%h"
                 app:layout_marginLeftPercent="38%h"
                 app:layout_marginTopPercent="3%h"
-                app:layout_widthPercent="80%w"
-                app:layout_textSizePercent="20%h"/>
+                app:layout_textSizePercent="20%h"
+                app:layout_widthPercent="80%w" />
             <!--android:textSize="45px"-->
 
 
@@ -132,8 +131,8 @@
                 android:layout_height="0dp"
 
                 android:background="@drawable/sjlogin_m_edit_bg"
-                android:textColor="@color/sjblack"
                 android:imeOptions="actionDone"
+                android:textColor="@color/sjblack"
                 app:layout_heightPercent="80%h"
                 app:layout_marginLeftPercent="96%h"
                 app:layout_marginTopPercent="3%h"
@@ -149,8 +148,8 @@
                 android:textColor="@color/sy_white"
                 app:layout_heightPercent="80%h"
                 app:layout_marginLeftPercent="10%h"
-                app:layout_widthPercent="29%w"
-                app:layout_textSizePercent="32%h"/>
+                app:layout_textSizePercent="32%h"
+                app:layout_widthPercent="29%w" />
         </com.shiyue.game.support.PercentLinearLayout>
 
         <com.shiyue.game.support.PercentLinearLayout
@@ -173,8 +172,8 @@
                 android:textColor="@color/sy_white"
                 app:layout_heightPercent="100%h"
                 app:layout_marginLeftPercent="86%h"
-                app:layout_widthPercent="81%w"
-                app:layout_textSizePercent="50%h"/>
+                app:layout_textSizePercent="50%h"
+                app:layout_widthPercent="81%w" />
         </com.shiyue.game.support.PercentLinearLayout>
 
 

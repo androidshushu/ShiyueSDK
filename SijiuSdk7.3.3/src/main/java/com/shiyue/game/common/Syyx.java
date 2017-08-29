@@ -2,7 +2,6 @@ package com.shiyue.game.common;
 
 import java.io.BufferedReader;
 import java.io.IOException;
-
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
@@ -10,24 +9,17 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Properties;
 import java.util.Timer;
-
-
 import android.app.Activity;
-
 import android.content.Context;
-
 import android.content.Intent;
-
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
+import android.provider.Settings;
 import android.telephony.TelephonyManager;
-
 import android.util.Log;
-
 import android.view.View;
-
 import android.view.WindowManager;
 import com.shiyue.game.config.AppConfig;
 import com.shiyue.game.config.WebApi;
@@ -43,8 +35,6 @@ import com.shiyue.game.user.UserInfo;
 import com.shiyue.game.utils.Seference;
 import com.shiyue.game.wight.Exitdialog;
 import com.shiyue.game.wight.Exitdialog.Exitdialoglistener;
-
-
 import org.apache.commons.httpclient.util.HttpURLConnection;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.ClientProtocolException;
@@ -163,7 +153,22 @@ public class Syyx {
 			AppConfig.QQAPP_ID=properties.getProperty("qq_appid")+"";
 			// flag = true;
 		}
+
+
+		//获取获取手机imei方法
 		AppConfig.imei = ((TelephonyManager) context.getSystemService(TELEPHONY_SERVICE)).getDeviceId();
+			//try to get imei
+//			TelephonyManager tm =  (TelephonyManager)context.getSystemService(Activity.TELEPHONY_SERVICE);
+//			AppConfig.imei = tm.getDeviceId();
+            //get pad's id
+			if(AppConfig.imei==null)
+			{
+				// android pad
+				AppConfig.imei = Settings.Secure.getString(context.getApplicationContext().getContentResolver(), Settings.Secure.ANDROID_ID);
+//                        Settings.Secure.getString(this.getContentResolver(), Settings.Secure.ANDROID_ID);
+			}
+
+
             Log.d("isactSucess",AppConfig.model);
 
           new DevAction(context,ver_id,AppConfig.ad_id,AppConfig.imei,AppConfig.model,listener);
@@ -206,9 +211,24 @@ public class Syyx {
 				// flag = true;
 			}
 			Log.d("initInterface:",AppConfig.ad_id);
-			AppConfig.imei =((TelephonyManager) context.getSystemService(TELEPHONY_SERVICE)).getDeviceId();
+
+
+            //获取获取手机imei方法,try to get imei
+            AppConfig.imei = ((TelephonyManager) context.getSystemService(TELEPHONY_SERVICE)).getDeviceId();
+//			TelephonyManager tm =  (TelephonyManager)context.getSystemService(Activity.TELEPHONY_SERVICE);
+//			AppConfig.imei = tm.getDeviceId();
+            //get pad's id
+            if(AppConfig.imei==null)
+            {
+                // android pad
+                AppConfig.imei = Settings.Secure.getString(context.getApplicationContext().getContentResolver(), Settings.Secure.ANDROID_ID);
+//                        Settings.Secure.getString(this.getContentResolver(), Settings.Secure.ANDROID_ID);
+            }
+
+
             AppConfig.model= android.os.Build.MODEL;
 			new InitData(context, ver_id, listener);// point浮点的显示
+
 
 		} catch (Exception e) {
 			// TODO: handle exception

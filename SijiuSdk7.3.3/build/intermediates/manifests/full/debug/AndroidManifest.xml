@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<manifest xmlns:Android="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.shiyue.game"
     android:versionCode="1"
     android:versionName="1.0" >
@@ -19,6 +20,23 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
+    <!-- 未删除之前的权限 -->
+    <!-- <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" /> -->
+    <!-- <uses-permission android:name="android.permission.INTERNET" /> -->
+    <!-- <uses-permission android:name="android.permission.CALL_PHONE" /> -->
+    <!-- <uses-permission android:name="android.permission.SEND_SMS" /> -->
+    <!-- <uses-permission android:name="android.permission.READ_SMS" /> -->
+    <!-- <uses-permission android:name="android.permission.WRITE_SMS" /> -->
+    <!-- <uses-permission android:name="android.permission.GET_TASKS" /> -->
+    <!-- <uses-permission android:name="android.permission.REORDER_TASKS" /> -->
+    <!-- <uses-permission android:name="android.permission.READ_PHONE_STATE" /> -->
+    <!-- <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> -->
+    <!-- <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> -->
+    <!-- <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> -->
+    <!-- <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" /> -->
+    <!-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> -->
+    <!-- <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> -->
+    <!-- <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> -->
     <application
         android:name="com.shiyue.game.common.SijiuApplication"
         android:allowBackup="true"
@@ -39,11 +57,13 @@
         <activity
             android:name="com.shiyue.game.pay.Sy_PaymentActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTop"
             android:screenOrientation="portrait"
             android:theme="@style/Sj_Transparent" />
         <activity
             android:name="com.shiyue.game.user.AgreeActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTop"
             android:screenOrientation="landscape"
             android:theme="@style/Sj_Transparent" />
         <activity
@@ -54,38 +74,45 @@
         <activity
             android:name="com.shiyue.game.user.Sy_RegisterActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleInstance"
             android:screenOrientation="landscape"
             android:theme="@style/Sj_Transparent" />
         <activity
             android:name="com.shiyue.game.user.LoginActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTask"
             android:screenOrientation="landscape"
             android:theme="@style/Sj_Transparent" />
         <activity
             android:name="com.shiyue.game.user.NoticeActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTop"
             android:screenOrientation="landscape"
             android:theme="@style/Sj_Transparent" />
         <activity
             android:name="com.shiyue.game.user.Sy_FindpwdActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTop"
             android:screenOrientation="landscape"
             android:theme="@style/Sj_Transparent" />
         <activity
             android:name="com.shiyue.game.user.SetpwdActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTask"
             android:screenOrientation="landscape"
             android:theme="@style/Sj_Transparent" />
         <!-- 绑定手机号 -->
         <activity
             android:name="com.shiyue.game.user.Sy_BindPhoneActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTask"
             android:screenOrientation="landscape"
             android:theme="@style/Sj_Transparent" />
         <!-- 实名制认证 -->
         <activity
             android:name="com.shiyue.game.user.Sy_RealNameActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTask"
             android:screenOrientation="landscape"
             android:theme="@style/Sj_Transparent" />
         <activity
@@ -109,8 +136,16 @@
         </activity>
         <activity
             android:name="com.tencent.connect.common.AssistActivity"
+            android:launchMode="singleInstance"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!-- 账号小助手-2017.8.25 -->
+        <activity
+            android:name="com.shiyue.game.user.LittleHelper"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape"
+            android:theme="@style/Sj_Transparent" />
     </application>
 
 </manifest>

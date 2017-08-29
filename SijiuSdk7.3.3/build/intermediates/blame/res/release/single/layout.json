@@ -12,6 +12,18 @@
         "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\layout\\syphlogin_land.xml"
     },
     {
+        "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\release\\layout\\little_helper_raiders_fragment.xml",
+        "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\layout\\little_helper_raiders_fragment.xml"
+    },
+    {
+        "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\release\\layout\\little_helper_account_fragment.xml",
+        "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\layout\\little_helper_account_fragment.xml"
+    },
+    {
+        "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\release\\layout\\little_helper_customer_service_fragment.xml",
+        "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\layout\\little_helper_customer_service_fragment.xml"
+    },
+    {
         "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\release\\layout\\activity_main.xml",
         "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\layout\\activity_main.xml"
     },
@@ -108,7 +120,15 @@
         "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\layout\\sy_phregist_fragment.xml"
     },
     {
+        "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\release\\layout\\little_helper_activity.xml",
+        "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\layout\\little_helper_activity.xml"
+    },
+    {
         "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\release\\layout\\sy_fpwd_fragment_t.xml",
         "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\layout\\sy_fpwd_fragment_t.xml"
+    },
+    {
+        "merged": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\build\\intermediates\\res\\merged\\release\\layout\\little_helper_package_fragment.xml",
+        "source": "D:\\Gits\\android\\SijiuSdk7.3.3\\SijiuSdk7.3.3\\src\\main\\res\\layout\\little_helper_package_fragment.xml"
     }
 ]

@@ -14,13 +14,13 @@ import android.widget.Toast;
 
 import com.shiyue.game.R;
 import com.shiyue.game.common.ApiListenerInfo;
-import com.shiyue.game.common.DevListener;
 import com.shiyue.game.common.ExitListener;
 import com.shiyue.game.common.InitListener;
 import com.shiyue.game.common.LoginMessageInfo;
 import com.shiyue.game.common.Syyx;
 import com.shiyue.game.common.UserApiListenerInfo;
 import com.shiyue.game.pay.SjyxPaymentInfo;
+import com.shiyue.game.user.LittleHelper;
 import com.shiyue.game.user.LoginInfo;
 
 import java.util.HashMap;
@@ -32,6 +32,7 @@ public class MainActivity extends Activity {
 	private Button button3;
 	private Button button2;
 	private Button button5;
+	private Button button404;
 
 //	杰测试模式参数
 //	public static int syAppId = 101;
@@ -119,6 +120,7 @@ public class MainActivity extends Activity {
 //		button6 = (Button) this.findViewById(R.id.button6);
 //		button7 = (Button) this.findViewById(R.id.button7);
 //		button8 = (Button) this.findViewById(R.id.button8);
+		button404 = (Button) this.findViewById(R.id.button404);
 		button1.setOnClickListener(oc);
 		button4.setOnClickListener(oc);
 //		button2.setOnClickListener(oc);
@@ -127,6 +129,7 @@ public class MainActivity extends Activity {
 //		button6.setOnClickListener(oc);
 //		button7.setOnClickListener(oc);
 //		button8.setOnClickListener(oc);
+		button404.setOnClickListener(oc);
 	}
 
 	OnClickListener oc = new OnClickListener() {
@@ -156,15 +159,12 @@ public class MainActivity extends Activity {
 					@Override
 					public void Success(String msg) {
 
-						Toast.makeText(MainActivity.this, "初始化成功！",
-						Toast.LENGTH_SHORT).show();
 						Log.d("initSuccess",msg.toString());
 					}
 
 					@Override
 					public void fail(String msg) {
-						Toast.makeText(MainActivity.this, "初始化失败！",
-								Toast.LENGTH_SHORT).show();
+
 						Log.d("initFail",msg.toString());
 
 					}
@@ -374,6 +374,12 @@ public class MainActivity extends Activity {
 					}
 				});
 				//}
+			}else if (v.equals(button404)){
+                //跳转账号小助手页面
+                Intent intent = new Intent();
+                intent.setClass(MainActivity.this, LittleHelper.class);
+                MainActivity.this.startActivity(intent);
+
 			}
 //			} else if (v.equals(button6)) {
 //				SjyxPaymentInfo payInfo = new SjyxPaymentInfo();

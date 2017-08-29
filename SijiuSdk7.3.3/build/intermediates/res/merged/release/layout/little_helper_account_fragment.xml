@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.shiyue.game.support.PercentLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/frg_ph_linear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+
+    <com.shiyue.game.support.PercentLinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/corner_bg_white"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_heightPercent="100%h"
+        app:layout_widthPercent="100%w">
+
+        <com.shiyue.game.support.PercentLinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/corner_bg_white"
+            app:layout_heightPercent="20%h"
+            app:layout_marginTopPercent="2%h"
+            app:layout_widthPercent="100%w">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/sy_user_round"
+                android:clickable="true"
+                app:layout_heightPercent="55%h"
+                app:layout_marginLeftPercent="82%h"
+                app:layout_widthPercent="55%h" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="10px"
+                android:text="诗悦账号:"
+                android:textColor="#000000"
+                app:layout_textSizePercent="43%h" />
+            <!--android:textSize="54px"-->
+
+            <TextView
+                android:id="@+id/little_account_show_account"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="账号名账号名"
+                android:textColor="#000000"
+                app:layout_heightPercent="50%h"
+
+                app:layout_marginRightPercent="68%h"
+                app:layout_textSizePercent="40%h" />
+            <!--android:textSize="45px"-->
+        </com.shiyue.game.support.PercentLinearLayout>
+
+        <com.shiyue.game.support.PercentLinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/corner_bg_white"
+            app:layout_heightPercent="20%h"
+            app:layout_marginTopPercent="2%h"
+            app:layout_widthPercent="100%w">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/repwd"
+                android:clickable="true"
+                app:layout_heightPercent="55%h"
+                app:layout_marginLeftPercent="82%h"
+                app:layout_widthPercent="55%h" />
+
+            <TextView
+                android:id="@+id/little_account_resetpwd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="10px"
+                android:text="修改密码"
+                android:textColor="#000000"
+                app:layout_textSizePercent="43%h" />
+            <!--android:textSize="54px"-->
+
+
+        </com.shiyue.game.support.PercentLinearLayout>
+
+        <com.shiyue.game.support.PercentLinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/corner_bg_white"
+            app:layout_heightPercent="20%h"
+            app:layout_marginTopPercent="2%h"
+            app:layout_widthPercent="100%w">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/phone"
+                android:clickable="true"
+                app:layout_heightPercent="55%h"
+                app:layout_marginLeftPercent="82%h"
+                app:layout_widthPercent="55%h" />
+
+            <TextView
+                android:id="@+id/little_account_bindphone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="10px"
+                android:text="绑定手机号"
+                android:textColor="#000000"
+                app:layout_textSizePercent="43%h" />
+
+            <TextView
+                android:id="@+id/little_account_bindph_flag"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="已绑定>"
+                android:textColor="#000000"
+                app:layout_heightPercent="50%h"
+                app:layout_marginRightPercent="20%h"
+                app:layout_textSizePercent="40%h" />
+
+        </com.shiyue.game.support.PercentLinearLayout>
+
+        <com.shiyue.game.support.PercentLinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/corner_bg_white"
+            app:layout_heightPercent="20%h"
+            app:layout_marginTopPercent="2%h"
+            app:layout_widthPercent="100%w">
+
+            <ImageView
+                android:id="@+id/shiyue_icon"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/realnam"
+                android:clickable="true"
+                app:layout_heightPercent="55%h"
+                app:layout_marginLeftPercent="82%h"
+                app:layout_widthPercent="55%h" />
+
+            <TextView
+                android:id="@+id/little_account_bind"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="10px"
+                android:text="实名制"
+                android:textColor="#000000"
+                app:layout_textSizePercent="43%h" />
+            <TextView
+                android:id="@+id/little_account_bindreal_flag"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="已认证>"
+                android:textColor="#000000"
+                app:layout_heightPercent="50%h"
+                app:layout_marginRightPercent="20%h"
+                app:layout_textSizePercent="40%h" />
+
+        </com.shiyue.game.support.PercentLinearLayout>
+
+
+
+    </com.shiyue.game.support.PercentLinearLayout>
+
+</com.shiyue.game.support.PercentLinearLayout>
+
+

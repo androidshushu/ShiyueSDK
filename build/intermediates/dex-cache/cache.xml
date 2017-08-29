@@ -12,21 +12,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="D:\Gits\android\SijiuSdk7.3.3\SijiuSdk7.3.3\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.0.2\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="D:\Gits\android\SijiuSdk7.3.3\SijiuSdk7.3.3\build\intermediates\pre-dexed\debug\com.android.support.constraint-constraint-layout-1.0.2_47b8e6068d4b9c12bb736da34b52b0c396e8c24b.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="D:\Git\android\SijiuSdk7.3.3\SijiuSdk7.3.3\libs\commons-httpclient-3.1.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="964cd74171f427720480efdec40a7c7f6e58426a">
         <dex dex="D:\Git\android\SijiuSdk7.3.3\SijiuSdk7.3.3\build\intermediates\pre-dexed\debug\commons-httpclient-3.1_dc250f3f1f09acf385709fe889cdfb54bc373f78.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\58a98036686b297f0ea29d1c5cecef1fdd01f398\output\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="D:\Gits\android\SijiuSdk7.3.3\SijiuSdk7.3.3\build\intermediates\pre-dexed\debug\internal_impl-22.2.1_faf8341afceeb80f21da668f8909acd12bcfbaff.jar" />
     </item>
     <item
         is-multidex="false"
@@ -111,21 +111,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="D:\Gits\android\SijiuSdk7.3.3\SijiuSdk7.3.3\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jar="C:\Users\Administrator\.android\build-cache\fd29a89919e4247247545f655e8bc1749f7c2b3c\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
-        <dex dex="D:\Gits\android\SijiuSdk7.3.3\SijiuSdk7.3.3\build\intermediates\pre-dexed\debug\internal_impl-22.2.1_2f80eb2d59a1aea2386a244e81cc84d56d58af1e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Gits\android\SijiuSdk7.3.3\SijiuSdk7.3.3\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f8efd0096475e0daf054267b61544e10dc776503">
-        <dex dex="D:\Gits\android\SijiuSdk7.3.3\SijiuSdk7.3.3\build\intermediates\pre-dexed\debug\com.android.support-support-v4-22.2.1_90364249aba2c707b8e8e6cf6c0e731ad9a1423e.jar" />
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="D:\Gits\android\SijiuSdk7.3.3\SijiuSdk7.3.3\build\intermediates\pre-dexed\debug\classes_31ad17fd81b6ef664d8aec1e9d09e786bb4fa92e.jar" />
     </item>
     <item
         is-multidex="false"
@@ -162,6 +153,15 @@
         revision="25.0.2"
         sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
         <dex dex="D:\Gits\android\SijiuSdk7.3.3\SijiuSdk7.3.3\build\intermediates\pre-dexed\debug\support-annotations-22.2.1_d62cf70edf926c767c0639e5784c5090f9da27e1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\58a98036686b297f0ea29d1c5cecef1fdd01f398\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="D:\Gits\android\SijiuSdk7.3.3\SijiuSdk7.3.3\build\intermediates\pre-dexed\debug\classes_49c269df865ea69f68f8908bacb1963970d33a10.jar" />
     </item>
     <item
         is-multidex="false"

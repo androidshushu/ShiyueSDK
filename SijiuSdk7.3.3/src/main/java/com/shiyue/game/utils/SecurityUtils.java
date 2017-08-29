@@ -139,6 +139,7 @@ public class SecurityUtils {
 			alga.update(info.getBytes());
 			// 得到该摘要
 			digesta = alga.digest();
+
 		} catch (NoSuchAlgorithmException e) {
 			e.printStackTrace();
 		}

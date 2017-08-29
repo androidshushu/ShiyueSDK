@@ -12,10 +12,15 @@ import android.content.SharedPreferences;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.os.Build;
+import android.provider.Settings;
 import android.provider.Settings.Secure;
 import android.telephony.TelephonyManager;
 import android.text.TextUtils;
 import android.util.DisplayMetrics;
+
+import com.shiyue.game.config.AppConfig;
+
+import static android.content.Context.TELEPHONY_SERVICE;
 
 public class DeviceInfo {
 
@@ -80,8 +85,27 @@ public class DeviceInfo {
 			nativePhoneNumber = "+0000";
 		}
 		// if(nativePhoneNumber.contains(cs))
+
+
 		  imei = telephonyManager.getDeviceId();
+        //--------------------------
+		//获取获取手机imei方法,try to get imei
+		AppConfig.imei = ((TelephonyManager) context.getSystemService(TELEPHONY_SERVICE)).getDeviceId();
+//			TelephonyManager tm =  (TelephonyManager)context.getSystemService(Activity.TELEPHONY_SERVICE);
+//			AppConfig.imei = tm.getDeviceId();
+		//get pad's id
+		if(AppConfig.imei==null)
+		{
+			// android pad
+			AppConfig.imei = Settings.Secure.getString(context.getApplicationContext().getContentResolver(), Settings.Secure.ANDROID_ID);
+			imei = AppConfig.imei;
+//                        Settings.Secure.getString(this.getContentResolver(), Settings.Secure.ANDROID_ID);
+		}
+		//-----------------------------
+
+
 		  serialId = telephonyManager.getSimSerialNumber();
+
 	     imsi = telephonyManager.getSubscriberId();
 		// systemInfo
 		systemVer = android.os.Build.VERSION.RELEASE;

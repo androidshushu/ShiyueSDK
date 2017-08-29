@@ -499,7 +499,8 @@ public class LoginActivity extends BaseActivity implements OnClickListener {
 		{
 			if (!this.loginType.equals("4")) {
 				resetLoginView();
-			}
+
+            }
 
 		}
 		else if (v.getId() == AppConfig.resourceId(this, "phone_login", "id"))
@@ -507,8 +508,11 @@ public class LoginActivity extends BaseActivity implements OnClickListener {
 			Intent intent = new Intent(this, Sy_PhloginActivity.class);
 			startActivity(intent);
 		}
+		// TODO: 2017/8/26 第三方登录
 		else if (v.getId() == AppConfig.resourceId(this, "qq_login", "id")) {
+
 			this.mTencent = Tencent.createInstance(AppConfig.QQAPP_ID, getApplicationContext());
+
 			if (!this.mTencent.isSessionValid())
 			{
 				this.qqlistener = new BaseUiListener();
@@ -516,15 +520,17 @@ public class LoginActivity extends BaseActivity implements OnClickListener {
 			}
 
 		}
+		
 		else if (v.getId() == AppConfig.resourceId(this, "wx_login", "id"))
 		{
 			if (!isWeixinAvilible(this)) {
 				showMsg("您还未安装微信客户端");
 				return;
 			}
-
+			//通过WXAPIFactory工厂，获取IWXAPI的实例
 			this.api = WXAPIFactory.createWXAPI(this, AppConfig.WXAPP_ID, false);
-			this.api.registerApp(AppConfig.WXAPP_ID);
+			//将应用的Appid注册到微信
+            this.api.registerApp(AppConfig.WXAPP_ID);
 
 			AppConfig.uuid = UUID.randomUUID().toString();
 			SendAuth.Req req = new SendAuth.Req();
@@ -532,6 +538,7 @@ public class LoginActivity extends BaseActivity implements OnClickListener {
 			req.state = AppConfig.uuid;
 			this.api.sendReq(req);
 		}
+		
 		else if (v.getId() == AppConfig.resourceId(this, "login", "id"))
 		{
 			if (!verfy(this.user, this.pwd))

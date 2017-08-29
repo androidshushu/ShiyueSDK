@@ -49,6 +49,8 @@ public class InitData {
 	private boolean timeControl = false; // 时间控制
 	public static boolean clientIsTimeDisplay = false; // 时间影响端的显示,默认不显示
 	private Calendar calendar = Calendar.getInstance();
+    //重拨机制的参数
+    private static int repost = 3;
 
 	private static Exitdialog exitdialog;
 	public InitData(Context context, String ver_id,
@@ -133,9 +135,10 @@ public class InitData {
 								//根据初始化是否成功决定其他功能是否能使用
 								AppConfig.AUTH_NAME_STATUS = result.getAuth_name_status();
                                 AppConfig.initResult=true;
-
 								Log.d("initHttpgg",result+"");
-                                //// TODO: 2017/8/21 在这里回调一些激活设备的方法
+
+
+                                // 在这里回调一些激活设备的方法
 				                Syyx.devactinterface(context, AppConfig.appId, AppConfig.appKey, ver_id, true, new DevListener() {
 					            @Override
 					            public void Success(String msg) {
@@ -152,8 +155,22 @@ public class InitData {
 								sendData(INIT_SUCCESS, obj, handler);
 
 							} else {
-								sendData(AppConfig.FLAG_FAIL,
-										result.getMessage(), handler);
+
+                                if (repost<=0){
+                                    sendData(AppConfig.FLAG_FAIL,
+                                            result.getMessage(), handler);
+                                }else {
+
+                                    try {
+                                        repost--;
+                                        Log.d("重拨次数",repost+"");
+                                        Thread.sleep(1000);
+                                        initHttp();
+                                    } catch (InterruptedException e) {
+                                        e.printStackTrace();
+                                    }
+                                }
+
 
 							}
 						}
@@ -166,11 +183,29 @@ public class InitData {
 					@Override
 					public void onError(int statusCode) {
 						// TODO Auto-generated method stub
-						sendData(AppConfig.FLAG_FAIL, "网络连接失败，请检查您的网络连接!",
-								handler);
+                        if (repost<=0){
+
+                            sendData(AppConfig.FLAG_FAIL, "网络连接失败，请检查您的网络连接!",
+                                    handler);
+
+                        }else {
+
+                            try {
+
+                                //连接失败的时候，间隔一秒就重拨
+                                Thread.sleep(1000);
+                                repost--;
+                                Log.d("onError重拨次数",repost+"");
+                                initHttp();
+                            } catch (InterruptedException e) {
+                                e.printStackTrace();
+                            }
+
+                        }
+
 					}
 				});
-	}
+    }
 
 	/**
 	 * 更新接口
@@ -298,8 +333,9 @@ public class InitData {
                         Log.d("init_resuccess",msg.what+"");
                         Syyx.handler.sendMessage(message);
                     }
-//                    listener.Success("");
+                    listener.Success("Success");
 					break;
+
 				case AppConfig.FLAG_FAIL:
 					disDialog();
 					Toast.makeText(context, (String) msg.obj, Toast.LENGTH_SHORT)

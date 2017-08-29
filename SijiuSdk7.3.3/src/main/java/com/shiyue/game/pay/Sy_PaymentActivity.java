@@ -82,6 +82,7 @@ public class Sy_PaymentActivity extends Activity implements OnClickListener {
 		web_pay = (WebView) findViewById(AppConfig.resourceId(this, "web_pay", "id"));
 		tv_back= (ImageView) findViewById(AppConfig.resourceId(this, "iv_close", "id"));
 	    payInfo = getIntent().getParcelableExtra("sj_pay_info");
+
          tv_back.setOnClickListener(this);
 
 	     hs = new HashMap<String, Object>();
@@ -98,9 +99,7 @@ public class Sy_PaymentActivity extends Activity implements OnClickListener {
 			hs.put("app_id", payInfo.getAppId()+ "");
 		}
 
-			hs.put("channel_id", AppConfig.ver_id+ "");
-
-
+		hs.put("channel_id", AppConfig.ver_id+ "");
 		hs.put("bundle_ver", "9.9.9"+ "");
 		hs.put("dev_str", AppConfig.imei+ "");
 		hs.put("exdata", payInfo.getExtraInfo()+ "");
@@ -111,6 +110,7 @@ public class Sy_PaymentActivity extends Activity implements OnClickListener {
 		hs.put("subject", payInfo.getSubject()+ "");
 		hs.put("ts", System.currentTimeMillis()/1000 + "");
 		hs.put("ver", "1.0.0"+ "");
+
     if(AppConfig.isTest){
 
 	 Log.d("shiyue_payparams",hs.toString());
@@ -248,7 +248,7 @@ public class Sy_PaymentActivity extends Activity implements OnClickListener {
 		String sort=qureyStringWithparam(param);
 		return SecurityUtils.encryptToSHA(sort+key);
 	}
-	// 得到hashmap的key集合，进行排序拼接
+	// 得到hashmap的key集合，进行排序拼接 形式：name="xxx"&pwd="jfjj"...
 	private String qureyStringWithparam(HashMap<String, Object> param) {
 
 		Object[] keyArr = param.keySet().toArray();
@@ -267,6 +267,7 @@ public class Sy_PaymentActivity extends Activity implements OnClickListener {
 			}
 
 		}
+		//delete the last char"&"
 		urlBuilder.deleteCharAt(urlBuilder.length()-1);
 
 		return  urlBuilder.toString();

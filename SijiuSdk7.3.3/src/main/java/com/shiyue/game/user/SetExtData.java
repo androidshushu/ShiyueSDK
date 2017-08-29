@@ -36,9 +36,6 @@ public class SetExtData {
 
 
 
-
-
-
 	/**
 	 * http请求，初始化接口
 	 */

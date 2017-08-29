@@ -20,6 +20,7 @@
         android:layout_height="wrap_content"
         android:text="@string/sjlogin_demo" />
 
+
     <LinearLayout
         android:layout_width="320dp"
         android:layout_height="wrap_content"
@@ -30,6 +31,8 @@
             android:layout_width="320dp"
             android:layout_height="wrap_content"
             android:text="充值固定0.1元" />
+
+
 
         <!--<Button-->
         <!--android:id="@+id/button7"-->
@@ -52,6 +55,11 @@
         <!--android:layout_marginLeft="10dp"-->
         <!--android:text="充值不固定金额" />-->
     </LinearLayout>
+    <Button
+        android:id="@+id/button404"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:text="账号小助手" />
 
     <Button
         android:id="@+id/button5"

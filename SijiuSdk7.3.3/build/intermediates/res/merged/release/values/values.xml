@@ -243,6 +243,7 @@
     <string name="sjyuan">元</string>
     <string name="sjyuanbao_item">60元宝</string>
     <string name="syPlogin">验证码登录></string>
+    <string name="title_activity_little_helper">LittleHelper</string>
     <string name="title_activity_sy__bind_phone">Sy_BindPhoneActivity</string>
     <string name="title_activity_sy__real_name">Sy_RealNameActivity</string>
     <style name="AppBaseTheme" parent="android:Theme.Light">

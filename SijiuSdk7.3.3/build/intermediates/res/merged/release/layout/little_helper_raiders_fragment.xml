@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.shiyue.game.support.PercentLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/frg_ph_linear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+
+    <com.shiyue.game.support.PercentLinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/corner_bg_white"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_heightPercent="100%h"
+        app:layout_widthPercent="100%w">
+
+        <com.shiyue.game.support.PercentLinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/corner_bg_white"
+            android:orientation="horizontal"
+            app:layout_heightPercent="11%h"
+            app:layout_marginLeftPercent="5%h"
+            app:layout_marginTopPercent="10%h"
+            app:layout_widthPercent="100%w">
+
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:text="攻略功能暂未开通，敬请期待！"
+                android:textColor="#616161"
+                app:layout_heightPercent="90%h"
+                app:layout_marginTopPercent="2%h"
+                app:layout_textSizePercent="70%h"
+                app:layout_widthPercent="90%w" />
+
+
+        </com.shiyue.game.support.PercentLinearLayout>
+
+
+
+    </com.shiyue.game.support.PercentLinearLayout>
+
+</com.shiyue.game.support.PercentLinearLayout>
+
+

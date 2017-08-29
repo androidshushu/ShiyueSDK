@@ -169,11 +169,17 @@ public class Sy_ReadNameFragment_f extends Fragment implements View.OnClickListe
         Toast.makeText(getActivity(), msg, Toast.LENGTH_SHORT).show();
     }
     /**
-     * 正则表达式判断姓名是否符合要求
+     * 正则表达式判断姓名是否符合要求,一般人名字就是2到8个汉字，新疆人的就有‘•’或是‘·’就可以到15个汉字
      */
     public boolean  isChaineseName(String names){
 //        String testName = "/^([\\u4e00-\\u9fa5]){2,7}$/";
-        String testName ="^[\u4E00-\u9FA5]{2,4}$";//匹配2到4个汉字
+        String testName ="";
+        if (names.contains("•")||names.contains("·")){
+            testName ="^[\u4E00-\u9FA5]{2,15}$";//匹配2到15个汉字
+        }else {
+            testName ="^[\u4E00-\u9FA5]{2,8}$";//匹配2到8个汉字
+        }
+
         if (TextUtils.isEmpty(names)){
             return false;
         }else {

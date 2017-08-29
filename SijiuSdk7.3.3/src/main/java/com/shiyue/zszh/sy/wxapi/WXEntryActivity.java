@@ -171,7 +171,7 @@ public class WXEntryActivity extends Activity
 					HashMap hashMap = new HashMap();
 					String user = WXEntryActivity.this.ramrule();
 					hashMap.put("userName", user);
-					hashMap.put("password", "Wechat_" + openid);
+					hashMap.put("password", "WeChat_" + openid);
 					hashMap.put("openid", openid);
 					hashMap.put("nickname", nickname);
 					hashMap.put("loginType", loginType);
@@ -251,8 +251,10 @@ public class WXEntryActivity extends Activity
 			int pd = random.nextInt(62);
 			String sedChar = strAll.substring(pd, pd + 1);
 
+
 			userName = new StringBuilder().append(userName).append(oneChar).toString();
 			passWord = new StringBuilder().append(passWord).append(sedChar).toString();
+
 		}
 		return userName;
 	}

@@ -12,7 +12,7 @@ public final class R {
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int constraintSet=0x7f010000;
+        public static final int constraintSet=0x7f010000;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -20,7 +20,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int layout_constraintBaseline_creator=0x7f010001;
+        public static final int layout_constraintBaseline_creator=0x7f010001;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be one of the following constant values.</p>
@@ -32,7 +32,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
          */
-        public static int layout_constraintBaseline_toBaselineOf=0x7f010002;
+        public static final int layout_constraintBaseline_toBaselineOf=0x7f010002;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -40,7 +40,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int layout_constraintBottom_creator=0x7f010003;
+        public static final int layout_constraintBottom_creator=0x7f010003;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be one of the following constant values.</p>
@@ -52,7 +52,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
          */
-        public static int layout_constraintBottom_toBottomOf=0x7f010004;
+        public static final int layout_constraintBottom_toBottomOf=0x7f010004;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be one of the following constant values.</p>
@@ -64,7 +64,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
          */
-        public static int layout_constraintBottom_toTopOf=0x7f010005;
+        public static final int layout_constraintBottom_toTopOf=0x7f010005;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -72,7 +72,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int layout_constraintDimensionRatio=0x7f010006;
+        public static final int layout_constraintDimensionRatio=0x7f010006;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be one of the following constant values.</p>
@@ -84,7 +84,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
          */
-        public static int layout_constraintEnd_toEndOf=0x7f010007;
+        public static final int layout_constraintEnd_toEndOf=0x7f010007;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be one of the following constant values.</p>
@@ -96,7 +96,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
          */
-        public static int layout_constraintEnd_toStartOf=0x7f010008;
+        public static final int layout_constraintEnd_toStartOf=0x7f010008;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -106,7 +106,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int layout_constraintGuide_begin=0x7f010009;
+        public static final int layout_constraintGuide_begin=0x7f010009;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -116,7 +116,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int layout_constraintGuide_end=0x7f01000a;
+        public static final int layout_constraintGuide_end=0x7f01000a;
         /** <p>Must be a floating point value, such as "<code>1.2</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -124,7 +124,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int layout_constraintGuide_percent=0x7f01000b;
+        public static final int layout_constraintGuide_percent=0x7f01000b;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -135,7 +135,7 @@ containing a value of this type.
 <tr><td><code>wrap</code></td><td>1</td><td></td></tr>
 </table>
          */
-        public static int layout_constraintHeight_default=0x7f01000c;
+        public static final int layout_constraintHeight_default=0x7f01000c;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -145,7 +145,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int layout_constraintHeight_max=0x7f01000d;
+        public static final int layout_constraintHeight_max=0x7f01000d;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -155,7 +155,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int layout_constraintHeight_min=0x7f01000e;
+        public static final int layout_constraintHeight_min=0x7f01000e;
         /** <p>Must be a floating point value, such as "<code>1.2</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -163,7 +163,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int layout_constraintHorizontal_bias=0x7f01000f;
+        public static final int layout_constraintHorizontal_bias=0x7f01000f;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -175,7 +175,7 @@ containing a value of this type.
 <tr><td><code>packed</code></td><td>2</td><td></td></tr>
 </table>
          */
-        public static int layout_constraintHorizontal_chainStyle=0x7f010010;
+        public static final int layout_constraintHorizontal_chainStyle=0x7f010010;
         /** <p>Must be a floating point value, such as "<code>1.2</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -183,7 +183,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int layout_constraintHorizontal_weight=0x7f010011;
+        public static final int layout_constraintHorizontal_weight=0x7f010011;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -191,7 +191,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int layout_constraintLeft_creator=0x7f010012;
+        public static final int layout_constraintLeft_creator=0x7f010012;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be one of the following constant values.</p>
@@ -203,7 +203,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
          */
-        public static int layout_constraintLeft_toLeftOf=0x7f010013;
+        public static final int layout_constraintLeft_toLeftOf=0x7f010013;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be one of the following constant values.</p>
@@ -215,7 +215,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
          */
-        public static int layout_constraintLeft_toRightOf=0x7f010014;
+        public static final int layout_constraintLeft_toRightOf=0x7f010014;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -223,7 +223,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int layout_constraintRight_creator=0x7f010015;
+        public static final int layout_constraintRight_creator=0x7f010015;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be one of the following constant values.</p>
@@ -235,7 +235,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
          */
-        public static int layout_constraintRight_toLeftOf=0x7f010016;
+        public static final int layout_constraintRight_toLeftOf=0x7f010016;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be one of the following constant values.</p>
@@ -247,7 +247,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
          */
-        public static int layout_constraintRight_toRightOf=0x7f010017;
+        public static final int layout_constraintRight_toRightOf=0x7f010017;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be one of the following constant values.</p>
@@ -259,7 +259,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
          */
-        public static int layout_constraintStart_toEndOf=0x7f010018;
+        public static final int layout_constraintStart_toEndOf=0x7f010018;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be one of the following constant values.</p>
@@ -271,7 +271,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
          */
-        public static int layout_constraintStart_toStartOf=0x7f010019;
+        public static final int layout_constraintStart_toStartOf=0x7f010019;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -279,7 +279,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int layout_constraintTop_creator=0x7f01001a;
+        public static final int layout_constraintTop_creator=0x7f01001a;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be one of the following constant values.</p>
@@ -291,7 +291,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
          */
-        public static int layout_constraintTop_toBottomOf=0x7f01001b;
+        public static final int layout_constraintTop_toBottomOf=0x7f01001b;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be one of the following constant values.</p>
@@ -303,7 +303,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
          */
-        public static int layout_constraintTop_toTopOf=0x7f01001c;
+        public static final int layout_constraintTop_toTopOf=0x7f01001c;
         /** <p>Must be a floating point value, such as "<code>1.2</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -311,7 +311,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int layout_constraintVertical_bias=0x7f01001d;
+        public static final int layout_constraintVertical_bias=0x7f01001d;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -323,7 +323,7 @@ containing a value of this type.
 <tr><td><code>packed</code></td><td>2</td><td></td></tr>
 </table>
          */
-        public static int layout_constraintVertical_chainStyle=0x7f01001e;
+        public static final int layout_constraintVertical_chainStyle=0x7f01001e;
         /** <p>Must be a floating point value, such as "<code>1.2</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -331,7 +331,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int layout_constraintVertical_weight=0x7f01001f;
+        public static final int layout_constraintVertical_weight=0x7f01001f;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -342,7 +342,7 @@ containing a value of this type.
 <tr><td><code>wrap</code></td><td>1</td><td></td></tr>
 </table>
          */
-        public static int layout_constraintWidth_default=0x7f010020;
+        public static final int layout_constraintWidth_default=0x7f010020;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -352,7 +352,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int layout_constraintWidth_max=0x7f010021;
+        public static final int layout_constraintWidth_max=0x7f010021;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -362,7 +362,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int layout_constraintWidth_min=0x7f010022;
+        public static final int layout_constraintWidth_min=0x7f010022;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -372,7 +372,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int layout_editor_absoluteX=0x7f010023;
+        public static final int layout_editor_absoluteX=0x7f010023;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -382,7 +382,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int layout_editor_absoluteY=0x7f010024;
+        public static final int layout_editor_absoluteY=0x7f010024;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -392,7 +392,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int layout_goneMarginBottom=0x7f010025;
+        public static final int layout_goneMarginBottom=0x7f010025;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -402,7 +402,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int layout_goneMarginEnd=0x7f010026;
+        public static final int layout_goneMarginEnd=0x7f010026;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -412,7 +412,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int layout_goneMarginLeft=0x7f010027;
+        public static final int layout_goneMarginLeft=0x7f010027;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -422,7 +422,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int layout_goneMarginRight=0x7f010028;
+        public static final int layout_goneMarginRight=0x7f010028;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -432,7 +432,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int layout_goneMarginStart=0x7f010029;
+        public static final int layout_goneMarginStart=0x7f010029;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -442,7 +442,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int layout_goneMarginTop=0x7f01002a;
+        public static final int layout_goneMarginTop=0x7f01002a;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -450,7 +450,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int layout_heightPercent=0x7f01002d;
+        public static final int layout_heightPercent=0x7f01002d;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -458,7 +458,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int layout_marginBottomPercent=0x7f010032;
+        public static final int layout_marginBottomPercent=0x7f010032;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -466,7 +466,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int layout_marginEndPercent=0x7f010034;
+        public static final int layout_marginEndPercent=0x7f010034;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -474,7 +474,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int layout_marginLeftPercent=0x7f01002f;
+        public static final int layout_marginLeftPercent=0x7f01002f;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -482,7 +482,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int layout_marginPercent=0x7f01002e;
+        public static final int layout_marginPercent=0x7f01002e;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -490,7 +490,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int layout_marginRightPercent=0x7f010031;
+        public static final int layout_marginRightPercent=0x7f010031;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -498,7 +498,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int layout_marginStartPercent=0x7f010033;
+        public static final int layout_marginStartPercent=0x7f010033;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -506,7 +506,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int layout_marginTopPercent=0x7f010030;
+        public static final int layout_marginTopPercent=0x7f010030;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -514,7 +514,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int layout_maxHeightPercent=0x7f010037;
+        public static final int layout_maxHeightPercent=0x7f010037;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -522,7 +522,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int layout_maxWidthPercent=0x7f010036;
+        public static final int layout_maxWidthPercent=0x7f010036;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -530,7 +530,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int layout_minHeightPercent=0x7f010039;
+        public static final int layout_minHeightPercent=0x7f010039;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -538,7 +538,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int layout_minWidthPercent=0x7f010038;
+        public static final int layout_minWidthPercent=0x7f010038;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -551,7 +551,7 @@ containing a value of this type.
 <tr><td><code>chains</code></td><td>8</td><td></td></tr>
 </table>
          */
-        public static int layout_optimizationLevel=0x7f01002b;
+        public static final int layout_optimizationLevel=0x7f01002b;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -559,7 +559,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int layout_paddingBottomPercent=0x7f01003c;
+        public static final int layout_paddingBottomPercent=0x7f01003c;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -567,7 +567,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int layout_paddingLeftPercent=0x7f01003d;
+        public static final int layout_paddingLeftPercent=0x7f01003d;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -575,7 +575,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int layout_paddingPercent=0x7f01003a;
+        public static final int layout_paddingPercent=0x7f01003a;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -583,7 +583,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int layout_paddingRightPercent=0x7f01003e;
+        public static final int layout_paddingRightPercent=0x7f01003e;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -591,7 +591,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int layout_paddingTopPercent=0x7f01003b;
+        public static final int layout_paddingTopPercent=0x7f01003b;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -599,7 +599,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int layout_textSizePercent=0x7f010035;
+        public static final int layout_textSizePercent=0x7f010035;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -607,374 +607,398 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int layout_widthPercent=0x7f01002c;
+        public static final int layout_widthPercent=0x7f01002c;
     }
     public static final class color {
-        public static int sjblack=0x7f050000;
-        public static int sjblue_d=0x7f050001;
-        public static int sjblue_one=0x7f050002;
-        public static int sjblue_s=0x7f050003;
-        public static int sjgift_copy_button=0x7f050004;
-        public static int sjgift_copy_button_02=0x7f050005;
-        public static int sjgift_top_bcolor=0x7f050006;
-        public static int sjgray=0x7f050007;
-        public static int sjgray_white_title=0x7f050008;
-        public static int sjgreen=0x7f050009;
-        public static int sjicon_blue=0x7f05000a;
-        public static int sjicon_gift_list_default=0x7f05000b;
-        public static int sjline_color=0x7f05000c;
-        public static int sjlist_head_prompt=0x7f05000d;
-        public static int sjnews_content_close=0x7f05000e;
-        public static int sjnews_content_close_selected=0x7f05000f;
-        public static int sjorange=0x7f050010;
-        public static int sjother=0x7f050011;
-        public static int sjrecharge_list_bg=0x7f050012;
-        public static int sjrecharge_txt_default=0x7f050013;
-        public static int sjrecharge_txt_name=0x7f050014;
-        public static int sjred=0x7f050015;
-        public static int sjshare_libackground=0x7f050016;
-        public static int sjshare_rebackground=0x7f050017;
-        public static int sjshare_text=0x7f050018;
-        public static int sjshare_textcolor=0x7f050019;
-        public static int sjtransparent=0x7f05001a;
-        public static int sjtransparent_background=0x7f05001b;
-        public static int sjwhite=0x7f05001c;
-        public static int sy_white=0x7f05001d;
-        public static int syblue=0x7f05001e;
-        public static int sygray=0x7f05001f;
-        public static int sygray_white=0x7f050020;
+        public static final int sjblack=0x7f050000;
+        public static final int sjblue_d=0x7f050001;
+        public static final int sjblue_one=0x7f050002;
+        public static final int sjblue_s=0x7f050003;
+        public static final int sjgift_copy_button=0x7f050004;
+        public static final int sjgift_copy_button_02=0x7f050005;
+        public static final int sjgift_top_bcolor=0x7f050006;
+        public static final int sjgray=0x7f050007;
+        public static final int sjgray_white_title=0x7f050008;
+        public static final int sjgreen=0x7f050009;
+        public static final int sjicon_blue=0x7f05000a;
+        public static final int sjicon_gift_list_default=0x7f05000b;
+        public static final int sjline_color=0x7f05000c;
+        public static final int sjlist_head_prompt=0x7f05000d;
+        public static final int sjnews_content_close=0x7f05000e;
+        public static final int sjnews_content_close_selected=0x7f05000f;
+        public static final int sjorange=0x7f050010;
+        public static final int sjother=0x7f050011;
+        public static final int sjrecharge_list_bg=0x7f050012;
+        public static final int sjrecharge_txt_default=0x7f050013;
+        public static final int sjrecharge_txt_name=0x7f050014;
+        public static final int sjred=0x7f050015;
+        public static final int sjshare_libackground=0x7f050016;
+        public static final int sjshare_rebackground=0x7f050017;
+        public static final int sjshare_text=0x7f050018;
+        public static final int sjshare_textcolor=0x7f050019;
+        public static final int sjtransparent=0x7f05001a;
+        public static final int sjtransparent_background=0x7f05001b;
+        public static final int sjwhite=0x7f05001c;
+        public static final int sy_white=0x7f05001d;
+        public static final int syblue=0x7f05001e;
+        public static final int sygray=0x7f05001f;
+        public static final int sygray_white=0x7f050020;
     }
     public static final class dimen {
-        public static int activity_horizontal_margin=0x7f040000;
-        public static int global_screenshot_bg_padding=0x7f040001;
-        public static int sjactivity_horizontal_margin=0x7f040002;
-        public static int sjactivity_vertical_margin=0x7f040003;
-        public static int sjeighteen=0x7f040004;
+        public static final int activity_horizontal_margin=0x7f040000;
+        public static final int global_screenshot_bg_padding=0x7f040001;
+        public static final int sjactivity_horizontal_margin=0x7f040002;
+        public static final int sjactivity_vertical_margin=0x7f040003;
+        public static final int sjeighteen=0x7f040004;
     }
     public static final class drawable {
-        public static int back=0x7f020000;
-        public static int button_style_white=0x7f020001;
-        public static int cb_unchecked=0x7f020002;
-        public static int close_while=0x7f020003;
-        public static int corner_bg_btn_blue=0x7f020004;
-        public static int corner_bg_buttom=0x7f020005;
-        public static int corner_bg_top=0x7f020006;
-        public static int corner_bg_white=0x7f020007;
-        public static int ic_launcher=0x7f020008;
-        public static int loginqqb=0x7f020009;
-        public static int phone_round=0x7f02000a;
-        public static int qq_red=0x7f02000b;
-        public static int screenshot_panel=0x7f02000c;
-        public static int shiyuelogo=0x7f02000d;
-        public static int sjblue_btn_style=0x7f02000e;
-        public static int sjdialog=0x7f02000f;
-        public static int sjgray_text_style=0x7f020010;
-        public static int sjgraybtn_style=0x7f020011;
-        public static int sjline=0x7f020012;
-        public static int sjlogin_m_edit_bg=0x7f020013;
-        public static int sjrecharge_result_style=0x7f020014;
-        public static int sjspinner=0x7f020015;
-        public static int sjspinner_outer=0x7f020016;
-        public static int sjtoast_style=0x7f020017;
-        public static int sjupdialog=0x7f020018;
-        public static int sjwhite_bg_buttom_more_count=0x7f020019;
-        public static int sy_arrow_down=0x7f02001a;
-        public static int sy_cb_checked=0x7f02001b;
-        public static int sy_cb_unchecked=0x7f02001c;
-        public static int sy_delect_gray=0x7f02001d;
-        public static int sy_eye=0x7f02001e;
-        public static int sy_eye_green=0x7f02001f;
-        public static int sy_goback=0x7f020020;
-        public static int sy_key=0x7f020021;
-        public static int sy_phone_round=0x7f020022;
-        public static int sy_reflash=0x7f020023;
-        public static int sy_select=0x7f020024;
-        public static int sy_user_round=0x7f020025;
-        public static int sybtn_text_style=0x7f020026;
-        public static int sylogo=0x7f020027;
-        public static int wechat=0x7f020028;
+        public static final int back=0x7f020000;
+        public static final int button_style_white=0x7f020001;
+        public static final int cb_unchecked=0x7f020002;
+        public static final int close_while=0x7f020003;
+        public static final int corner_bg_btn_blue=0x7f020004;
+        public static final int corner_bg_buttom=0x7f020005;
+        public static final int corner_bg_top=0x7f020006;
+        public static final int corner_bg_white=0x7f020007;
+        public static final int ic_launcher=0x7f020008;
+        public static final int loginqqb=0x7f020009;
+        public static final int phone=0x7f02000a;
+        public static final int phone_round=0x7f02000b;
+        public static final int qq_red=0x7f02000c;
+        public static final int realnam=0x7f02000d;
+        public static final int repwd=0x7f02000e;
+        public static final int screenshot_panel=0x7f02000f;
+        public static final int shiyuelogo=0x7f020010;
+        public static final int sjblue_btn_style=0x7f020011;
+        public static final int sjdialog=0x7f020012;
+        public static final int sjgray_text_style=0x7f020013;
+        public static final int sjgraybtn_style=0x7f020014;
+        public static final int sjline=0x7f020015;
+        public static final int sjlogin_m_edit_bg=0x7f020016;
+        public static final int sjrecharge_result_style=0x7f020017;
+        public static final int sjspinner=0x7f020018;
+        public static final int sjspinner_outer=0x7f020019;
+        public static final int sjtoast_style=0x7f02001a;
+        public static final int sjupdialog=0x7f02001b;
+        public static final int sjwhite_bg_buttom_more_count=0x7f02001c;
+        public static final int sy_arrow_down=0x7f02001d;
+        public static final int sy_cb_checked=0x7f02001e;
+        public static final int sy_cb_unchecked=0x7f02001f;
+        public static final int sy_delect_gray=0x7f020020;
+        public static final int sy_eye=0x7f020021;
+        public static final int sy_eye_green=0x7f020022;
+        public static final int sy_goback=0x7f020023;
+        public static final int sy_key=0x7f020024;
+        public static final int sy_phone_round=0x7f020025;
+        public static final int sy_reflash=0x7f020026;
+        public static final int sy_select=0x7f020027;
+        public static final int sy_user_round=0x7f020028;
+        public static final int sybtn_text_style=0x7f020029;
+        public static final int sylogo=0x7f02002a;
+        public static final int wechat=0x7f02002b;
     }
     public static final class id {
-        public static int all=0x7f080005;
-        public static int banding=0x7f080034;
-        public static int basic=0x7f080006;
-        public static int bind_back=0x7f080019;
-        public static int bind_confirm=0x7f080023;
-        public static int bind_fragment=0x7f08001a;
-        public static int bind_getidentify_button=0x7f080022;
-        public static int bind_identify=0x7f080021;
-        public static int bind_phonenumber=0x7f08001f;
-        public static int bind_show_account=0x7f08001e;
-        public static int btn_findpwd_authcode=0x7f080037;
-        public static int btn_findpwd_nextf=0x7f080032;
-        public static int btn_findpwd_nexts=0x7f080038;
-        public static int btn_idfcode=0x7f08004f;
-        public static int btn_ph_login=0x7f08007a;
-        public static int btn_ph_regist=0x7f080082;
-        public static int btn_ph_register=0x7f080052;
-        public static int btn_regist=0x7f08006a;
-        public static int btn_setpwd=0x7f08003e;
-        public static int button1=0x7f080009;
-        public static int button3=0x7f08000a;
-        public static int button4=0x7f08000b;
-        public static int button5=0x7f08000c;
-        public static int cb_ischeck=0x7f080068;
-        public static int cb_ischeck_ph=0x7f080050;
-        public static int chains=0x7f080007;
-        public static int dialog_cancel=0x7f080045;
-        public static int dialog_cancel_btn=0x7f080048;
-        public static int dialog_confim_btn=0x7f080049;
-        public static int dialog_exit=0x7f08006b;
-        public static int dialog_phone=0x7f080046;
-        public static int edit_findpwd_authcode=0x7f080036;
-        public static int edit_findpwd_frg=0x7f08002e;
-        public static int edit_idfcode=0x7f08004e;
-        public static int edit_ph_fragment=0x7f08004d;
-        public static int edit_pwd=0x7f08006f;
-        public static int edit_pwd_frg=0x7f080066;
-        public static int edit_real_name=0x7f080058;
-        public static int edit_setpwd=0x7f080080;
-        public static int edit_setpwd_t=0x7f08003b;
-        public static int edit_user=0x7f08006d;
-        public static int edit_user_frg=0x7f080062;
-        public static int edit_vtfpwd_t=0x7f08003d;
-        public static int find_pwd=0x7f080071;
-        public static int fl_findpwd=0x7f08002b;
-        public static int frg_input=0x7f080060;
-        public static int frg_linear=0x7f08004c;
-        public static int frg_ph_linear=0x7f08001b;
-        public static int frg_regist_fragment=0x7f08007c;
-        public static int global_screenshot=0x7f08000e;
-        public static int global_screenshot_background=0x7f08000d;
-        public static int global_screenshot_flash=0x7f08000f;
-        public static int icon=0x7f080015;
-        public static int image=0x7f080012;
-        public static int imbtn_back_login=0x7f08002a;
-        public static int imbtn_back_regist=0x7f080084;
-        public static int input=0x7f08006c;
-        public static int iv_cancel=0x7f08002f;
-        public static int iv_close=0x7f080026;
-        public static int iv_password_show_frg=0x7f080067;
-        public static int iv_reflash_frg=0x7f080063;
-        public static int label=0x7f080016;
-        public static int lilayout=0x7f080079;
-        public static int linear=0x7f080024;
-        public static int linearLayout=0x7f080030;
-        public static int linearl=0x7f08003f;
-        public static int list_ibtn=0x7f080043;
-        public static int list_tv=0x7f080042;
-        public static int login=0x7f080074;
-        public static int login_back=0x7f08007b;
-        public static int ly_bindphone_linear=0x7f080017;
-        public static int ly_regist_linear=0x7f080028;
-        public static int myprogressbar=0x7f080010;
-        public static int name=0x7f080013;
-        public static int none=0x7f080008;
-        public static int packed=0x7f080003;
-        public static int parent=0x7f080000;
-        public static int password_show=0x7f080070;
-        public static int phlogin=0x7f080081;
-        public static int phone_login=0x7f080072;
-        public static int pop=0x7f080061;
-        public static int poplist=0x7f080014;
-        public static int pwd_icon=0x7f080065;
-        public static int qq_login=0x7f080077;
-        public static int real_person_number=0x7f08005a;
-        public static int realname_back1=0x7f080054;
-        public static int realname_back2=0x7f080055;
-        public static int realname_confirm=0x7f08005c;
-        public static int realname_fragment=0x7f080056;
-        public static int register=0x7f080073;
-        public static int relativeLayout=0x7f08002d;
-        public static int rl2=0x7f080064;
-        public static int shiyue_icon=0x7f08001c;
-        public static int show_realname=0x7f08005d;
-        public static int show_realnumber=0x7f08005f;
-        public static int spread=0x7f080001;
-        public static int spread_inside=0x7f080004;
-        public static int subject_ll=0x7f080040;
-        public static int sy_agree=0x7f080053;
-        public static int sy_bind_account=0x7f08001d;
-        public static int text=0x7f080011;
-        public static int textView=0x7f080020;
-        public static int textView10=0x7f080059;
-        public static int textView11=0x7f08005e;
-        public static int textView2=0x7f080025;
-        public static int textView3=0x7f08007e;
-        public static int textView4=0x7f08007f;
-        public static int textView5=0x7f08002c;
-        public static int textView6=0x7f08005b;
-        public static int textView7=0x7f08003a;
-        public static int textView8=0x7f080057;
-        public static int textView9=0x7f08003c;
-        public static int tv_account_t=0x7f080039;
-        public static int tv_agree=0x7f080069;
-        public static int tv_agree_ph=0x7f080051;
-        public static int tv_bindphone=0x7f080018;
-        public static int tv_dilog_qq=0x7f080044;
-        public static int tv_findpwd=0x7f080029;
-        public static int tv_findpwd_account_s=0x7f080033;
-        public static int tv_findpwd_phone=0x7f080031;
-        public static int tv_findpwd_phone_s=0x7f080035;
-        public static int tv_pay=0x7f08004a;
-        public static int tv_phlogin=0x7f08007d;
-        public static int tv_showtext=0x7f080047;
-        public static int tv_syagree=0x7f080027;
-        public static int user_icon=0x7f080041;
-        public static int user_up=0x7f08006e;
-        public static int view1=0x7f080075;
-        public static int view2=0x7f080076;
-        public static int view_anim=0x7f080083;
-        public static int web_pay=0x7f08004b;
-        public static int wrap=0x7f080002;
-        public static int wx_login=0x7f080078;
+        public static final int all=0x7f080005;
+        public static final int banding=0x7f080043;
+        public static final int basic=0x7f080006;
+        public static final int bind_back=0x7f08002a;
+        public static final int bind_confirm=0x7f080032;
+        public static final int bind_fragment=0x7f08002b;
+        public static final int bind_getidentify_button=0x7f080031;
+        public static final int bind_identify=0x7f080030;
+        public static final int bind_phonenumber=0x7f08002e;
+        public static final int bind_show_account=0x7f08002d;
+        public static final int btn_findpwd_authcode=0x7f080046;
+        public static final int btn_findpwd_nextf=0x7f080041;
+        public static final int btn_findpwd_nexts=0x7f080047;
+        public static final int btn_idfcode=0x7f08005e;
+        public static final int btn_ph_login=0x7f080089;
+        public static final int btn_ph_regist=0x7f080091;
+        public static final int btn_ph_register=0x7f080061;
+        public static final int btn_regist=0x7f080079;
+        public static final int btn_setpwd=0x7f08004d;
+        public static final int button1=0x7f080009;
+        public static final int button3=0x7f08000a;
+        public static final int button4=0x7f08000b;
+        public static final int button5=0x7f08000c;
+        public static final int cb_ischeck=0x7f080077;
+        public static final int cb_ischeck_ph=0x7f08005f;
+        public static final int chains=0x7f080007;
+        public static final int dialog_cancel=0x7f080054;
+        public static final int dialog_cancel_btn=0x7f080057;
+        public static final int dialog_confim_btn=0x7f080058;
+        public static final int dialog_exit=0x7f08007a;
+        public static final int dialog_phone=0x7f080055;
+        public static final int edit_findpwd_authcode=0x7f080045;
+        public static final int edit_findpwd_frg=0x7f08003d;
+        public static final int edit_idfcode=0x7f08005d;
+        public static final int edit_ph_fragment=0x7f08005c;
+        public static final int edit_pwd=0x7f08007e;
+        public static final int edit_pwd_frg=0x7f080075;
+        public static final int edit_real_name=0x7f080067;
+        public static final int edit_setpwd=0x7f08008f;
+        public static final int edit_setpwd_t=0x7f08004a;
+        public static final int edit_user=0x7f08007c;
+        public static final int edit_user_frg=0x7f080071;
+        public static final int edit_vtfpwd_t=0x7f08004c;
+        public static final int find_pwd=0x7f080080;
+        public static final int fl_findpwd=0x7f08003a;
+        public static final int frg_input=0x7f08006f;
+        public static final int frg_linear=0x7f08005b;
+        public static final int frg_ph_linear=0x7f080010;
+        public static final int frg_regist_fragment=0x7f08008b;
+        public static final int global_screenshot=0x7f08000e;
+        public static final int global_screenshot_background=0x7f08000d;
+        public static final int global_screenshot_flash=0x7f08000f;
+        public static final int helper_account=0x7f08001c;
+        public static final int helper_package=0x7f08001f;
+        public static final int helper_raiders=0x7f08001e;
+        public static final int helper_service=0x7f08001d;
+        public static final int icon=0x7f080028;
+        public static final int image=0x7f080025;
+        public static final int imbtn_back_login=0x7f080039;
+        public static final int imbtn_back_regist=0x7f080093;
+        public static final int input=0x7f08007b;
+        public static final int iv_cancel=0x7f08003e;
+        public static final int iv_close=0x7f080035;
+        public static final int iv_password_show_frg=0x7f080076;
+        public static final int iv_reflash_frg=0x7f080072;
+        public static final int label=0x7f080029;
+        public static final int lilayout=0x7f080088;
+        public static final int linear=0x7f080033;
+        public static final int linearLayout=0x7f08003f;
+        public static final int linearl=0x7f08004e;
+        public static final int list_ibtn=0x7f080052;
+        public static final int list_tv=0x7f080051;
+        public static final int little_account_bind=0x7f080017;
+        public static final int little_account_bindph_flag=0x7f080015;
+        public static final int little_account_bindphone=0x7f080014;
+        public static final int little_account_bindreal_flag=0x7f080018;
+        public static final int little_account_resetpwd=0x7f080013;
+        public static final int little_account_show_account=0x7f080012;
+        public static final int little_helper_close=0x7f08001b;
+        public static final int little_helper_fragment=0x7f080020;
+        public static final int login=0x7f080083;
+        public static final int login_back=0x7f08008a;
+        public static final int ly_bindphone_linear=0x7f080019;
+        public static final int ly_regist_linear=0x7f080037;
+        public static final int myprogressbar=0x7f080023;
+        public static final int name=0x7f080026;
+        public static final int none=0x7f080008;
+        public static final int packed=0x7f080003;
+        public static final int parent=0x7f080000;
+        public static final int password_show=0x7f08007f;
+        public static final int phlogin=0x7f080090;
+        public static final int phone_login=0x7f080081;
+        public static final int pop=0x7f080070;
+        public static final int poplist=0x7f080027;
+        public static final int pwd_icon=0x7f080074;
+        public static final int qq_login=0x7f080086;
+        public static final int real_person_number=0x7f080069;
+        public static final int realname_back1=0x7f080063;
+        public static final int realname_back2=0x7f080064;
+        public static final int realname_confirm=0x7f08006b;
+        public static final int realname_fragment=0x7f080065;
+        public static final int register=0x7f080082;
+        public static final int relativeLayout=0x7f08003c;
+        public static final int rl2=0x7f080073;
+        public static final int shiyue_icon=0x7f080016;
+        public static final int show_help_QQ=0x7f080021;
+        public static final int show_help_wx=0x7f080022;
+        public static final int show_realname=0x7f08006c;
+        public static final int show_realnumber=0x7f08006e;
+        public static final int spread=0x7f080001;
+        public static final int spread_inside=0x7f080004;
+        public static final int subject_ll=0x7f08004f;
+        public static final int sy_agree=0x7f080062;
+        public static final int sy_bind_account=0x7f08002c;
+        public static final int text=0x7f080024;
+        public static final int textView=0x7f08002f;
+        public static final int textView10=0x7f080068;
+        public static final int textView11=0x7f08006d;
+        public static final int textView12=0x7f080011;
+        public static final int textView2=0x7f080034;
+        public static final int textView3=0x7f08008d;
+        public static final int textView4=0x7f08008e;
+        public static final int textView5=0x7f08003b;
+        public static final int textView6=0x7f08006a;
+        public static final int textView7=0x7f080049;
+        public static final int textView8=0x7f080066;
+        public static final int textView9=0x7f08004b;
+        public static final int tv_account_t=0x7f080048;
+        public static final int tv_agree=0x7f080078;
+        public static final int tv_agree_ph=0x7f080060;
+        public static final int tv_bindphone=0x7f08001a;
+        public static final int tv_dilog_qq=0x7f080053;
+        public static final int tv_findpwd=0x7f080038;
+        public static final int tv_findpwd_account_s=0x7f080042;
+        public static final int tv_findpwd_phone=0x7f080040;
+        public static final int tv_findpwd_phone_s=0x7f080044;
+        public static final int tv_pay=0x7f080059;
+        public static final int tv_phlogin=0x7f08008c;
+        public static final int tv_showtext=0x7f080056;
+        public static final int tv_syagree=0x7f080036;
+        public static final int user_icon=0x7f080050;
+        public static final int user_up=0x7f08007d;
+        public static final int view1=0x7f080084;
+        public static final int view2=0x7f080085;
+        public static final int view_anim=0x7f080092;
+        public static final int web_pay=0x7f08005a;
+        public static final int wrap=0x7f080002;
+        public static final int wx_login=0x7f080087;
     }
     public static final class layout {
-        public static int activity_main=0x7f030000;
-        public static int global_screenshot=0x7f030001;
-        public static int sjmyprogressbar=0x7f030002;
-        public static int sjmytoast=0x7f030003;
-        public static int sjpopwindow_land=0x7f030004;
-        public static int sjshar_item=0x7f030005;
-        public static int sy__bind_phone_activity=0x7f030006;
-        public static int sy__phbind_fragment=0x7f030007;
-        public static int sy_agree_activity=0x7f030008;
-        public static int sy_findpwd_land=0x7f030009;
-        public static int sy_fpwd_fragment_f=0x7f03000a;
-        public static int sy_fpwd_fragment_s=0x7f03000b;
-        public static int sy_fpwd_fragment_t=0x7f03000c;
-        public static int sy_item_count_list=0x7f03000d;
-        public static int sy_logindialog=0x7f03000e;
-        public static int sy_normaldialog=0x7f03000f;
-        public static int sy_pay=0x7f030010;
-        public static int sy_phregist_fragment=0x7f030011;
-        public static int sy_real_name_activity=0x7f030012;
-        public static int sy_real_name_fragment_f=0x7f030013;
-        public static int sy_real_name_fragment_s=0x7f030014;
-        public static int sy_regist_fragment=0x7f030015;
-        public static int syexit_dialog=0x7f030016;
-        public static int sylogin_main_land=0x7f030017;
-        public static int syphlogin_land=0x7f030018;
-        public static int syphloginpwd_land=0x7f030019;
-        public static int syregister_land=0x7f03001a;
-        public static int wxlayout=0x7f03001b;
+        public static final int activity_main=0x7f030000;
+        public static final int global_screenshot=0x7f030001;
+        public static final int little_helper_account_fragment=0x7f030002;
+        public static final int little_helper_activity=0x7f030003;
+        public static final int little_helper_customer_service_fragment=0x7f030004;
+        public static final int little_helper_package_fragment=0x7f030005;
+        public static final int little_helper_raiders_fragment=0x7f030006;
+        public static final int sjmyprogressbar=0x7f030007;
+        public static final int sjmytoast=0x7f030008;
+        public static final int sjpopwindow_land=0x7f030009;
+        public static final int sjshar_item=0x7f03000a;
+        public static final int sy__bind_phone_activity=0x7f03000b;
+        public static final int sy__phbind_fragment=0x7f03000c;
+        public static final int sy_agree_activity=0x7f03000d;
+        public static final int sy_findpwd_land=0x7f03000e;
+        public static final int sy_fpwd_fragment_f=0x7f03000f;
+        public static final int sy_fpwd_fragment_s=0x7f030010;
+        public static final int sy_fpwd_fragment_t=0x7f030011;
+        public static final int sy_item_count_list=0x7f030012;
+        public static final int sy_logindialog=0x7f030013;
+        public static final int sy_normaldialog=0x7f030014;
+        public static final int sy_pay=0x7f030015;
+        public static final int sy_phregist_fragment=0x7f030016;
+        public static final int sy_real_name_activity=0x7f030017;
+        public static final int sy_real_name_fragment_f=0x7f030018;
+        public static final int sy_real_name_fragment_s=0x7f030019;
+        public static final int sy_regist_fragment=0x7f03001a;
+        public static final int syexit_dialog=0x7f03001b;
+        public static final int sylogin_main_land=0x7f03001c;
+        public static final int syphlogin_land=0x7f03001d;
+        public static final int syphloginpwd_land=0x7f03001e;
+        public static final int syregister_land=0x7f03001f;
+        public static final int wxlayout=0x7f030020;
     }
     public static final class string {
-        public static int djrecharge_telephone=0x7f060000;
-        public static int hello_blank_fragment=0x7f060001;
-        public static int sijiu_more=0x7f060002;
-        public static int sijiu_return_up=0x7f060003;
-        public static int sijiu_yeebinglist=0x7f060004;
-        public static int sj_cancel=0x7f060005;
-        public static int sj_gift_box=0x7f060006;
-        public static int sjaccount=0x7f060007;
-        public static int sjaction_settings=0x7f060008;
-        public static int sjamount_item=0x7f060009;
-        public static int sjapp_name=0x7f06000a;
-        public static int sjassitive=0x7f06000b;
-        public static int sjback_recharge=0x7f06000c;
-        public static int sjbackgame_recharge_detail=0x7f06000d;
-        public static int sjcard_num=0x7f06000e;
-        public static int sjcard_pwd=0x7f06000f;
-        public static int sjcard_type=0x7f060010;
-        public static int sjchoose_tips=0x7f060011;
-        public static int sjclose=0x7f060012;
-        public static int sjcontinue_charge=0x7f060013;
-        public static int sjdrop_down=0x7f060014;
-        public static int sjedit_price=0x7f060015;
-        public static int sjedit_pwd=0x7f060016;
-        public static int sjexit=0x7f060017;
-        public static int sjfind_pwd=0x7f060018;
-        public static int sjfind_tips=0x7f060019;
-        public static int sjfive_hundred_rmb=0x7f06001a;
-        public static int sjfive_rmb=0x7f06001b;
-        public static int sjgo_back=0x7f06001c;
-        public static int sjhello=0x7f06001d;
-        public static int sjhttp_error=0x7f06001e;
-        public static int sjhundred_rmb=0x7f06001f;
-        public static int sjinit=0x7f060020;
-        public static int sjloading_more=0x7f060021;
-        public static int sjlogin=0x7f060022;
-        public static int sjlogin_demo=0x7f060023;
-        public static int sjmodify_button=0x7f060024;
-        public static int sjmodify_new_pwd=0x7f060025;
-        public static int sjmodify_old_pwd=0x7f060026;
-        public static int sjmodify_user=0x7f060027;
-        public static int sjmore_game=0x7f060028;
-        public static int sjmyAdd=0x7f060029;
-        public static int sjnetcard=0x7f06002a;
-        public static int sjok=0x7f06002b;
-        public static int sjorder_amount=0x7f06002c;
-        public static int sjorder_item=0x7f06002d;
-        public static int sjother_money=0x7f06002e;
-        public static int sjpay_item=0x7f06002f;
-        public static int sjpay_item_state=0x7f060030;
-        public static int sjpay_item_state_result=0x7f060031;
-        public static int sjphoneNum=0x7f060032;
-        public static int sjphone_tips=0x7f060033;
-        public static int sjprogress_tips=0x7f060034;
-        public static int sjqqcard=0x7f060035;
-        public static int sjreal_price=0x7f060036;
-        public static int sjrecharge=0x7f060037;
-        public static int sjrecharge_help=0x7f060038;
-        public static int sjrecharge_help_one=0x7f060039;
-        public static int sjrecharge_help_two=0x7f06003a;
-        public static int sjrecharge_name=0x7f06003b;
-        public static int sjrecharge_now=0x7f06003c;
-        public static int sjrecharge_now_pingtaibi=0x7f06003d;
-        public static int sjrecharge_now_to_pingtaibi=0x7f06003e;
-        public static int sjrecharge_pingtaibi_info=0x7f06003f;
-        public static int sjrecharge_pingtaibi_info_desc=0x7f060040;
-        public static int sjrecharge_price=0x7f060041;
-        public static int sjrecharge_qq=0x7f060042;
-        public static int sjrecharge_user=0x7f060043;
-        public static int sjrecharge_way=0x7f060044;
-        public static int sjrecords_fail=0x7f060045;
-        public static int sjrecords_recharge_fail=0x7f060046;
-        public static int sjrecords_success=0x7f060047;
-        public static int sjrecords_wait=0x7f060048;
-        public static int sjrefreshing=0x7f060049;
-        public static int sjregister=0x7f06004a;
-        public static int sjregister_agree=0x7f06004b;
-        public static int sjregister_checkbox=0x7f06004c;
-        public static int sjregister_name=0x7f06004d;
-        public static int sjregister_phone=0x7f06004e;
-        public static int sjregister_phone_code=0x7f06004f;
-        public static int sjregister_phone_number=0x7f060050;
-        public static int sjregister_pwd=0x7f060051;
-        public static int sjregister_user=0x7f060052;
-        public static int sjrelease_refresh=0x7f060053;
-        public static int sjrmb=0x7f060054;
-        public static int sjsdcard=0x7f060055;
-        public static int sjshare_exit=0x7f060056;
-        public static int sjshare_tips=0x7f060057;
-        public static int sjsijiu_recharge_detail=0x7f060058;
-        public static int sjsijiu_yeebing_now=0x7f060059;
-        public static int sjstate_item=0x7f06005a;
-        public static int sjten_rmb=0x7f06005b;
-        public static int sjth_hundred_rmb=0x7f06005c;
-        public static int sjthree_rmb=0x7f06005d;
-        public static int sjtime_item=0x7f06005e;
-        public static int sjtwo_rmb=0x7f06005f;
-        public static int sjupdate_time=0x7f060060;
-        public static int sjuser_account_bangding=0x7f060061;
-        public static int sjuser_account_security=0x7f060062;
-        public static int sjuser_add=0x7f060063;
-        public static int sjuser_message=0x7f060064;
-        public static int sjuser_rechager_record=0x7f060065;
-        public static int sjusercenter=0x7f060066;
-        public static int sjuserinfo=0x7f060067;
-        public static int sjwelcome_back=0x7f060068;
-        public static int sjwmcard=0x7f060069;
-        public static int sjxianxie=0x7f06006a;
-        public static int sjxianzhi=0x7f06006b;
-        public static int sjyeepaylist_tips=0x7f06006c;
-        public static int sjyeepaylist_web=0x7f06006d;
-        public static int sjyuan=0x7f06006e;
-        public static int sjyuanbao_item=0x7f06006f;
-        public static int syPlogin=0x7f060070;
-        public static int title_activity_sy__bind_phone=0x7f060071;
-        public static int title_activity_sy__real_name=0x7f060072;
+        public static final int djrecharge_telephone=0x7f060000;
+        public static final int hello_blank_fragment=0x7f060001;
+        public static final int sijiu_more=0x7f060002;
+        public static final int sijiu_return_up=0x7f060003;
+        public static final int sijiu_yeebinglist=0x7f060004;
+        public static final int sj_cancel=0x7f060005;
+        public static final int sj_gift_box=0x7f060006;
+        public static final int sjaccount=0x7f060007;
+        public static final int sjaction_settings=0x7f060008;
+        public static final int sjamount_item=0x7f060009;
+        public static final int sjapp_name=0x7f06000a;
+        public static final int sjassitive=0x7f06000b;
+        public static final int sjback_recharge=0x7f06000c;
+        public static final int sjbackgame_recharge_detail=0x7f06000d;
+        public static final int sjcard_num=0x7f06000e;
+        public static final int sjcard_pwd=0x7f06000f;
+        public static final int sjcard_type=0x7f060010;
+        public static final int sjchoose_tips=0x7f060011;
+        public static final int sjclose=0x7f060012;
+        public static final int sjcontinue_charge=0x7f060013;
+        public static final int sjdrop_down=0x7f060014;
+        public static final int sjedit_price=0x7f060015;
+        public static final int sjedit_pwd=0x7f060016;
+        public static final int sjexit=0x7f060017;
+        public static final int sjfind_pwd=0x7f060018;
+        public static final int sjfind_tips=0x7f060019;
+        public static final int sjfive_hundred_rmb=0x7f06001a;
+        public static final int sjfive_rmb=0x7f06001b;
+        public static final int sjgo_back=0x7f06001c;
+        public static final int sjhello=0x7f06001d;
+        public static final int sjhttp_error=0x7f06001e;
+        public static final int sjhundred_rmb=0x7f06001f;
+        public static final int sjinit=0x7f060020;
+        public static final int sjloading_more=0x7f060021;
+        public static final int sjlogin=0x7f060022;
+        public static final int sjlogin_demo=0x7f060023;
+        public static final int sjmodify_button=0x7f060024;
+        public static final int sjmodify_new_pwd=0x7f060025;
+        public static final int sjmodify_old_pwd=0x7f060026;
+        public static final int sjmodify_user=0x7f060027;
+        public static final int sjmore_game=0x7f060028;
+        public static final int sjmyAdd=0x7f060029;
+        public static final int sjnetcard=0x7f06002a;
+        public static final int sjok=0x7f06002b;
+        public static final int sjorder_amount=0x7f06002c;
+        public static final int sjorder_item=0x7f06002d;
+        public static final int sjother_money=0x7f06002e;
+        public static final int sjpay_item=0x7f06002f;
+        public static final int sjpay_item_state=0x7f060030;
+        public static final int sjpay_item_state_result=0x7f060031;
+        public static final int sjphoneNum=0x7f060032;
+        public static final int sjphone_tips=0x7f060033;
+        public static final int sjprogress_tips=0x7f060034;
+        public static final int sjqqcard=0x7f060035;
+        public static final int sjreal_price=0x7f060036;
+        public static final int sjrecharge=0x7f060037;
+        public static final int sjrecharge_help=0x7f060038;
+        public static final int sjrecharge_help_one=0x7f060039;
+        public static final int sjrecharge_help_two=0x7f06003a;
+        public static final int sjrecharge_name=0x7f06003b;
+        public static final int sjrecharge_now=0x7f06003c;
+        public static final int sjrecharge_now_pingtaibi=0x7f06003d;
+        public static final int sjrecharge_now_to_pingtaibi=0x7f06003e;
+        public static final int sjrecharge_pingtaibi_info=0x7f06003f;
+        public static final int sjrecharge_pingtaibi_info_desc=0x7f060040;
+        public static final int sjrecharge_price=0x7f060041;
+        public static final int sjrecharge_qq=0x7f060042;
+        public static final int sjrecharge_user=0x7f060043;
+        public static final int sjrecharge_way=0x7f060044;
+        public static final int sjrecords_fail=0x7f060045;
+        public static final int sjrecords_recharge_fail=0x7f060046;
+        public static final int sjrecords_success=0x7f060047;
+        public static final int sjrecords_wait=0x7f060048;
+        public static final int sjrefreshing=0x7f060049;
+        public static final int sjregister=0x7f06004a;
+        public static final int sjregister_agree=0x7f06004b;
+        public static final int sjregister_checkbox=0x7f06004c;
+        public static final int sjregister_name=0x7f06004d;
+        public static final int sjregister_phone=0x7f06004e;
+        public static final int sjregister_phone_code=0x7f06004f;
+        public static final int sjregister_phone_number=0x7f060050;
+        public static final int sjregister_pwd=0x7f060051;
+        public static final int sjregister_user=0x7f060052;
+        public static final int sjrelease_refresh=0x7f060053;
+        public static final int sjrmb=0x7f060054;
+        public static final int sjsdcard=0x7f060055;
+        public static final int sjshare_exit=0x7f060056;
+        public static final int sjshare_tips=0x7f060057;
+        public static final int sjsijiu_recharge_detail=0x7f060058;
+        public static final int sjsijiu_yeebing_now=0x7f060059;
+        public static final int sjstate_item=0x7f06005a;
+        public static final int sjten_rmb=0x7f06005b;
+        public static final int sjth_hundred_rmb=0x7f06005c;
+        public static final int sjthree_rmb=0x7f06005d;
+        public static final int sjtime_item=0x7f06005e;
+        public static final int sjtwo_rmb=0x7f06005f;
+        public static final int sjupdate_time=0x7f060060;
+        public static final int sjuser_account_bangding=0x7f060061;
+        public static final int sjuser_account_security=0x7f060062;
+        public static final int sjuser_add=0x7f060063;
+        public static final int sjuser_message=0x7f060064;
+        public static final int sjuser_rechager_record=0x7f060065;
+        public static final int sjusercenter=0x7f060066;
+        public static final int sjuserinfo=0x7f060067;
+        public static final int sjwelcome_back=0x7f060068;
+        public static final int sjwmcard=0x7f060069;
+        public static final int sjxianxie=0x7f06006a;
+        public static final int sjxianzhi=0x7f06006b;
+        public static final int sjyeepaylist_tips=0x7f06006c;
+        public static final int sjyeepaylist_web=0x7f06006d;
+        public static final int sjyuan=0x7f06006e;
+        public static final int sjyuanbao_item=0x7f06006f;
+        public static final int syPlogin=0x7f060070;
+        public static final int title_activity_little_helper=0x7f060071;
+        public static final int title_activity_sy__bind_phone=0x7f060072;
+        public static final int title_activity_sy__real_name=0x7f060073;
     }
     public static final class style {
         /** 
@@ -983,19 +1007,19 @@ containing a value of this type.
             backward-compatibility can go here.
         
          */
-        public static int AppBaseTheme=0x7f070000;
+        public static final int AppBaseTheme=0x7f070000;
         /**  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static int AppTheme=0x7f070001;
-        public static int Sj_MyButton=0x7f070002;
-        public static int Sj_MyDialog=0x7f070003;
-        public static int Sj_MyEdittext=0x7f070004;
-        public static int Sj_MySpinner=0x7f070005;
-        public static int Sj_Transparent=0x7f070006;
+        public static final int AppTheme=0x7f070001;
+        public static final int Sj_MyButton=0x7f070002;
+        public static final int Sj_MyDialog=0x7f070003;
+        public static final int Sj_MyEdittext=0x7f070004;
+        public static final int Sj_MySpinner=0x7f070005;
+        public static final int Sj_Transparent=0x7f070006;
         /**  指定消失的动画xml 
          */
-        public static int Sj_mypopwindow_anim_style=0x7f070007;
-        public static int Theme_UPPay=0x7f070008;
+        public static final int Sj_mypopwindow_anim_style=0x7f070007;
+        public static final int Theme_UPPay=0x7f070008;
     }
     public static final class styleable {
         /** Attributes that can be used with a ConstraintLayout_Layout.
@@ -1124,31 +1148,31 @@ containing a value of this type.
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
           @attr name android:maxHeight
         */
-        public static int ConstraintLayout_Layout_android_maxHeight = 2;
+        public static final int ConstraintLayout_Layout_android_maxHeight = 2;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#maxWidth}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
           @attr name android:maxWidth
         */
-        public static int ConstraintLayout_Layout_android_maxWidth = 1;
+        public static final int ConstraintLayout_Layout_android_maxWidth = 1;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#minHeight}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
           @attr name android:minHeight
         */
-        public static int ConstraintLayout_Layout_android_minHeight = 4;
+        public static final int ConstraintLayout_Layout_android_minHeight = 4;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#minWidth}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
           @attr name android:minWidth
         */
-        public static int ConstraintLayout_Layout_android_minWidth = 3;
+        public static final int ConstraintLayout_Layout_android_minWidth = 3;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#orientation}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
           @attr name android:orientation
         */
-        public static int ConstraintLayout_Layout_android_orientation = 0;
+        public static final int ConstraintLayout_Layout_android_orientation = 0;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#constraintSet}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
@@ -1158,7 +1182,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           @attr name com.shiyue.game:constraintSet
         */
-        public static int ConstraintLayout_Layout_constraintSet = 5;
+        public static final int ConstraintLayout_Layout_constraintSet = 5;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintBaseline_creator}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
@@ -1172,7 +1196,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_constraintBaseline_creator
         */
-        public static int ConstraintLayout_Layout_layout_constraintBaseline_creator = 6;
+        public static final int ConstraintLayout_Layout_layout_constraintBaseline_creator = 6;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintBaseline_toBaselineOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
@@ -1190,7 +1214,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 </table>
           @attr name com.shiyue.game:layout_constraintBaseline_toBaselineOf
         */
-        public static int ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf = 7;
+        public static final int ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf = 7;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintBottom_creator}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
@@ -1204,7 +1228,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_constraintBottom_creator
         */
-        public static int ConstraintLayout_Layout_layout_constraintBottom_creator = 8;
+        public static final int ConstraintLayout_Layout_layout_constraintBottom_creator = 8;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintBottom_toBottomOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
@@ -1222,7 +1246,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 </table>
           @attr name com.shiyue.game:layout_constraintBottom_toBottomOf
         */
-        public static int ConstraintLayout_Layout_layout_constraintBottom_toBottomOf = 9;
+        public static final int ConstraintLayout_Layout_layout_constraintBottom_toBottomOf = 9;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintBottom_toTopOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
@@ -1240,7 +1264,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 </table>
           @attr name com.shiyue.game:layout_constraintBottom_toTopOf
         */
-        public static int ConstraintLayout_Layout_layout_constraintBottom_toTopOf = 10;
+        public static final int ConstraintLayout_Layout_layout_constraintBottom_toTopOf = 10;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintDimensionRatio}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
@@ -1254,7 +1278,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_constraintDimensionRatio
         */
-        public static int ConstraintLayout_Layout_layout_constraintDimensionRatio = 11;
+        public static final int ConstraintLayout_Layout_layout_constraintDimensionRatio = 11;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintEnd_toEndOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
@@ -1272,7 +1296,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 </table>
           @attr name com.shiyue.game:layout_constraintEnd_toEndOf
         */
-        public static int ConstraintLayout_Layout_layout_constraintEnd_toEndOf = 12;
+        public static final int ConstraintLayout_Layout_layout_constraintEnd_toEndOf = 12;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintEnd_toStartOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
@@ -1290,7 +1314,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 </table>
           @attr name com.shiyue.game:layout_constraintEnd_toStartOf
         */
-        public static int ConstraintLayout_Layout_layout_constraintEnd_toStartOf = 13;
+        public static final int ConstraintLayout_Layout_layout_constraintEnd_toStartOf = 13;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintGuide_begin}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
@@ -1306,7 +1330,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_constraintGuide_begin
         */
-        public static int ConstraintLayout_Layout_layout_constraintGuide_begin = 14;
+        public static final int ConstraintLayout_Layout_layout_constraintGuide_begin = 14;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintGuide_end}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
@@ -1322,7 +1346,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_constraintGuide_end
         */
-        public static int ConstraintLayout_Layout_layout_constraintGuide_end = 15;
+        public static final int ConstraintLayout_Layout_layout_constraintGuide_end = 15;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintGuide_percent}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
@@ -1336,7 +1360,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_constraintGuide_percent
         */
-        public static int ConstraintLayout_Layout_layout_constraintGuide_percent = 16;
+        public static final int ConstraintLayout_Layout_layout_constraintGuide_percent = 16;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintHeight_default}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
@@ -1353,7 +1377,7 @@ containing a value of this type.
 </table>
           @attr name com.shiyue.game:layout_constraintHeight_default
         */
-        public static int ConstraintLayout_Layout_layout_constraintHeight_default = 17;
+        public static final int ConstraintLayout_Layout_layout_constraintHeight_default = 17;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintHeight_max}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
@@ -1369,7 +1393,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_constraintHeight_max
         */
-        public static int ConstraintLayout_Layout_layout_constraintHeight_max = 18;
+        public static final int ConstraintLayout_Layout_layout_constraintHeight_max = 18;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintHeight_min}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
@@ -1385,7 +1409,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_constraintHeight_min
         */
-        public static int ConstraintLayout_Layout_layout_constraintHeight_min = 19;
+        public static final int ConstraintLayout_Layout_layout_constraintHeight_min = 19;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintHorizontal_bias}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
@@ -1399,7 +1423,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_constraintHorizontal_bias
         */
-        public static int ConstraintLayout_Layout_layout_constraintHorizontal_bias = 20;
+        public static final int ConstraintLayout_Layout_layout_constraintHorizontal_bias = 20;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintHorizontal_chainStyle}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
@@ -1417,7 +1441,7 @@ containing a value of this type.
 </table>
           @attr name com.shiyue.game:layout_constraintHorizontal_chainStyle
         */
-        public static int ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle = 21;
+        public static final int ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle = 21;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintHorizontal_weight}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
@@ -1431,7 +1455,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_constraintHorizontal_weight
         */
-        public static int ConstraintLayout_Layout_layout_constraintHorizontal_weight = 22;
+        public static final int ConstraintLayout_Layout_layout_constraintHorizontal_weight = 22;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintLeft_creator}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
@@ -1445,7 +1469,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_constraintLeft_creator
         */
-        public static int ConstraintLayout_Layout_layout_constraintLeft_creator = 23;
+        public static final int ConstraintLayout_Layout_layout_constraintLeft_creator = 23;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintLeft_toLeftOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
@@ -1463,7 +1487,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 </table>
           @attr name com.shiyue.game:layout_constraintLeft_toLeftOf
         */
-        public static int ConstraintLayout_Layout_layout_constraintLeft_toLeftOf = 24;
+        public static final int ConstraintLayout_Layout_layout_constraintLeft_toLeftOf = 24;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintLeft_toRightOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
@@ -1481,7 +1505,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 </table>
           @attr name com.shiyue.game:layout_constraintLeft_toRightOf
         */
-        public static int ConstraintLayout_Layout_layout_constraintLeft_toRightOf = 25;
+        public static final int ConstraintLayout_Layout_layout_constraintLeft_toRightOf = 25;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintRight_creator}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
@@ -1495,7 +1519,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_constraintRight_creator
         */
-        public static int ConstraintLayout_Layout_layout_constraintRight_creator = 26;
+        public static final int ConstraintLayout_Layout_layout_constraintRight_creator = 26;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintRight_toLeftOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
@@ -1513,7 +1537,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 </table>
           @attr name com.shiyue.game:layout_constraintRight_toLeftOf
         */
-        public static int ConstraintLayout_Layout_layout_constraintRight_toLeftOf = 27;
+        public static final int ConstraintLayout_Layout_layout_constraintRight_toLeftOf = 27;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintRight_toRightOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
@@ -1531,7 +1555,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 </table>
           @attr name com.shiyue.game:layout_constraintRight_toRightOf
         */
-        public static int ConstraintLayout_Layout_layout_constraintRight_toRightOf = 28;
+        public static final int ConstraintLayout_Layout_layout_constraintRight_toRightOf = 28;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintStart_toEndOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
@@ -1549,7 +1573,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 </table>
           @attr name com.shiyue.game:layout_constraintStart_toEndOf
         */
-        public static int ConstraintLayout_Layout_layout_constraintStart_toEndOf = 29;
+        public static final int ConstraintLayout_Layout_layout_constraintStart_toEndOf = 29;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintStart_toStartOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
@@ -1567,7 +1591,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 </table>
           @attr name com.shiyue.game:layout_constraintStart_toStartOf
         */
-        public static int ConstraintLayout_Layout_layout_constraintStart_toStartOf = 30;
+        public static final int ConstraintLayout_Layout_layout_constraintStart_toStartOf = 30;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintTop_creator}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
@@ -1581,7 +1605,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_constraintTop_creator
         */
-        public static int ConstraintLayout_Layout_layout_constraintTop_creator = 31;
+        public static final int ConstraintLayout_Layout_layout_constraintTop_creator = 31;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintTop_toBottomOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
@@ -1599,7 +1623,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 </table>
           @attr name com.shiyue.game:layout_constraintTop_toBottomOf
         */
-        public static int ConstraintLayout_Layout_layout_constraintTop_toBottomOf = 32;
+        public static final int ConstraintLayout_Layout_layout_constraintTop_toBottomOf = 32;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintTop_toTopOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
@@ -1617,7 +1641,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 </table>
           @attr name com.shiyue.game:layout_constraintTop_toTopOf
         */
-        public static int ConstraintLayout_Layout_layout_constraintTop_toTopOf = 33;
+        public static final int ConstraintLayout_Layout_layout_constraintTop_toTopOf = 33;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintVertical_bias}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
@@ -1631,7 +1655,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_constraintVertical_bias
         */
-        public static int ConstraintLayout_Layout_layout_constraintVertical_bias = 34;
+        public static final int ConstraintLayout_Layout_layout_constraintVertical_bias = 34;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintVertical_chainStyle}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
@@ -1649,7 +1673,7 @@ containing a value of this type.
 </table>
           @attr name com.shiyue.game:layout_constraintVertical_chainStyle
         */
-        public static int ConstraintLayout_Layout_layout_constraintVertical_chainStyle = 35;
+        public static final int ConstraintLayout_Layout_layout_constraintVertical_chainStyle = 35;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintVertical_weight}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
@@ -1663,7 +1687,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_constraintVertical_weight
         */
-        public static int ConstraintLayout_Layout_layout_constraintVertical_weight = 36;
+        public static final int ConstraintLayout_Layout_layout_constraintVertical_weight = 36;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintWidth_default}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
@@ -1680,7 +1704,7 @@ containing a value of this type.
 </table>
           @attr name com.shiyue.game:layout_constraintWidth_default
         */
-        public static int ConstraintLayout_Layout_layout_constraintWidth_default = 37;
+        public static final int ConstraintLayout_Layout_layout_constraintWidth_default = 37;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintWidth_max}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
@@ -1696,7 +1720,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_constraintWidth_max
         */
-        public static int ConstraintLayout_Layout_layout_constraintWidth_max = 38;
+        public static final int ConstraintLayout_Layout_layout_constraintWidth_max = 38;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintWidth_min}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
@@ -1712,7 +1736,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_constraintWidth_min
         */
-        public static int ConstraintLayout_Layout_layout_constraintWidth_min = 39;
+        public static final int ConstraintLayout_Layout_layout_constraintWidth_min = 39;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_editor_absoluteX}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
@@ -1728,7 +1752,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_editor_absoluteX
         */
-        public static int ConstraintLayout_Layout_layout_editor_absoluteX = 40;
+        public static final int ConstraintLayout_Layout_layout_editor_absoluteX = 40;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_editor_absoluteY}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
@@ -1744,7 +1768,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_editor_absoluteY
         */
-        public static int ConstraintLayout_Layout_layout_editor_absoluteY = 41;
+        public static final int ConstraintLayout_Layout_layout_editor_absoluteY = 41;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_goneMarginBottom}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
@@ -1760,7 +1784,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_goneMarginBottom
         */
-        public static int ConstraintLayout_Layout_layout_goneMarginBottom = 42;
+        public static final int ConstraintLayout_Layout_layout_goneMarginBottom = 42;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_goneMarginEnd}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
@@ -1776,7 +1800,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_goneMarginEnd
         */
-        public static int ConstraintLayout_Layout_layout_goneMarginEnd = 43;
+        public static final int ConstraintLayout_Layout_layout_goneMarginEnd = 43;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_goneMarginLeft}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
@@ -1792,7 +1816,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_goneMarginLeft
         */
-        public static int ConstraintLayout_Layout_layout_goneMarginLeft = 44;
+        public static final int ConstraintLayout_Layout_layout_goneMarginLeft = 44;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_goneMarginRight}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
@@ -1808,7 +1832,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_goneMarginRight
         */
-        public static int ConstraintLayout_Layout_layout_goneMarginRight = 45;
+        public static final int ConstraintLayout_Layout_layout_goneMarginRight = 45;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_goneMarginStart}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
@@ -1824,7 +1848,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_goneMarginStart
         */
-        public static int ConstraintLayout_Layout_layout_goneMarginStart = 46;
+        public static final int ConstraintLayout_Layout_layout_goneMarginStart = 46;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_goneMarginTop}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
@@ -1840,7 +1864,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_goneMarginTop
         */
-        public static int ConstraintLayout_Layout_layout_goneMarginTop = 47;
+        public static final int ConstraintLayout_Layout_layout_goneMarginTop = 47;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_optimizationLevel}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
@@ -1859,7 +1883,7 @@ containing a value of this type.
 </table>
           @attr name com.shiyue.game:layout_optimizationLevel
         */
-        public static int ConstraintLayout_Layout_layout_optimizationLevel = 48;
+        public static final int ConstraintLayout_Layout_layout_optimizationLevel = 48;
         /** Attributes that can be used with a ConstraintSet.
            <p>Includes the following attributes:</p>
            <table>
@@ -2019,133 +2043,133 @@ containing a value of this type.
           attribute's value can be found in the {@link #ConstraintSet} array.
           @attr name android:alpha
         */
-        public static int ConstraintSet_android_alpha = 9;
+        public static final int ConstraintSet_android_alpha = 9;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#elevation}
           attribute's value can be found in the {@link #ConstraintSet} array.
           @attr name android:elevation
         */
-        public static int ConstraintSet_android_elevation = 21;
+        public static final int ConstraintSet_android_elevation = 21;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#id}
           attribute's value can be found in the {@link #ConstraintSet} array.
           @attr name android:id
         */
-        public static int ConstraintSet_android_id = 1;
+        public static final int ConstraintSet_android_id = 1;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#layout_height}
           attribute's value can be found in the {@link #ConstraintSet} array.
           @attr name android:layout_height
         */
-        public static int ConstraintSet_android_layout_height = 4;
+        public static final int ConstraintSet_android_layout_height = 4;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#layout_marginBottom}
           attribute's value can be found in the {@link #ConstraintSet} array.
           @attr name android:layout_marginBottom
         */
-        public static int ConstraintSet_android_layout_marginBottom = 8;
+        public static final int ConstraintSet_android_layout_marginBottom = 8;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#layout_marginEnd}
           attribute's value can be found in the {@link #ConstraintSet} array.
           @attr name android:layout_marginEnd
         */
-        public static int ConstraintSet_android_layout_marginEnd = 19;
+        public static final int ConstraintSet_android_layout_marginEnd = 19;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#layout_marginLeft}
           attribute's value can be found in the {@link #ConstraintSet} array.
           @attr name android:layout_marginLeft
         */
-        public static int ConstraintSet_android_layout_marginLeft = 5;
+        public static final int ConstraintSet_android_layout_marginLeft = 5;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#layout_marginRight}
           attribute's value can be found in the {@link #ConstraintSet} array.
           @attr name android:layout_marginRight
         */
-        public static int ConstraintSet_android_layout_marginRight = 7;
+        public static final int ConstraintSet_android_layout_marginRight = 7;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#layout_marginStart}
           attribute's value can be found in the {@link #ConstraintSet} array.
           @attr name android:layout_marginStart
         */
-        public static int ConstraintSet_android_layout_marginStart = 18;
+        public static final int ConstraintSet_android_layout_marginStart = 18;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#layout_marginTop}
           attribute's value can be found in the {@link #ConstraintSet} array.
           @attr name android:layout_marginTop
         */
-        public static int ConstraintSet_android_layout_marginTop = 6;
+        public static final int ConstraintSet_android_layout_marginTop = 6;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#layout_width}
           attribute's value can be found in the {@link #ConstraintSet} array.
           @attr name android:layout_width
         */
-        public static int ConstraintSet_android_layout_width = 3;
+        public static final int ConstraintSet_android_layout_width = 3;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#orientation}
           attribute's value can be found in the {@link #ConstraintSet} array.
           @attr name android:orientation
         */
-        public static int ConstraintSet_android_orientation = 0;
+        public static final int ConstraintSet_android_orientation = 0;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#rotationX}
           attribute's value can be found in the {@link #ConstraintSet} array.
           @attr name android:rotationX
         */
-        public static int ConstraintSet_android_rotationX = 16;
+        public static final int ConstraintSet_android_rotationX = 16;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#rotationY}
           attribute's value can be found in the {@link #ConstraintSet} array.
           @attr name android:rotationY
         */
-        public static int ConstraintSet_android_rotationY = 17;
+        public static final int ConstraintSet_android_rotationY = 17;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#scaleX}
           attribute's value can be found in the {@link #ConstraintSet} array.
           @attr name android:scaleX
         */
-        public static int ConstraintSet_android_scaleX = 14;
+        public static final int ConstraintSet_android_scaleX = 14;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#scaleY}
           attribute's value can be found in the {@link #ConstraintSet} array.
           @attr name android:scaleY
         */
-        public static int ConstraintSet_android_scaleY = 15;
+        public static final int ConstraintSet_android_scaleY = 15;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#transformPivotX}
           attribute's value can be found in the {@link #ConstraintSet} array.
           @attr name android:transformPivotX
         */
-        public static int ConstraintSet_android_transformPivotX = 10;
+        public static final int ConstraintSet_android_transformPivotX = 10;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#transformPivotY}
           attribute's value can be found in the {@link #ConstraintSet} array.
           @attr name android:transformPivotY
         */
-        public static int ConstraintSet_android_transformPivotY = 11;
+        public static final int ConstraintSet_android_transformPivotY = 11;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#translationX}
           attribute's value can be found in the {@link #ConstraintSet} array.
           @attr name android:translationX
         */
-        public static int ConstraintSet_android_translationX = 12;
+        public static final int ConstraintSet_android_translationX = 12;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#translationY}
           attribute's value can be found in the {@link #ConstraintSet} array.
           @attr name android:translationY
         */
-        public static int ConstraintSet_android_translationY = 13;
+        public static final int ConstraintSet_android_translationY = 13;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#translationZ}
           attribute's value can be found in the {@link #ConstraintSet} array.
           @attr name android:translationZ
         */
-        public static int ConstraintSet_android_translationZ = 20;
+        public static final int ConstraintSet_android_translationZ = 20;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#visibility}
           attribute's value can be found in the {@link #ConstraintSet} array.
           @attr name android:visibility
         */
-        public static int ConstraintSet_android_visibility = 2;
+        public static final int ConstraintSet_android_visibility = 2;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintBaseline_creator}
           attribute's value can be found in the {@link #ConstraintSet} array.
@@ -2159,7 +2183,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_constraintBaseline_creator
         */
-        public static int ConstraintSet_layout_constraintBaseline_creator = 22;
+        public static final int ConstraintSet_layout_constraintBaseline_creator = 22;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintBaseline_toBaselineOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
@@ -2177,7 +2201,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 </table>
           @attr name com.shiyue.game:layout_constraintBaseline_toBaselineOf
         */
-        public static int ConstraintSet_layout_constraintBaseline_toBaselineOf = 23;
+        public static final int ConstraintSet_layout_constraintBaseline_toBaselineOf = 23;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintBottom_creator}
           attribute's value can be found in the {@link #ConstraintSet} array.
@@ -2191,7 +2215,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_constraintBottom_creator
         */
-        public static int ConstraintSet_layout_constraintBottom_creator = 24;
+        public static final int ConstraintSet_layout_constraintBottom_creator = 24;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintBottom_toBottomOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
@@ -2209,7 +2233,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 </table>
           @attr name com.shiyue.game:layout_constraintBottom_toBottomOf
         */
-        public static int ConstraintSet_layout_constraintBottom_toBottomOf = 25;
+        public static final int ConstraintSet_layout_constraintBottom_toBottomOf = 25;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintBottom_toTopOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
@@ -2227,7 +2251,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 </table>
           @attr name com.shiyue.game:layout_constraintBottom_toTopOf
         */
-        public static int ConstraintSet_layout_constraintBottom_toTopOf = 26;
+        public static final int ConstraintSet_layout_constraintBottom_toTopOf = 26;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintDimensionRatio}
           attribute's value can be found in the {@link #ConstraintSet} array.
@@ -2241,7 +2265,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_constraintDimensionRatio
         */
-        public static int ConstraintSet_layout_constraintDimensionRatio = 27;
+        public static final int ConstraintSet_layout_constraintDimensionRatio = 27;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintEnd_toEndOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
@@ -2259,7 +2283,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 </table>
           @attr name com.shiyue.game:layout_constraintEnd_toEndOf
         */
-        public static int ConstraintSet_layout_constraintEnd_toEndOf = 28;
+        public static final int ConstraintSet_layout_constraintEnd_toEndOf = 28;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintEnd_toStartOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
@@ -2277,7 +2301,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 </table>
           @attr name com.shiyue.game:layout_constraintEnd_toStartOf
         */
-        public static int ConstraintSet_layout_constraintEnd_toStartOf = 29;
+        public static final int ConstraintSet_layout_constraintEnd_toStartOf = 29;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintGuide_begin}
           attribute's value can be found in the {@link #ConstraintSet} array.
@@ -2293,7 +2317,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_constraintGuide_begin
         */
-        public static int ConstraintSet_layout_constraintGuide_begin = 30;
+        public static final int ConstraintSet_layout_constraintGuide_begin = 30;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintGuide_end}
           attribute's value can be found in the {@link #ConstraintSet} array.
@@ -2309,7 +2333,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_constraintGuide_end
         */
-        public static int ConstraintSet_layout_constraintGuide_end = 31;
+        public static final int ConstraintSet_layout_constraintGuide_end = 31;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintGuide_percent}
           attribute's value can be found in the {@link #ConstraintSet} array.
@@ -2323,7 +2347,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_constraintGuide_percent
         */
-        public static int ConstraintSet_layout_constraintGuide_percent = 32;
+        public static final int ConstraintSet_layout_constraintGuide_percent = 32;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintHeight_default}
           attribute's value can be found in the {@link #ConstraintSet} array.
@@ -2340,7 +2364,7 @@ containing a value of this type.
 </table>
           @attr name com.shiyue.game:layout_constraintHeight_default
         */
-        public static int ConstraintSet_layout_constraintHeight_default = 33;
+        public static final int ConstraintSet_layout_constraintHeight_default = 33;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintHeight_max}
           attribute's value can be found in the {@link #ConstraintSet} array.
@@ -2356,7 +2380,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_constraintHeight_max
         */
-        public static int ConstraintSet_layout_constraintHeight_max = 34;
+        public static final int ConstraintSet_layout_constraintHeight_max = 34;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintHeight_min}
           attribute's value can be found in the {@link #ConstraintSet} array.
@@ -2372,7 +2396,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_constraintHeight_min
         */
-        public static int ConstraintSet_layout_constraintHeight_min = 35;
+        public static final int ConstraintSet_layout_constraintHeight_min = 35;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintHorizontal_bias}
           attribute's value can be found in the {@link #ConstraintSet} array.
@@ -2386,7 +2410,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_constraintHorizontal_bias
         */
-        public static int ConstraintSet_layout_constraintHorizontal_bias = 36;
+        public static final int ConstraintSet_layout_constraintHorizontal_bias = 36;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintHorizontal_chainStyle}
           attribute's value can be found in the {@link #ConstraintSet} array.
@@ -2404,7 +2428,7 @@ containing a value of this type.
 </table>
           @attr name com.shiyue.game:layout_constraintHorizontal_chainStyle
         */
-        public static int ConstraintSet_layout_constraintHorizontal_chainStyle = 37;
+        public static final int ConstraintSet_layout_constraintHorizontal_chainStyle = 37;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintHorizontal_weight}
           attribute's value can be found in the {@link #ConstraintSet} array.
@@ -2418,7 +2442,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_constraintHorizontal_weight
         */
-        public static int ConstraintSet_layout_constraintHorizontal_weight = 38;
+        public static final int ConstraintSet_layout_constraintHorizontal_weight = 38;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintLeft_creator}
           attribute's value can be found in the {@link #ConstraintSet} array.
@@ -2432,7 +2456,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_constraintLeft_creator
         */
-        public static int ConstraintSet_layout_constraintLeft_creator = 39;
+        public static final int ConstraintSet_layout_constraintLeft_creator = 39;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintLeft_toLeftOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
@@ -2450,7 +2474,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 </table>
           @attr name com.shiyue.game:layout_constraintLeft_toLeftOf
         */
-        public static int ConstraintSet_layout_constraintLeft_toLeftOf = 40;
+        public static final int ConstraintSet_layout_constraintLeft_toLeftOf = 40;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintLeft_toRightOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
@@ -2468,7 +2492,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 </table>
           @attr name com.shiyue.game:layout_constraintLeft_toRightOf
         */
-        public static int ConstraintSet_layout_constraintLeft_toRightOf = 41;
+        public static final int ConstraintSet_layout_constraintLeft_toRightOf = 41;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintRight_creator}
           attribute's value can be found in the {@link #ConstraintSet} array.
@@ -2482,7 +2506,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_constraintRight_creator
         */
-        public static int ConstraintSet_layout_constraintRight_creator = 42;
+        public static final int ConstraintSet_layout_constraintRight_creator = 42;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintRight_toLeftOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
@@ -2500,7 +2524,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 </table>
           @attr name com.shiyue.game:layout_constraintRight_toLeftOf
         */
-        public static int ConstraintSet_layout_constraintRight_toLeftOf = 43;
+        public static final int ConstraintSet_layout_constraintRight_toLeftOf = 43;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintRight_toRightOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
@@ -2518,7 +2542,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 </table>
           @attr name com.shiyue.game:layout_constraintRight_toRightOf
         */
-        public static int ConstraintSet_layout_constraintRight_toRightOf = 44;
+        public static final int ConstraintSet_layout_constraintRight_toRightOf = 44;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintStart_toEndOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
@@ -2536,7 +2560,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 </table>
           @attr name com.shiyue.game:layout_constraintStart_toEndOf
         */
-        public static int ConstraintSet_layout_constraintStart_toEndOf = 45;
+        public static final int ConstraintSet_layout_constraintStart_toEndOf = 45;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintStart_toStartOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
@@ -2554,7 +2578,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 </table>
           @attr name com.shiyue.game:layout_constraintStart_toStartOf
         */
-        public static int ConstraintSet_layout_constraintStart_toStartOf = 46;
+        public static final int ConstraintSet_layout_constraintStart_toStartOf = 46;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintTop_creator}
           attribute's value can be found in the {@link #ConstraintSet} array.
@@ -2568,7 +2592,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_constraintTop_creator
         */
-        public static int ConstraintSet_layout_constraintTop_creator = 47;
+        public static final int ConstraintSet_layout_constraintTop_creator = 47;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintTop_toBottomOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
@@ -2586,7 +2610,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 </table>
           @attr name com.shiyue.game:layout_constraintTop_toBottomOf
         */
-        public static int ConstraintSet_layout_constraintTop_toBottomOf = 48;
+        public static final int ConstraintSet_layout_constraintTop_toBottomOf = 48;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintTop_toTopOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
@@ -2604,7 +2628,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 </table>
           @attr name com.shiyue.game:layout_constraintTop_toTopOf
         */
-        public static int ConstraintSet_layout_constraintTop_toTopOf = 49;
+        public static final int ConstraintSet_layout_constraintTop_toTopOf = 49;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintVertical_bias}
           attribute's value can be found in the {@link #ConstraintSet} array.
@@ -2618,7 +2642,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_constraintVertical_bias
         */
-        public static int ConstraintSet_layout_constraintVertical_bias = 50;
+        public static final int ConstraintSet_layout_constraintVertical_bias = 50;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintVertical_chainStyle}
           attribute's value can be found in the {@link #ConstraintSet} array.
@@ -2636,7 +2660,7 @@ containing a value of this type.
 </table>
           @attr name com.shiyue.game:layout_constraintVertical_chainStyle
         */
-        public static int ConstraintSet_layout_constraintVertical_chainStyle = 51;
+        public static final int ConstraintSet_layout_constraintVertical_chainStyle = 51;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintVertical_weight}
           attribute's value can be found in the {@link #ConstraintSet} array.
@@ -2650,7 +2674,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_constraintVertical_weight
         */
-        public static int ConstraintSet_layout_constraintVertical_weight = 52;
+        public static final int ConstraintSet_layout_constraintVertical_weight = 52;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintWidth_default}
           attribute's value can be found in the {@link #ConstraintSet} array.
@@ -2667,7 +2691,7 @@ containing a value of this type.
 </table>
           @attr name com.shiyue.game:layout_constraintWidth_default
         */
-        public static int ConstraintSet_layout_constraintWidth_default = 53;
+        public static final int ConstraintSet_layout_constraintWidth_default = 53;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintWidth_max}
           attribute's value can be found in the {@link #ConstraintSet} array.
@@ -2683,7 +2707,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_constraintWidth_max
         */
-        public static int ConstraintSet_layout_constraintWidth_max = 54;
+        public static final int ConstraintSet_layout_constraintWidth_max = 54;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_constraintWidth_min}
           attribute's value can be found in the {@link #ConstraintSet} array.
@@ -2699,7 +2723,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_constraintWidth_min
         */
-        public static int ConstraintSet_layout_constraintWidth_min = 55;
+        public static final int ConstraintSet_layout_constraintWidth_min = 55;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_editor_absoluteX}
           attribute's value can be found in the {@link #ConstraintSet} array.
@@ -2715,7 +2739,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_editor_absoluteX
         */
-        public static int ConstraintSet_layout_editor_absoluteX = 56;
+        public static final int ConstraintSet_layout_editor_absoluteX = 56;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_editor_absoluteY}
           attribute's value can be found in the {@link #ConstraintSet} array.
@@ -2731,7 +2755,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_editor_absoluteY
         */
-        public static int ConstraintSet_layout_editor_absoluteY = 57;
+        public static final int ConstraintSet_layout_editor_absoluteY = 57;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_goneMarginBottom}
           attribute's value can be found in the {@link #ConstraintSet} array.
@@ -2747,7 +2771,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_goneMarginBottom
         */
-        public static int ConstraintSet_layout_goneMarginBottom = 58;
+        public static final int ConstraintSet_layout_goneMarginBottom = 58;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_goneMarginEnd}
           attribute's value can be found in the {@link #ConstraintSet} array.
@@ -2763,7 +2787,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_goneMarginEnd
         */
-        public static int ConstraintSet_layout_goneMarginEnd = 59;
+        public static final int ConstraintSet_layout_goneMarginEnd = 59;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_goneMarginLeft}
           attribute's value can be found in the {@link #ConstraintSet} array.
@@ -2779,7 +2803,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_goneMarginLeft
         */
-        public static int ConstraintSet_layout_goneMarginLeft = 60;
+        public static final int ConstraintSet_layout_goneMarginLeft = 60;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_goneMarginRight}
           attribute's value can be found in the {@link #ConstraintSet} array.
@@ -2795,7 +2819,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_goneMarginRight
         */
-        public static int ConstraintSet_layout_goneMarginRight = 61;
+        public static final int ConstraintSet_layout_goneMarginRight = 61;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_goneMarginStart}
           attribute's value can be found in the {@link #ConstraintSet} array.
@@ -2811,7 +2835,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_goneMarginStart
         */
-        public static int ConstraintSet_layout_goneMarginStart = 62;
+        public static final int ConstraintSet_layout_goneMarginStart = 62;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_goneMarginTop}
           attribute's value can be found in the {@link #ConstraintSet} array.
@@ -2827,7 +2851,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_goneMarginTop
         */
-        public static int ConstraintSet_layout_goneMarginTop = 63;
+        public static final int ConstraintSet_layout_goneMarginTop = 63;
         /** Attributes that can be used with a LinearConstraintLayout.
            <p>Includes the following attributes:</p>
            <table>
@@ -2846,7 +2870,7 @@ containing a value of this type.
           attribute's value can be found in the {@link #LinearConstraintLayout} array.
           @attr name android:orientation
         */
-        public static int LinearConstraintLayout_android_orientation = 0;
+        public static final int LinearConstraintLayout_android_orientation = 0;
         /** Attributes that can be used with a PercentLayout_Layout.
            <p>Includes the following attributes:</p>
            <table>
@@ -2913,7 +2937,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_heightPercent
         */
-        public static int PercentLayout_Layout_layout_heightPercent = 1;
+        public static final int PercentLayout_Layout_layout_heightPercent = 1;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_marginBottomPercent}
           attribute's value can be found in the {@link #PercentLayout_Layout} array.
@@ -2927,7 +2951,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_marginBottomPercent
         */
-        public static int PercentLayout_Layout_layout_marginBottomPercent = 6;
+        public static final int PercentLayout_Layout_layout_marginBottomPercent = 6;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_marginEndPercent}
           attribute's value can be found in the {@link #PercentLayout_Layout} array.
@@ -2941,7 +2965,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_marginEndPercent
         */
-        public static int PercentLayout_Layout_layout_marginEndPercent = 8;
+        public static final int PercentLayout_Layout_layout_marginEndPercent = 8;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_marginLeftPercent}
           attribute's value can be found in the {@link #PercentLayout_Layout} array.
@@ -2955,7 +2979,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_marginLeftPercent
         */
-        public static int PercentLayout_Layout_layout_marginLeftPercent = 3;
+        public static final int PercentLayout_Layout_layout_marginLeftPercent = 3;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_marginPercent}
           attribute's value can be found in the {@link #PercentLayout_Layout} array.
@@ -2969,7 +2993,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_marginPercent
         */
-        public static int PercentLayout_Layout_layout_marginPercent = 2;
+        public static final int PercentLayout_Layout_layout_marginPercent = 2;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_marginRightPercent}
           attribute's value can be found in the {@link #PercentLayout_Layout} array.
@@ -2983,7 +3007,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_marginRightPercent
         */
-        public static int PercentLayout_Layout_layout_marginRightPercent = 5;
+        public static final int PercentLayout_Layout_layout_marginRightPercent = 5;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_marginStartPercent}
           attribute's value can be found in the {@link #PercentLayout_Layout} array.
@@ -2997,7 +3021,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_marginStartPercent
         */
-        public static int PercentLayout_Layout_layout_marginStartPercent = 7;
+        public static final int PercentLayout_Layout_layout_marginStartPercent = 7;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_marginTopPercent}
           attribute's value can be found in the {@link #PercentLayout_Layout} array.
@@ -3011,7 +3035,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_marginTopPercent
         */
-        public static int PercentLayout_Layout_layout_marginTopPercent = 4;
+        public static final int PercentLayout_Layout_layout_marginTopPercent = 4;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_maxHeightPercent}
           attribute's value can be found in the {@link #PercentLayout_Layout} array.
@@ -3025,7 +3049,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_maxHeightPercent
         */
-        public static int PercentLayout_Layout_layout_maxHeightPercent = 11;
+        public static final int PercentLayout_Layout_layout_maxHeightPercent = 11;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_maxWidthPercent}
           attribute's value can be found in the {@link #PercentLayout_Layout} array.
@@ -3039,7 +3063,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_maxWidthPercent
         */
-        public static int PercentLayout_Layout_layout_maxWidthPercent = 10;
+        public static final int PercentLayout_Layout_layout_maxWidthPercent = 10;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_minHeightPercent}
           attribute's value can be found in the {@link #PercentLayout_Layout} array.
@@ -3053,7 +3077,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_minHeightPercent
         */
-        public static int PercentLayout_Layout_layout_minHeightPercent = 13;
+        public static final int PercentLayout_Layout_layout_minHeightPercent = 13;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_minWidthPercent}
           attribute's value can be found in the {@link #PercentLayout_Layout} array.
@@ -3067,7 +3091,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_minWidthPercent
         */
-        public static int PercentLayout_Layout_layout_minWidthPercent = 12;
+        public static final int PercentLayout_Layout_layout_minWidthPercent = 12;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_paddingBottomPercent}
           attribute's value can be found in the {@link #PercentLayout_Layout} array.
@@ -3081,7 +3105,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_paddingBottomPercent
         */
-        public static int PercentLayout_Layout_layout_paddingBottomPercent = 16;
+        public static final int PercentLayout_Layout_layout_paddingBottomPercent = 16;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_paddingLeftPercent}
           attribute's value can be found in the {@link #PercentLayout_Layout} array.
@@ -3095,7 +3119,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_paddingLeftPercent
         */
-        public static int PercentLayout_Layout_layout_paddingLeftPercent = 17;
+        public static final int PercentLayout_Layout_layout_paddingLeftPercent = 17;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_paddingPercent}
           attribute's value can be found in the {@link #PercentLayout_Layout} array.
@@ -3109,7 +3133,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_paddingPercent
         */
-        public static int PercentLayout_Layout_layout_paddingPercent = 14;
+        public static final int PercentLayout_Layout_layout_paddingPercent = 14;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_paddingRightPercent}
           attribute's value can be found in the {@link #PercentLayout_Layout} array.
@@ -3123,7 +3147,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_paddingRightPercent
         */
-        public static int PercentLayout_Layout_layout_paddingRightPercent = 18;
+        public static final int PercentLayout_Layout_layout_paddingRightPercent = 18;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_paddingTopPercent}
           attribute's value can be found in the {@link #PercentLayout_Layout} array.
@@ -3137,7 +3161,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_paddingTopPercent
         */
-        public static int PercentLayout_Layout_layout_paddingTopPercent = 15;
+        public static final int PercentLayout_Layout_layout_paddingTopPercent = 15;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_textSizePercent}
           attribute's value can be found in the {@link #PercentLayout_Layout} array.
@@ -3151,7 +3175,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_textSizePercent
         */
-        public static int PercentLayout_Layout_layout_textSizePercent = 9;
+        public static final int PercentLayout_Layout_layout_textSizePercent = 9;
         /**
           <p>This symbol is the offset where the {@link com.shiyue.game.R.attr#layout_widthPercent}
           attribute's value can be found in the {@link #PercentLayout_Layout} array.
@@ -3165,6 +3189,6 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.shiyue.game:layout_widthPercent
         */
-        public static int PercentLayout_Layout_layout_widthPercent = 0;
+        public static final int PercentLayout_Layout_layout_widthPercent = 0;
     };
 }

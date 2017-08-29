@@ -420,7 +420,7 @@ public class Sy_registFragment extends Fragment implements View.OnClickListener 
      * \\w{6,18}匹配所有字母、数字、下划线 字符串长度6到20（不含空格）首字母英文
      */
     private boolean matches(String text) {
-        String format = "^[a-zA-Z]\\w{5,19}$";
+        String format = "^[a-zA-Z]\\w{6,20}$";
         if (text.matches(format)) {
             return true;
         }
